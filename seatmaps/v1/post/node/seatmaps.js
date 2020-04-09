@@ -17,7 +17,7 @@ amadeus.shopping.flightOffersSearch.get({
     })
   );
 }).then(function (response) {
-  console.log(response.data);
+  console.log(response);
 }).catch(function (response) {
   console.error(response);
 });
