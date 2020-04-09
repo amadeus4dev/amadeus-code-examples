@@ -9,12 +9,12 @@ amadeus.shopping.flightOffers.get({
   origin: 'MAD',
   destination: 'NYC',
   departureDate: '2020-10-01'
-}).then(function (response) {
+}).then(function (flightOffersResponse) {
   return amadeus.shopping.flightOffers.prediction.post(
-    JSON.stringify(response.result)
+    JSON.stringify(flightOffersResponse.result)
   );
 }).then(function (response) {
-  console.log(response.data);
-}).catch(function (responseError) {
-  console.error(responseError);
+  console.log(response);
+}).catch(function (response) {
+  console.error(response);
 });

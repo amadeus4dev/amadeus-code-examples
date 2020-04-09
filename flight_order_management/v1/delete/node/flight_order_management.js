@@ -10,13 +10,13 @@ amadeus.shopping.flightOffersSearch.get({
   destinationLocationCode: 'ATH',
   departureDate: '2020-08-01',
   adults: '1'
-}).then(function (flightOffersResponse) {
+}).then(function (flightOffersSearchResponse) {
   return amadeus.shopping.flightOffers.pricing.post(
     JSON.stringify({
       "data": {
         "type": "flight-offers-pricing",
         "flightOffers": [
-          flightOffersResponse.data[0]
+          flightOffersSearchResponse.data[0]
         ]
       }
     })
@@ -59,12 +59,12 @@ amadeus.shopping.flightOffersSearch.get({
       }
     })
   );
-}).then(function (bookingResponse) {
-  return amadeus.booking.flightOrder(bookingResponse.data.id).get()
-}).then(function (flightOrderInfo) {
-  return amadeus.booking.flightOrder(flightOrderInfo.data.id).delete()
+}).then(function (flightOrdersResponse) {
+  return amadeus.booking.flightOrder(flightOrdersResponse.data.id).get()
+}).then(function (flightOrderResponse) {
+  return amadeus.booking.flightOrder(flightOrderResponse.data.id).delete()
 }).then(function (response) {
-  console.log(response.data);
-}).catch(function (responseError) {
-  console.error(responseError);
+  console.log(response);
+}).catch(function (response) {
+  console.error(response);
 });

@@ -10,14 +10,14 @@ amadeus.shopping.flightOffersSearch.get({
   destinationLocationCode: 'BKK',
   departureDate: '2020-08-01',
   adults: '2'
-}).then(function (response) {
+}).then(function (flightOffersSearchResponse) {
   return amadeus.shopping.seatmaps.post(
     JSON.stringify({
-      'data': [response.data[0]]
+      'data': [flightOffersSearchResponse.data[0]]
     })
   );
 }).then(function (response) {
   console.log(response.data);
-}).catch(function (responseError) {
-  console.error(responseError);
+}).catch(function (response) {
+  console.error(response);
 });
