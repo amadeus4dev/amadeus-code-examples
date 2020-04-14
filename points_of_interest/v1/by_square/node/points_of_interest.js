@@ -5,7 +5,7 @@ var amadeus = new Amadeus({
 });
 
 // What are the popular places in Barcelona? (based on a square)
-amadeus.referenceData.locations.pointsOfInterest.bySquare.get({
+amadeus.referenceData.locations.pointsOfInterest().bySquare.get({
   north: 41.397158,
   west: 2.160873,
   south: 41.394582,
