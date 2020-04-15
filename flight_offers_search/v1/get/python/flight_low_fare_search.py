@@ -1,3 +1,4 @@
+# Install the Python library from https://pypi.org/project/amadeus
 from amadeus import Client, ResponseError
 
 amadeus = Client()
