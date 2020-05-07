@@ -18,6 +18,11 @@ public class AirportCitySearch {
     Location location = amadeus.referenceData
       .location("ALHR").get();
 
+    if(location.getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + location.getResponse().getStatusCode());
+        System.exit(-1);
+    }
+
     System.out.println(location);
   }
 }

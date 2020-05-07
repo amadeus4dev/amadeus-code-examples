@@ -13,8 +13,15 @@ public class AIGeneratedPhotos {
         .builder("YOUR_API_ID","YOUR_API_SECRET")
         .build();
 
+    // Generates a fake mountain image
     GeneratedPhoto photo = amadeus.media.files.generatedPhotos.get(Params
         .with("category", "BEACH"));
+
+    if (photo.getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + photo.getResponse().getStatusCode());
+        System.exit(-1);
+    }
+
     System.out.println(photo);
   }
 }

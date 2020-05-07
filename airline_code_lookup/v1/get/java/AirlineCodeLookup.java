@@ -16,6 +16,11 @@ public class AirlineCodeLookup {
     Airline[] airlines = amadeus.referenceData.airlines.get(Params
       .with("airlineCodes", "BA"));
 
+    if (airlines[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + airlines[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+
     System.out.println(airlines);
   }
 }

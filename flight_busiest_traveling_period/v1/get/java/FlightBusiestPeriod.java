@@ -19,6 +19,10 @@ public class FlightBusiestPeriod {
       .and("period", "2017")
       .and("direction", BusiestPeriod.ARRIVING));
 
-    System.out.println(busiestPeriods);
+    if(busiestPeriods[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + (busiestPeriods[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+    System.out.println((busiestPeriods[0]);
   }
 }

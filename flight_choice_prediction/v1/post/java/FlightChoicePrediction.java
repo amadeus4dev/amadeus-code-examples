@@ -20,10 +20,22 @@ public class FlightChoicePrediction {
     JsonObject result = flightOffers[0].getResponse().getResult();
     FlightOffer[] flightOffersPrediction = amadeus.shopping.flightOffers.prediction.post(result);
 
+    if(flightOffersPrediction[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + (flightOffersPrediction[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+
+    System.out.println((flightOffersPrediction[0]);
+
     // Using a String
     String body = flightOffers[0].getResponse().getBody();
     FlightOffer[] flightOffersPrediction = amadeus.shopping.flightOffers.prediction.post(body);
 
-    System.out.println(flightOffers[0]);
+    if(flightOffersPrediction[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + (flightOffersPrediction[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+
+    System.out.println((flightOffersPrediction[0]);
   }
 }

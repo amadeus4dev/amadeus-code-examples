@@ -12,9 +12,15 @@ public class FlightCheckinLinks {
     Amadeus amadeus = Amadeus
         .builder("YOUR_API_ID","YOUR_API_SECRET")
         .build();
+
     CheckinLink[] checkinLinks = amadeus.referenceData.urls.checkinLinks.get(Params
       .with("airlineCode", "BA"));
 
-    System.out.println(flightDates);
+    if(checkinLinks[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + (checkinLinks[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+
+    System.out.println((checkinLinks[0]);
   }
 }

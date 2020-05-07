@@ -16,6 +16,10 @@ public class AirportOnTime {
         .with("airportCode", "NCE")
         .and("date", "2020-09-01"));
 
+    if(onTime.getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + onTime.getResponse().getStatusCode());
+        System.exit(-1);
+    }
     System.out.println(onTime);
   }
 }

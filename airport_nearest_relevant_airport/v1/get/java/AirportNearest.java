@@ -18,6 +18,10 @@ public class AirportNearest {
       .with("latitude", 0.1278)
       .and("longitude", 51.5074));
 
-    System.out.println(flightDestinations);
+    if(locations[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + locations[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+    System.out.println(locations[0]);
   }
 }

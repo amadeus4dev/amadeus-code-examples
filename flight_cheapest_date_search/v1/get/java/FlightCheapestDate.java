@@ -12,10 +12,15 @@ public class FlightCheapestDate {
     Amadeus amadeus = Amadeus
         .builder("YOUR_API_ID","YOUR_API_SECRET")
         .build();
+
     FlightDate[] flightDates = amadeus.shopping.flightDates.get(Params
       .with("origin", "MAD")
       .and("destination", "MUC"));
 
-    System.out.println(flightDates);
+    if(flightDates[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + (flightDates[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+    System.out.println((flightDates[0]);
   }
 }
