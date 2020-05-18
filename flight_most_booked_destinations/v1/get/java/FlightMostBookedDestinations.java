@@ -1,5 +1,3 @@
-package examples.media.files;
-
 import com.amadeus.Amadeus;
 import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
@@ -18,7 +16,12 @@ public class FlightMostBookedDestinations {
       .with("originCityCode", "MAD")
       .and("period", "2017-08"));
 
-    System.out.println(flightDestinations);
+    if (airTraffics[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + airTraffics[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+
+    System.out.println(airTraffics[0]);
   }
 }
 

@@ -1,8 +1,7 @@
-package examples.media.files;
-
 import com.amadeus.Amadeus;
 import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
+import com.amadeus.resources.FlightOfferSearch;
 import com.amadeus.resources.FlightPrice;
 
 public class FlightOffersPrice {
@@ -13,11 +12,21 @@ public class FlightOffersPrice {
         .builder("YOUR_API_ID","YOUR_API_SECRET")
         .build();
 
-    FlightPrice[] flightPricing = amadeus.shopping.flightOffersSearch.pricing.post(
-                        body,
-                        Params.with("include", "other-services")
-                              .and("forceClass", "false"));
+    FlightOfferSearch[] flightOffersSearches = amadeus.shopping.flightOffersSearch.get(
+            Params.with("originLocationCode", "SYD")
+                    .and("destinationLocationCode", "BKK")
+                    .and("departureDate", "2020-11-01")
+                    .and("returnDate", "2020-11-08")
+                    .and("adults", 1)
+                    .and("max", 2));
 
-    System.out.println(flightOffersSearches);
+        // We price the 2nd flight of the list to confirm the price and the availability
+        FlightPrice flightPricing = amadeus.shopping.flightOffersSearch.pricing.post(
+                flightOffersSearches[1],
+                Params.with("include", "detailed-fare-rules")
+                  .and("forceClass", "false")
+              );
+
+        System.out.println(flightPricing.getResponse());
   }
 }

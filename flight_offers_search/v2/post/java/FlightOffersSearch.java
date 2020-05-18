@@ -1,5 +1,3 @@
-package examples.media.files;
-
 import com.amadeus.Amadeus;
 import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;

@@ -23,7 +23,7 @@ public class AirportOnTime {
     .and("duration", "PT31H10M"));
 
     if (flightDelay[0].getResponse().getStatusCode() != 200) {
-        System.out.println("Wrong status code for Flight Inspiration Search: " + flightDelay[0].getResponse().getStatusCode());
+        System.out.println("Wrong status code: " + flightDelay[0].getResponse().getStatusCode());
         System.exit(-1);
     }
 

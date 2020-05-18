@@ -1,5 +1,3 @@
-package examples.media.files;
-
 import com.amadeus.Amadeus;
 import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
@@ -16,6 +14,11 @@ public class HotelRatings {
     // Hotel Ratings / Sentiments
     HotelSentiment[] hotelSentiments = amadeus.ereputation.hotelSentiments.get(Params.with("hotelIds", "ELONMFS,ADNYCCTB"));
 
-    System.out.println(flightDestinations);
+    if (hotelSentiments[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + hotelSentiments[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+
+    System.out.println(hotel[0]);
   }
 }

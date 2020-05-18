@@ -1,5 +1,3 @@
-package examples.media.files;
-
 import com.amadeus.Amadeus;
 import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
@@ -12,6 +10,7 @@ public class FlightOffersSearch {
     Amadeus amadeus = Amadeus
         .builder("YOUR_API_ID","YOUR_API_SECRET")
         .build();
+
     FlightOfferSearch[] flightOffersSearches = amadeus.shopping.flightOffersSearch.get(
                   Params.with("originLocationCode", "SYD")
                           .and("destinationLocationCode", "BKK")
@@ -20,6 +19,11 @@ public class FlightOffersSearch {
                           .and("adults", 2)
                           .and("max", 3));
 
-    System.out.println(flightOffersSearches);
+    if (flightOffersSearches[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + flightOffersSearches[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+
+    System.out.println(flightOffersSearches[0]);
   }
 }
