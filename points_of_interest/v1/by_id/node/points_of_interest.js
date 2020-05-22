@@ -5,7 +5,7 @@ var amadeus = new Amadeus({
 });
 
 // Extract the information about point of interest with ID '9CB40CB5D0'
-amadeus.referenceData.locations.pointsOfInterest('9CB40CB5D0').get()
+amadeus.referenceData.locations.pointOfInterest('9CB40CB5D0').get()
   .then(function (response) {
     console.log(response);
   }).catch(function (response) {
