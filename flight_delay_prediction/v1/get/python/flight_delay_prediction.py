@@ -12,6 +12,6 @@ try:
                                                            arrivalDate='2020-08-01', arrivalTime='22:15:00',
                                                            aircraftCode='321', carrierCode='TK',
                                                            flightNumber='1816', duration='PT31H10M')
-    # print(response.data)
+    print(response.data)
 except ResponseError as error:
     raise error

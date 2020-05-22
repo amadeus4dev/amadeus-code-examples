@@ -35,21 +35,16 @@ traveler = {
 
 try:
     # Flight Offers Search to search for flights from MAD to ATH
-    # print('Flight Offers Search')
     flight_search = amadeus.shopping.flight_offers_search.get(originLocationCode='MAD',
                                                               destinationLocationCode='ATH',
                                                               departureDate='2020-12-01',
                                                               adults=1).data
+
     # Flight Offers Price to confirm the price of the chosen flight
-    # print('Flight Offers Price')
     price_confirm = amadeus.shopping.flight_offers.pricing.post(flight_search[0]).data
+
     # Flight Create Orders to book the flight
-    # print('Flight Create Orders')
     booked_flight = amadeus.booking.flight_orders.post(flight_search[0], traveler).data
-    # Flight Order Management returns the last-updated version of the booking
-    # print('Flight Order Management')
-    updated_booking = amadeus.booking.flight_order(booked_flight['id']).get()
-    cancelled_booking = amadeus.booking.flight_order(booked_flight['id']).delete()
+
 except ResponseError as error:
-    # print(error.response.body)
-    pass
+    raise error

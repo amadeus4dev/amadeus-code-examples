@@ -10,6 +10,6 @@ try:
     '''
     response = amadeus.reference_data.locations.get(keyword='r',
                                                     subType=Location.ANY)
-    # print(response.data)
+    print(response.data)
 except ResponseError as error:
     raise error
