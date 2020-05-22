@@ -3,13 +3,14 @@ import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
 import com.amadeus.resources.Delay;
 
-public class AirportOnTime {
+public class FlightDelayPrediction {
 
   public static void main(String[] args) throws ResponseException {
 
     Amadeus amadeus = Amadeus
-        .builder("YOUR_API_ID","YOUR_API_SECRET")
+        .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS_API_SECRET")
         .build();
+
     Delay[] flightDelay = amadeus.travel.predictions.flightDelay.get(Params
     .with("originLocationCode", "NCE")
     .and("destinationLocationCode", "IST")

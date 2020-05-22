@@ -7,7 +7,7 @@ public class HotelBookings {
   public static void main(String[] args) throws ResponseException {
 
     Amadeus amadeus = Amadeus
-        .builder("REPLACE_BY_YOUR_API_KEY","REPLACE_BY_YOUR_API_SECRET")
+        .builder("YOUR_AMADEUS_API_KEY","YOUR_AMAEUS_API_SECRET")
         .build();
 
     String body = "{\"data\""
@@ -27,6 +27,6 @@ public class HotelBookings {
         System.exit(-1);
     }
 
-    System.out.println(hotelSentiments[0]);
+    System.out.println(hotel[0]);
   }
 }

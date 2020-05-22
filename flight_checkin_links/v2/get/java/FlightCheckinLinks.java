@@ -8,7 +8,7 @@ public class FlightCheckinLinks {
   public static void main(String[] args) throws ResponseException {
 
     Amadeus amadeus = Amadeus
-        .builder("YOUR_API_ID","YOUR_API_SECRET")
+        .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS_API_SECRET")
         .build();
 
     CheckinLink[] checkinLinks = amadeus.referenceData.urls.checkinLinks.get(Params

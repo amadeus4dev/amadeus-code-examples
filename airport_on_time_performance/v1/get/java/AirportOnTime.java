@@ -1,14 +1,14 @@
 import com.amadeus.Amadeus;
 import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
-import com.amadeus.resources.AirportOnTime;
+import com.amadeus.resources.OnTime;
 
 public class AirportOnTime {
 
   public static void main(String[] args) throws ResponseException {
 
     Amadeus amadeus = Amadeus
-        .builder("YOUR_API_ID","YOUR_API_SECRET")
+        .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS_API_SECRET")
         .build();
     OnTime onTime = amadeus.airport.predictions.onTime.get(Params
         .with("airportCode", "NCE")
