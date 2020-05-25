@@ -7,8 +7,8 @@ public class PointsOfInterest {
 
   public static void main(String[] args) throws ResponseException {
 
-    Amadeus amadeus = Amadeus
-        .builder("YOUR_API_ID","YOUR_API_SECRET")
+    Amadeus amadeus = AAmadeus
+        .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS_API_SECRET")
         .build();
 
     // Returns a single Point of Interest from a given id
