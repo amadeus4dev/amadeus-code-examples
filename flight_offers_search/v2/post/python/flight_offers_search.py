@@ -1,13 +1,28 @@
-# Install the Python library from https://pypi.org/project/amadeus
+import json
 from amadeus import Client, ResponseError
 
 amadeus = Client()
 
+json_string = '{ "currencyCode": "ZAR", "originDestinations": [ { "id": "1", "originLocationCode": "JNB", ' \
+              '"destinationLocationCode": "CPT", "departureDateTimeRange": { "date": "2020-07-01", "time": "00:00:00" ' \
+              '} }, { "id": "2", "originLocationCode": "CPT", "destinationLocationCode": "JNB", ' \
+              '"departureDateTimeRange": { "date": "2020-07-29", "time": "00:00:00" } } ], "travelers": [ { "id": ' \
+              '"1", "travelerType": "ADULT" }, { "id": "2", "travelerType": "ADULT" }, { "id": "3", "travelerType": ' \
+              '"HELD_INFANT", "associatedAdultId": "1" } ], "sources": [ "GDS" ], "searchCriteria": { ' \
+              '"excludeAllotments": true, "addOneWayOffers": false, "maxFlightOffers": 10, ' \
+              '"allowAlternativeFareOptions": true, "oneFlightOfferPerDay": true, "additionalInformation": { ' \
+              '"chargeableCheckedBags": true, "brandedFares": true, "fareRules": false }, "pricingOptions": { ' \
+              '"includedCheckedBagsOnly": false }, "flightFilters": { "crossBorderAllowed": true, ' \
+              '"moreOvernightsAllowed": true, "returnToDepartureAirport": true, "railSegmentAllowed": true, ' \
+              '"busSegmentAllowed": true, "carrierRestrictions": { "blacklistedInEUAllowed": true, ' \
+              '"includedCarrierCodes": [ "FA" ] }, "cabinRestrictions": [ { "cabin": "ECONOMY", "coverage": ' \
+              '"MOST_SEGMENTS", "originDestinationIds": [ "2" ] }, { "cabin": "ECONOMY", "coverage": "MOST_SEGMENTS", ' \
+              '"originDestinationIds": [ "1" ] } ], "connectionRestriction": { "airportChangeAllowed": true, ' \
+              '"technicalStopsAllowed": true } } } }'
+
+body = json.loads(json_string)
 try:
-    '''
-    Find the cheapest flights from SYD to BKK
-    '''
-    response = amadeus.shopping.flight_offers_search.get(originLocationCode='SYD', destinationLocationCode='BKK', departureDate='2020-11-01', adults=1)
+    response = amadeus.shopping.flight_offers_search.post(body)
     print(response.data)
 except ResponseError as error:
     raise error
