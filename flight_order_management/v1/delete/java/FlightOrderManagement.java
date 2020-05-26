@@ -1,3 +1,5 @@
+// How to install the library at https://github.com/amadeus4dev/amadeus-java
+
 import com.amadeus.Amadeus;
 import com.amadeus.booking.FlightOrder;
 import com.amadeus.exceptions.ResponseException;
