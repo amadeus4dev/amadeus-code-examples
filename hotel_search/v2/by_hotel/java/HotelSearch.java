@@ -15,6 +15,7 @@ public class HotelSearch {
 
     // Get list of offers for a specific hotel
     HotelOffer hotelOffer = amadeus.shopping.hotelOffersByHotel.get(Params.with("hotelId", "BGLONBGB"));
+
     if (hotelOffer[0].getResponse().getStatusCode() != 200) {
         System.out.println("Wrong status code: " + hotelOffer[0].getResponse().getStatusCode());
         System.exit(-1);
