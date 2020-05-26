@@ -1,7 +1,10 @@
 import json
 from amadeus import Client, ResponseError
 
-amadeus = Client()
+amadeus = Client(
+    client_id='YOUR_AMADEUS_API_KEY',
+    client_secret='YOUR_AMADEUS_API_SECRET'
+)
 
 json_string = '{ "currencyCode": "ZAR", "originDestinations": [ { "id": "1", "originLocationCode": "JNB", ' \
               '"destinationLocationCode": "CPT", "departureDateTimeRange": { "date": "2020-07-01", "time": "00:00:00" ' \

@@ -2,7 +2,10 @@
 from amadeus import Client, ResponseError
 from amadeus import Location
 
-amadeus = Client()
+amadeus = Client(
+    client_id='YOUR_AMADEUS_API_KEY',
+    client_secret='YOUR_AMADEUS_API_SECRET'
+)
 
 try:
     '''
