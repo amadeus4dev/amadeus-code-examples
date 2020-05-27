@@ -6,7 +6,12 @@
 ## Introduction 
 This repository contains code examples to show you how to call the [Amadeus for Developers](https://developers.amadeus.com) Self-Service APIs.
 
-The examples are written in the following languages: [Node](https://github.com/amadeus4dev/amadeus-node), [Java](https://github.com/amadeus4dev/amadeus-java), [Python](https://github.com/amadeus4dev/amadeus-python), [Swift](https://github.com/amadeus4dev/amadeus-ios) and cURL. 
+The examples are written in the following languages: 
+- [Node](https://github.com/amadeus4dev/amadeus-node)
+- [Java](https://github.com/amadeus4dev/amadeus-java)
+- [Python](https://github.com/amadeus4dev/amadeus-python)
+- [Swift](https://github.com/amadeus4dev/amadeus-ios)  
+- cURL
 
 All the languages - apart from cURL - utilise our open-source Amadeus SDKs.
 
