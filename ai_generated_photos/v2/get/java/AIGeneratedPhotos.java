@@ -13,7 +13,7 @@ public class AIGeneratedPhotos {
         .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS_API_SECRET")
         .build();
 
-    // Generates a fake mountain image
+    // Generates a fake beach image
     GeneratedPhoto photo = amadeus.media.files.generatedPhotos.get(Params
         .with("category", "BEACH"));
 
