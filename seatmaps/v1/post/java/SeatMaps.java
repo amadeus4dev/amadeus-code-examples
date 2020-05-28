@@ -5,6 +5,7 @@ import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
 import com.amadeus.resources.FlightOfferSearch;
 import com.amadeus.resources.SeatMap;
+import com.google.gson.JsonObject;
 
 public class SeatMaps {
     public static void main(String[] args) throws ResponseException {
