@@ -32,7 +32,3 @@ public class SeatMaps {
       System.out.println(seatmap[0]);
     }
 }
-
-
-
-
