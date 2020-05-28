@@ -16,7 +16,9 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN"))) {
+  when (val pointsOfInterest = amadeus.referenceData.locations.pointsOfInterest.get(
+                        latitude = 41.397158,
+                        longitude = 2.160873)) {
     is Result.Success -> {
       Log.d("Result", "${result.data}")
     }

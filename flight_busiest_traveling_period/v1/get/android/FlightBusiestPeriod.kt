@@ -16,7 +16,10 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN"))) {
+  when (val busiestPeriods = amadeus.travel.analytics.airTraffic.busiestPeriod.get(
+                      cityCode = "MAD",
+                      period = "2017",
+                      direction = "ARRIVING")) {
     is Result.Success -> {
       Log.d("Result", "${result.data}")
     }

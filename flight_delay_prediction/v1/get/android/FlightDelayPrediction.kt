@@ -16,7 +16,17 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN"))) {
+  when (val flightDelay = amadeus.travel.predictions.flightDelay.get(
+                    originLocationCode = "NCE",
+                    destinationLocationCode = "IST",
+                    departureDate = "2020-08-01",
+                    departureTime = "18:20:00",
+                    arrivalDate = "2020-08-01",
+                    arrivalTime = "22:15:00",
+                    aircraftCode = "321",
+                    carrierCode = "TK",
+                    flightNumber = "1816",
+                    duration = "PT31H10M")) {
     is Result.Success -> {
       Log.d("Result", "${result.data}")
     }

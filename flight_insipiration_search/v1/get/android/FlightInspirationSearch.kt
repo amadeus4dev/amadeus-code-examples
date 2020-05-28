@@ -16,7 +16,7 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN"))) {
+  when (val flightDestinations = amadeus.shopping.flightDestinations.get(origin = "MAD")) {
     is Result.Success -> {
       Log.d("Result", "${result.data}")
     }
