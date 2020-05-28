@@ -13,8 +13,7 @@ val amadeus = Amadeus.Builder(context)
     .setClientId("REPLACE_BY_YOUR_API_KEY")
     .setClientSecret("REPLACE_BY_YOUR_API_SECRET")
     .build()
-zz
-// Your kotlin Coroutine scope
+
 scope.launch {
   when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN"))) {
     is Result.Success -> {
