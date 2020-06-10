@@ -8,7 +8,7 @@ amadeus = Client(
 
 try:
     '''
-    Returns safety information for a location in Barcelona based a geolocation coordinates
+    Returns safety information for a location in Barcelona based on geolocation coordinates
     '''
     response = amadeus.safety.safety_rated_locations.get(latitude=41.397158, longitude=2.160873)
     print(response.data)

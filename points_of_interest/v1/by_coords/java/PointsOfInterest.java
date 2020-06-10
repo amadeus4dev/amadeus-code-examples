@@ -13,7 +13,7 @@ public class PointsOfInterest {
         .builder("YOUR_API_ID","YOUR_API_SECRET")
         .build();
 
-    // What are the popular places in Barcelona (based a geolocation)
+    // What are the popular places in Barcelona (based on a geolocation)
     PointOfInterest[] pointsOfInterest = amadeus.referenceData.locations.pointsOfInterest.get(Params
        .with("latitude", "41.39715")
        .and("longitude", "2.160873"));

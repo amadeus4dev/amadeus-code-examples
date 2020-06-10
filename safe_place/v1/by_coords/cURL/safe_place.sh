@@ -5,5 +5,5 @@ https://test.api.amadeus.com/v1/security/oauth2/token \
 -d "grant_type=client_credentials&client_id=$AMADEUS_CLIENT_ID&client_secret=$AMADEUS_CLIENT_SECRET" \
 | grep access_token | sed 's/"access_token": "\(.*\)"\,/\1/' | tr -d '[:space:]')
 
-# Give me information about a POI based on it's Id
-curl -X GET "https://test.api.amadeus.com/v1/reference-data/locations/pois/9CB40CB5D0" -H "Authorization: Bearer $ACCESS_TOKEN" -k
+# How safe is Barcelona? (based on a geo location)
+curl -X GET "https://test.api.amadeus.com/v1/safety/safety-rated-locations?latitude=41.397158&longitude=2.160873" -H "Authorization: Bearer $ACCESS_TOKEN" -k
