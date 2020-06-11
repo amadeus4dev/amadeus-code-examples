@@ -8,22 +8,22 @@ import com.amadeus.resources.SeatMap;
 public class SeatMaps {
     public static void main(String[] args) throws ResponseException {
 
-      Amadeus amadeus = Amadeus
+        Amadeus amadeus = Amadeus
               .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS_API_SECRET")
               .build();
       
-      SeatMap[] seatmap = amadeus.shopping.seatMaps.get(Params
-      .with("flight-orderId", "eJzTd9f3NjIJdzUGAAp%2fAiY="));
-
-      if (seatmap[0].getResponse().getStatusCode() != 200) {
-        System.out.println("Wrong status code: " + seatmap[0].getResponse().getStatusCode());
-        System.exit(-1);
-      }
-
-      System.out.println(seatmap[0]);
-    }
+        SeatMap[] seatmap = amadeus.shopping.seatMaps.get(Params
+                .with("flight-orderId", "eJzTd9f39rUIsDAGAArnAjE%3D"));
+        if(seatmap.length != 0){
+          if (seatmap[0].getResponse().getStatusCode() != 200) {
+            System.out.println("Wrong status code: " + seatmap[0].getResponse().getStatusCode());
+            System.exit(-1);
+          }
+          System.out.println(seatmap[0]);
+        }
+        else {
+          System.out.println("No booking found for this flight-orderId");
+          System.exit(-1);
+        }
+     }
 }
-
-
-
-
