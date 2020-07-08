@@ -1,0 +1,102 @@
+{
+    "meta": {
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=MUC&departureDate=2020-02-28,2020-03-17&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION"
+        },
+        "currency": "USD",
+        "defaults": {
+            "nonStop": false,
+            "departureDate": "2020-02-28,2020-03-17",
+            "oneWay": false,
+            "duration": "1,15",
+            "viewBy": "DURATION"
+        }
+    },
+    "data": [
+        {
+            "type": "flight-date",
+            "origin": "MAD",
+            "destination": "MUC",
+            "departureDate": "2020-02-28",
+            "returnDate": "2020-03-01",
+            "price": {
+                "total": "120.58"
+            },
+            "links": {
+                "flightDestinations": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=MAD&departureDate=2020-02-28,2020-03-17&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=MUC&departureDate=2020-02-28&returnDate=2020-03-01&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-date",
+            "origin": "MAD",
+            "destination": "MUC",
+            "departureDate": "2020-02-28",
+            "returnDate": "2020-03-07",
+            "price": {
+                "total": "120.58"
+            },
+            "links": {
+                "flightDestinations": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=MAD&departureDate=2020-02-28,2020-03-17&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=MUC&departureDate=2020-02-28&returnDate=2020-03-07&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-date",
+            "origin": "MAD",
+            "destination": "MUC",
+            "departureDate": "2020-02-28",
+            "returnDate": "2020-03-10",
+            "price": {
+                "total": "120.58"
+            },
+            "links": {
+                "flightDestinations": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=MAD&departureDate=2020-02-28,2020-03-17&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=MUC&departureDate=2020-02-28&returnDate=2020-03-10&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-date",
+            "origin": "MAD",
+            "destination": "MUC",
+            "departureDate": "2020-02-28",
+            "returnDate": "2020-03-12",
+            "price": {
+                "total": "120.58"
+            },
+            "links": {
+                "flightDestinations": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=MAD&departureDate=2020-02-28,2020-03-17&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=MUC&departureDate=2020-02-28&returnDate=2020-03-12&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-date",
+            "origin": "MAD",
+            "destination": "MUC",
+            "departureDate": "2020-02-28",
+            "returnDate": "2020-03-13",
+            "price": {
+                "total": "120.58"
+            },
+            "links": {
+                "flightDestinations": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=MAD&departureDate=2020-02-28,2020-03-17&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=MUC&departureDate=2020-02-28&returnDate=2020-03-13&adults=1&nonStop=false"
+            }
+        }
+    ],
+    "dictionaries": {
+        "locations": {
+            "MAD": {
+                "subType": "AIRPORT",
+                "detailedName": "ADOLFO SUAREZ BARAJAS"
+            },
+            "MUC": {
+                "subType": "AIRPORT",
+                "detailedName": "MUNICH INTERNATIONAL"
+            }
+        },
+        "currencies": {
+            "EUR": "EURO"
+        }
+    }
+}

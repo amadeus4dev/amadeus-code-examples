@@ -10,7 +10,7 @@ try:
     '''
     What travelers think about this hotel?
     '''
-    response = amadeus.e_reputation.hotel_sentiments.get(hotelIds = 'ADNYCCTB')
+    response = amadeus.e_reputation.hotel_sentiments.get(hotelIds = 'TELONMFS,ADNYCCTB,XXXYYY01')
     print(response.data)
 except ResponseError as error:
     raise error

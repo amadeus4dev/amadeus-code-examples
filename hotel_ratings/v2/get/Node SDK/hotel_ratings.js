@@ -6,7 +6,7 @@ var amadeus = new Amadeus({
 
 // What travelers think about this hotel?
 amadeus.eReputation.hotelSentiments.get({
-  hotelIds: 'ADNYCCTB'
+  hotelIds: 'TELONMFS,ADNYCCTB,XXXYYY01'
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {

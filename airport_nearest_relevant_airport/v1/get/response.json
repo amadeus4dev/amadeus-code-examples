@@ -1,0 +1,172 @@
+{
+    "meta": {
+        "count": 28,
+        "links": {
+            "self": "http://test.api.amadeus.com/v1/reference-data/locations/airports?latitude=49.0000&longitude=2.55",
+            "next": "http://test.api.amadeus.com/v1/reference-data/locations/airports?latitude=49.0000&longitude=2.55&page[offset]=5",
+            "last": "http://test.api.amadeus.com/v1/reference-data/locations/airports?latitude=49.0000&longitude=2.55&page[offset]=10"
+        }
+    },
+    "data": [
+        {
+            "type": "location",
+            "subType": "AIRPORT",
+            "name": "HEATHROW",
+            "detailedName": "LONDON/GB:HEATHROW",
+            "timeZoneOffset": "+01:00",
+            "iataCode": "LHR",
+            "geoCode": {
+                "latitude": 51.47294,
+                "longitude": -0.45061
+            },
+            "address": {
+                "cityName": "LONDON",
+                "cityCode": "LON",
+                "countryName": "UNITED KINGDOM",
+                "countryCode": "GB",
+                "regionCode": "EUROP"
+            },
+            "distance": {
+                "value": 348,
+                "unit": "KM"
+            },
+            "analytics": {
+                "flights": {
+                    "score": 39
+                },
+                "travelers": {
+                    "score": 45
+                }
+            },
+            "relevance": 11.21771
+        },
+        {
+            "type": "location",
+            "subType": "AIRPORT",
+            "name": "GATWICK",
+            "detailedName": "LONDON/GB:GATWICK",
+            "timeZoneOffset": "+01:00",
+            "iataCode": "LGW",
+            "geoCode": {
+                "latitude": 51.15609,
+                "longitude": -0.17818
+            },
+            "address": {
+                "cityName": "LONDON",
+                "cityCode": "LON",
+                "countryName": "UNITED KINGDOM",
+                "countryCode": "GB",
+                "regionCode": "EUROP"
+            },
+            "distance": {
+                "value": 309,
+                "unit": "KM"
+            },
+            "analytics": {
+                "flights": {
+                    "score": 27
+                },
+                "travelers": {
+                    "score": 27
+                }
+            },
+            "relevance": 8.65356
+        },
+        {
+            "type": "location",
+            "subType": "AIRPORT",
+            "name": "FRANKFURT INTL",
+            "detailedName": "FRANKFURT/DE:FRANKFURT INTL",
+            "timeZoneOffset": "+02:00",
+            "iataCode": "FRA",
+            "geoCode": {
+                "latitude": 50.0406,
+                "longitude": 8.55603
+            },
+            "address": {
+                "cityName": "FRANKFURT",
+                "cityCode": "FRA",
+                "countryName": "GERMANY",
+                "countryCode": "DE",
+                "regionCode": "EUROP"
+            },
+            "distance": {
+                "value": 449,
+                "unit": "KM"
+            },
+            "analytics": {
+                "flights": {
+                    "score": 37
+                },
+                "travelers": {
+                    "score": 38
+                }
+            },
+            "relevance": 8.32341
+        },
+        {
+            "type": "location",
+            "subType": "AIRPORT",
+            "name": "INTERNATIONAL AIRPORT",
+            "detailedName": "DUESSELDORF/DE:INTERNATIONAL A",
+            "timeZoneOffset": "+02:00",
+            "iataCode": "DUS",
+            "geoCode": {
+                "latitude": 51.28066,
+                "longitude": 6.76715
+            },
+            "address": {
+                "cityName": "DUESSELDORF",
+                "cityCode": "DUS",
+                "countryName": "GERMANY",
+                "countryCode": "DE",
+                "regionCode": "EUROP"
+            },
+            "distance": {
+                "value": 393,
+                "unit": "KM"
+            },
+            "analytics": {
+                "flights": {
+                    "score": 19
+                },
+                "travelers": {
+                    "score": 16
+                }
+            },
+            "relevance": 4.85268
+        },
+        {
+            "type": "location",
+            "subType": "AIRPORT",
+            "name": "STANSTED",
+            "detailedName": "LONDON/GB:STANSTED",
+            "timeZoneOffset": "+01:00",
+            "iataCode": "STN",
+            "geoCode": {
+                "latitude": 51.885,
+                "longitude": 0.235
+            },
+            "address": {
+                "cityName": "LONDON",
+                "cityCode": "LON",
+                "countryName": "UNITED KINGDOM",
+                "countryCode": "GB",
+                "regionCode": "EUROP"
+            },
+            "distance": {
+                "value": 360,
+                "unit": "KM"
+            },
+            "analytics": {
+                "flights": {
+                    "score": 16
+                },
+                "travelers": {
+                    "score": 15
+                }
+            },
+            "relevance": 4.43701
+        },
+    ]
+}

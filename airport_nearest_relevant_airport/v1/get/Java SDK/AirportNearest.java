@@ -15,8 +15,8 @@ public class AirportNearest {
 
     // Airport Nearest Relevant (for London)
     Location[] locations = amadeus.referenceData.locations.airports.get(Params
-      .with("latitude", 0.1278)
-      .and("longitude", 51.5074));
+      .with("latitude", 49.0000)
+      .and("longitude", 2.55));
 
     if(locations[0].getResponse().getStatusCode() != 200) {
         System.out.println("Wrong status code: " + locations[0].getResponse().getStatusCode());

@@ -8,9 +8,9 @@ amadeus = Client(
 
 try:
     '''
-    Find cheapest dates from Madrid to London
+    Find cheapest dates from Madrid to Munich
     '''
-    response = amadeus.shopping.flight_dates.get(origin='MAD', destination='LON')
+    response = amadeus.shopping.flight_dates.get(origin='MAD', destination='MUC')
     print(response.data)
 except ResponseError as error:
     raise error

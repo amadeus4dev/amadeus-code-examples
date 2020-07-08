@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "count": 1,
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/reference-data/airlines?airlineCodes=BA"
+        }
+    },
+    "data": [
+        {
+            "type": "airline",
+            "iataCode": "BA",
+            "icaoCode": "BAW",
+            "businessName": "BRITISH AIRWAYS",
+            "commonName": "BRITISH A/W"
+        }
+    ]
+}

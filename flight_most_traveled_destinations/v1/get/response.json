@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "count": 10,
+        "links": {
+            "self": "http://test.api.amadeus.com/v1/travel/analytics/air-traffic/traveled?originCityCode=MAD&page[limit]=10&page[offset]=0&period=2017-01"
+        }
+    },
+    "data": [
+        {
+            "type": "air-traffic",
+            "destination": "PAR",
+            "subType": "TRAVELED",
+            "analytics": {
+                "flights": {
+                    "score": 74
+                },
+                "travelers": {
+                    "score": 100
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "destination": "BCN",
+            "subType": "TRAVELED",
+            "analytics": {
+                "flights": {
+                    "score": 100
+                },
+                "travelers": {
+                    "score": 78
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "destination": "TCI",
+            "subType": "TRAVELED",
+            "analytics": {
+                "flights": {
+                    "score": 33
+                },
+                "travelers": {
+                    "score": 67
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "destination": "LON",
+            "subType": "TRAVELED",
+            "analytics": {
+                "flights": {
+                    "score": 71
+                },
+                "travelers": {
+                    "score": 56
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "destination": "BRU",
+            "subType": "TRAVELED",
+            "analytics": {
+                "flights": {
+                    "score": 23
+                },
+                "travelers": {
+                    "score": 38
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "destination": "NYC",
+            "subType": "TRAVELED",
+            "analytics": {
+                "flights": {
+                    "score": 43
+                },
+                "travelers": {
+                    "score": 22
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "destination": "UIO",
+            "subType": "TRAVELED",
+            "analytics": {
+                "flights": {
+                    "score": 38
+                },
+                "travelers": {
+                    "score": 15
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "destination": "SDQ",
+            "subType": "TRAVELED",
+            "analytics": {
+                "flights": {
+                    "score": 10
+                },
+                "travelers": {
+                    "score": 15
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "destination": "OPO",
+            "subType": "TRAVELED",
+            "analytics": {
+                "flights": {
+                    "score": 16
+                },
+                "travelers": {
+                    "score": 8
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "destination": "DXB",
+            "subType": "TRAVELED",
+            "analytics": {
+                "flights": {
+                    "score": 26
+                },
+                "travelers": {
+                    "score": 7
+                }
+            }
+        }
+    ]
+}

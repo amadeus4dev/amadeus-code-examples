@@ -1,0 +1,14 @@
+{
+  "data": {
+      "id": "JFK20200801",
+      "probability": "0.928",
+      "result": "0.74906671",
+      "subType": "on-time",
+      "type": "prediction"
+  },
+  "meta": {
+      "links": {
+          "self": "https://test.api.amadeus.com/v1/airport/predictions/on-time?airportCode=JFK&date=2020-08-01"
+      }
+  }
+}

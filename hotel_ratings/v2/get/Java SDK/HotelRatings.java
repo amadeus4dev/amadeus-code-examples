@@ -14,7 +14,7 @@ public class HotelRatings {
         .build();
 
     // Hotel Ratings / Sentiments
-    HotelSentiment[] hotelSentiments = amadeus.ereputation.hotelSentiments.get(Params.with("hotelIds", "ELONMFS,ADNYCCTB"));
+    HotelSentiment[] hotelSentiments = amadeus.ereputation.hotelSentiments.get(Params.with("hotelIds", "TELONMFS,ADNYCCTB,XXXYYY01"));
 
     if (hotelSentiments[0].getResponse().getStatusCode() != 200) {
         System.out.println("Wrong status code: " + hotelSentiments[0].getResponse().getStatusCode());

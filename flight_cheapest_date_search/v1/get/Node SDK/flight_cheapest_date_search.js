@@ -4,10 +4,10 @@ var amadeus = new Amadeus({
   clientSecret: 'YOUR_API_SECRET'
 });
 
-// Find cheapest dates from Madrid to London
+// Find cheapest dates from Madrid to Munich
 amadeus.shopping.flightDates.get({
   origin: 'MAD',
-  destination: 'LON'
+  destination: 'MUC'
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {

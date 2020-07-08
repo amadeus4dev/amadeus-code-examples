@@ -7,7 +7,7 @@ var amadeus: Amadeus = Amadeus(
 
 // Flight Most Booked Destinations
 amadeus.travel.analytics.airTraffic.booked.get(params: ["originCityCode": "MAD",
-                                                        "period": "2017-11"],
+                                                        "period": "2017-08"],
                                                onCompletion: {
                                                    response, error in
                                                    if error == nil {
