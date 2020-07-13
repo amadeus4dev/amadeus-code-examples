@@ -1,0 +1,13 @@
+{
+  "data": {
+    "type": "trip-parser-job",
+    "id": "JKKSJNMSKHJ",
+    "status": "started",
+    "self": {
+      "href": "https://test.api.amadeus.com/v2/travel/trip-parser-jobs/JKKSJNMSKHJ",
+      "method": [
+        "GET"
+      ]
+    }
+  }
+}

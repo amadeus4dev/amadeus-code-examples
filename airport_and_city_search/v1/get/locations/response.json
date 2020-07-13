@@ -1,0 +1,48 @@
+{
+    "meta": {
+        "count": 127,
+        "links": {
+            "self": "http://test.api.amadeus.com/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=r&view=LIGHT&page[limit]=2",
+            "next": "http://test.api.amadeus.com/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=r&view=LIGHT&page[offset]=2&page[limit]=2",
+            "last": "http://test.api.amadeus.com/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=r&view=LIGHT&page[offset]=125&page[limit]=2"
+        }
+    },
+    "data": [
+        {
+            "type": "location",
+            "subType": "AIRPORT",
+            "name": "R REAGAN NAT",
+            "detailedName": "WASHINGTON/DC/US:R REAGAN NAT",
+            "id": "ADCA",
+            "self": {
+                "href": "http://test.api.amadeus.com/v1/reference-data/locations/ADCA",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "iataCode": "DCA",
+            "address": {
+                "cityName": "WASHINGTON",
+                "countryName": "UNITED STATES OF AMERICA"
+            }
+        },
+        {
+            "type": "location",
+            "subType": "AIRPORT",
+            "name": "RAJIV GANDHI INTL",
+            "detailedName": "HYDERABAD/IN:RAJIV GANDHI INTL",
+            "id": "AHYD",
+            "self": {
+                "href": "http://test.api.amadeus.com/v1/reference-data/locations/AHYD",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "iataCode": "HYD",
+            "address": {
+                "cityName": "HYDERABAD",
+                "countryName": "INDIA"
+            }
+        }
+    ]
+}

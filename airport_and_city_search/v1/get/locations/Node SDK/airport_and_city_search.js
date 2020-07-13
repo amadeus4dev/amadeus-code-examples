@@ -1,15 +1,13 @@
 var Amadeus = require("amadeus");
 var amadeus = new Amadeus({
   clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+  clientSecret: 'YOUR_API_KEY'
 });
 
-// Which cities or airports start with ’r'?
-amadeus.referenceData.locations.get({
-  keyword: 'r',
-  subType: Amadeus.location.any
-}).then(function (response) {
-  console.log(response);
-}).catch(function (response) {
-  console.error(response);
-});
+// Retrieve information about the LHR airport?
+amadeus.referenceData.location('ALHR').get()
+  .then(function (response) {
+    console.log(response);
+  }).catch(function (response) {
+    console.error(response);
+  });

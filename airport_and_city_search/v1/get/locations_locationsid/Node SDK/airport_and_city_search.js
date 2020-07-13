@@ -4,9 +4,10 @@ var amadeus = new Amadeus({
   clientSecret: 'YOUR_API_SECRET'
 });
 
-// What travelers think about this hotel?
-amadeus.eReputation.hotelSentiments.get({
-  hotelIds: 'ADNYCCTB'
+// Which cities or airports start with ’r'?
+amadeus.referenceData.locations.get({
+  keyword: 'r',
+  subType: Amadeus.location.any
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {

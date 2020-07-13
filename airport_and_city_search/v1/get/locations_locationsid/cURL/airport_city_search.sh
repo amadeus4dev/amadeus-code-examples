@@ -5,4 +5,4 @@ https://test.api.amadeus.com/v1/security/oauth2/token \
 -d "grant_type=client_credentials&client_id=$AMADEUS_CLIENT_ID&client_secret=$AMADEUS_CLIENT_SECRET" \
 | grep access_token | sed 's/"access_token": "\(.*\)"\,/\1/' | tr -d '[:space:]')
 
-curl -X GET "https://test.api.amadeus.com/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=r" -H "Authorization: Bearer $ACCESS_TOKEN" -k
+curl -X GET "https://test.api.amadeus.com/v1/reference-data/locations/ALHR" -H "Authorization: Bearer $ACCESS_TOKEN" -k

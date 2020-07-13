@@ -13,16 +13,15 @@ public class AirportCitySearch {
         .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS_API_SECRET")
         .build();
 
-    // Airport & City Search (autocomplete)
-    // Find all the cities and airports starting by the keyword 'LON'
-    Location[] locations = amadeus.referenceData.locations.get(Params
-      .with("keyword", "LON")
-      .and("subType", Locations.ANY));
+    // Get a specific city or airport based on its id
+    Location location = amadeus.referenceData
+      .location("ALHR").get();
 
-    if(locations[0].getResponse().getStatusCode() != 200) {
-        System.out.println("Wrong status code: " + locations[0].getResponse().getStatusCode());
+    if(location.getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + location.getResponse().getStatusCode());
         System.exit(-1);
     }
-    System.out.println(locations[0]);
+
+    System.out.println(location);
   }
 }
