@@ -6,7 +6,7 @@ var amadeus = new Amadeus({
 
 // Returns all the seat maps of a given order
 amadeus.shopping.seatmaps.get({
-  'flight-orderId': 'XXX'
+  'flight-orderId': 'eJzTd9cPDPMwcooAAAtXAmE='
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {

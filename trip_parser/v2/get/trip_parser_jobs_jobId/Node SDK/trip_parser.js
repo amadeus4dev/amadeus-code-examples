@@ -5,7 +5,7 @@ var amadeus = new Amadeus({
 });
 
 // Retrieves a Parser Job by its Id
-amadeus.travel.tripParserJobs('XXX').get()
+amadeus.travel.tripParserJobs('JKKSJNMSKHJ').get()
   .then(function (response) {
     console.log(response);
   }).catch(function (response) {

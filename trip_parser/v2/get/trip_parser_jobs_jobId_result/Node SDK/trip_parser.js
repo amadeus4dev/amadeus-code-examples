@@ -5,7 +5,7 @@ var amadeus = new Amadeus({
 });
 
 // Retrieves the result of the trip parser job
-amadeus.travel.tripParserJobs('XXX').result.get()
+amadeus.travel.tripParserJobs('Mk8RWGGCDagNHOdjP9EZrJ9l').result.get()
   .then(function (response) {
     console.log(response);
   }).catch(function (response) {

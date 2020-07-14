@@ -5,7 +5,7 @@ var amadeus: Amadeus = Amadeus(
     client_secret: "YOUR_API_SECRET"
 )
 
-amadeus.travel.tripParserJobs.status(jobId: "XXX").get(
+amadeus.travel.tripParserJobs.status(jobId: "JKKSJNMSKHJ").get(
     onCompletion: {
         response, error in
         if error == nil {

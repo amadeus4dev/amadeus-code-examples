@@ -6,9 +6,9 @@ amadeus = Client(
     client_secret='YOUR_AMADEUS_API_SECRET'
 )
 
-# Retrieves the status of the process. Replace JOB_ID with the id returned by Trip Parser Jobs
+# Retrieves the status of the process by passing the jobId returned by Trip Parser Jobs
 try:
-    response = amadeus.travel.trip_parser_jobs.status('JOB_ID').get()
+    response = amadeus.travel.trip_parser_jobs.status('JKKSJNMSKHJ').get()
     print(response.data['status'])
 except ResponseError as error:
     raise error
