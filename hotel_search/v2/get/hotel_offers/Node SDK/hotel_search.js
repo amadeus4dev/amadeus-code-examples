@@ -6,7 +6,7 @@ var amadeus = new Amadeus({
 
 // Get list of Hotels by city code
 amadeus.shopping.hotelOffers.get({
-  cityCode: 'MAD'
+  cityCode: 'PAR'
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {

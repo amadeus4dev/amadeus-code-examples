@@ -14,7 +14,7 @@ public class HotelSearch {
         .build();
 
     // Confirm the availability of a specific offer
-    HotelOffer offer = amadeus.shopping.hotelOffer("4BA070CE929E135B3268A9F2D0C51E9D4A6CF318BA10485322FA2C7E78C7852E").get();
+    HotelOffer offer = amadeus.shopping.hotelOffer("176383FB301E78D430F81A6CB6134EBF801DCC1AE14FC9DCCE84D17C6B519F5B").get();
 
     if (offer[0].getResponse().getStatusCode() != 200) {
         System.out.println("Wrong status code: " + offer[0].getResponse().getStatusCode());

@@ -8,7 +8,7 @@ amadeus = Client(
 
 try:
     # Get list of offers for a specific hotel
-    hotel_offers = amadeus.shopping.hotel_offers_by_hotel.get(hotelId = 'HSMADAMI')
+    hotel_offers = amadeus.shopping.hotel_offers_by_hotel.get(hotelId = 'BGMILBGB')
     # print(hotel_offers.data)
 except ResponseError as error:
     raise error

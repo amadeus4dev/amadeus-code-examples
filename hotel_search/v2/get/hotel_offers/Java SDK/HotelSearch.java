@@ -15,7 +15,7 @@ public class HotelSearch {
 
     // Get list of hotels by city code
     HotelOffer[] offers = amadeus.shopping.hotelOffers.get(Params
-      .with("cityCode", "MAD"));
+      .with("cityCode", "PAR"));
 
     if (offers[0].getResponse().getStatusCode() != 200) {
         System.out.println("Wrong status code: " + offers[0].getResponse().getStatusCode());

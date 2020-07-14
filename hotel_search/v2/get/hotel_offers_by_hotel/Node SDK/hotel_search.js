@@ -6,7 +6,7 @@ var amadeus = new Amadeus({
 
 // Get list of offers for a specific hotel
 amadeus.shopping.hotelOffersByHotel.get({
-  hotelId: 'XKPARC12'
+  hotelId: 'BGMILBGB'
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {

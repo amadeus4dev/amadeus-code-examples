@@ -6,4 +6,4 @@ https://test.api.amadeus.com/v1/security/oauth2/token \
 | grep access_token | sed 's/"access_token": "\(.*\)"\,/\1/' | tr -d '[:space:]')
 
 # For a dedicated hotel and a dedicated offer check if the price is still the same and if the offer is still available
-curl -X GET "https://test.api.amadeus.com/v2/shopping/hotel-offers/63A93695B58821ABB0EC2B33FE9FAB24D72BF34B1BD7D707293763D8D9378FC3​​​​​​​" -H "Authorization: Bearer $ACCESS_TOKEN" -k
+curl -X GET "https://test.api.amadeus.com/v2/shopping/hotel-offers/176383FB301E78D430F81A6CB6134EBF801DCC1AE14FC9DCCE84D17C6B519F5B" -H "Authorization: Bearer $ACCESS_TOKEN" -k

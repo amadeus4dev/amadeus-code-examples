@@ -5,7 +5,7 @@ var amadeus: Amadeus = Amadeus(
     client_secret: "YOUR_API_SECRET"
 )
 
-amadeus.referenceData.locations.pointOfInterest(poiId: "8DA7B6CDCA").get(
+amadeus.referenceData.locations.pointOfInterest(poiId: "9CB40CB5D0").get(
     onCompletion: {
         response, error in
         if error == nil {

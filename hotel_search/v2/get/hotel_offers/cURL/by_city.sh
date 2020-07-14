@@ -6,5 +6,5 @@ https://test.api.amadeus.com/v1/security/oauth2/token \
 | grep access_token | sed 's/"access_token": "\(.*\)"\,/\1/' | tr -d '[:space:]')
 
 # Search for hotels in Madrid
-curl -X GET "https://test.api.amadeus.com/v2/shopping/hotel-offers?cityCode=MAD" -H "Authorization: Bearer $ACCESS_TOKEN" -k
+curl -X GET "https://test.api.amadeus.com/v2/shopping/hotel-offers?cityCode=PAR" -H "Authorization: Bearer $ACCESS_TOKEN" -k
 
