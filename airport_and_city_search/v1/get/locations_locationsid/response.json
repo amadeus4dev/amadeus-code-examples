@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "links": {
+            "self": "http://test.api.amadeus.com/v1/reference-data/locations/ALHR"
+        }
+    },
+    "data": {
+        "type": "location",
+        "subType": "AIRPORT",
+        "name": "HEATHROW",
+        "detailedName": "LONDON/GB:HEATHROW",
+        "id": "ALHR",
+        "self": {
+            "href": "http://test.api.amadeus.com/v1/reference-data/locations/ALHR",
+            "methods": [
+                "GET"
+            ]
+        },
+        "timeZoneOffset": "+01:00",
+        "iataCode": "LHR",
+        "geoCode": {
+            "latitude": 51.47294,
+            "longitude": -0.45061
+        },
+        "address": {
+            "cityName": "LONDON",
+            "cityCode": "LON",
+            "countryName": "UNITED KINGDOM",
+            "countryCode": "GB",
+            "regionCode": "EUROP"
+        },
+        "analytics": {
+            "travelers": {
+                "score": 45
+            }
+        }
+    }
+}

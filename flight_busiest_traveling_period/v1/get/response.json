@@ -1,0 +1,118 @@
+{
+    "meta": {
+        "count": 12,
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/travel/analytics/air-traffic/busiest-period?cityCode=MAD&direction=ARRIVING&period=2017"
+        }
+    },
+    "data": [
+        {
+            "type": "air-traffic",
+            "period": "2017-05",
+            "analytics": {
+                "travelers": {
+                    "score": 9
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-12",
+            "analytics": {
+                "travelers": {
+                    "score": 9
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-09",
+            "analytics": {
+                "travelers": {
+                    "score": 8
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-10",
+            "analytics": {
+                "travelers": {
+                    "score": 8
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-07",
+            "analytics": {
+                "travelers": {
+                    "score": 8
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-06",
+            "analytics": {
+                "travelers": {
+                    "score": 8
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-02",
+            "analytics": {
+                "travelers": {
+                    "score": 8
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-03",
+            "analytics": {
+                "travelers": {
+                    "score": 8
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-01",
+            "analytics": {
+                "travelers": {
+                    "score": 8
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-04",
+            "analytics": {
+                "travelers": {
+                    "score": 8
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-08",
+            "analytics": {
+                "travelers": {
+                    "score": 8
+                }
+            }
+        },
+        {
+            "type": "air-traffic",
+            "period": "2017-11",
+            "analytics": {
+                "travelers": {
+                    "score": 8
+                }
+            }
+        }
+    ]
+}

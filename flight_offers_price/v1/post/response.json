@@ -1,0 +1,304 @@
+{
+    "data": {
+        "type": "flight-offers-pricing",
+        "flightOffers": [
+        {
+            "type": "flight-offer",
+            "id": "1",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "lastTicketingDate": "2020-03-01",
+            "itineraries": [
+            {
+                "segments": [
+                {
+                    "departure": {
+                    "iataCode": "GIG",
+                    "at": "2020-03-01T23:30:00"
+                    },
+                    "arrival": {
+                    "iataCode": "CMN",
+                    "terminal": "2",
+                    "at": "2020-03-02T12:10:00"
+                    },
+                    "carrierCode": "AT",
+                    "number": "212",
+                    "aircraft": {
+                    "code": "788"
+                    },
+                    "operating": {
+                    "carrierCode": "AT"
+                    },
+                    "id": "3",
+                    "numberOfStops": 0,
+                    "duration": "PT8H40M"
+                },
+                {
+                    "departure": {
+                    "iataCode": "CMN",
+                    "terminal": "2",
+                    "at": "2020-03-02T15:45:00"
+                    },
+                    "arrival": {
+                    "iataCode": "MAD",
+                    "at": "2020-03-02T17:40:00",
+                    "terminal": "4S"
+                    },
+                    "carrierCode": "AT",
+                    "number": "970",
+                    "aircraft": {
+                    "code": "73G"
+                    },
+                    "operating": {
+                    "carrierCode": "AT"
+                    },
+                    "id": "4",
+                    "numberOfStops": 0,
+                    "duration": "PT1H55M"
+                }
+                ]
+            },
+            {
+                "segments": [
+                {
+                    "departure": {
+                    "iataCode": "MAD",
+                    "terminal": "4S",
+                    "at": "2020-03-05T18:40:00"
+                    },
+                    "arrival": {
+                    "iataCode": "CMN",
+                    "at": "2020-03-05T20:30:00",
+                    "terminal": "2"
+                    },
+                    "carrierCode": "AT",
+                    "number": "971",
+                    "aircraft": {
+                    "code": "738"
+                    },
+                    "operating": {
+                    "carrierCode": "AT"
+                    },
+                    "id": "47",
+                    "numberOfStops": 0,
+                    "duration": "PT1H50M"
+                },
+                {
+                    "departure": {
+                    "iataCode": "CMN",
+                    "at": "2020-03-06T16:40:00",
+                    "terminal": "2"
+                    },
+                    "arrival": {
+                    "iataCode": "GIG",
+                    "at": "2020-03-06T22:00:00"
+                    },
+                    "carrierCode": "AT",
+                    "number": "213",
+                    "aircraft": {
+                    "code": "788"
+                    },
+                    "operating": {
+                    "carrierCode": "AT"
+                    },
+                    "id": "48",
+                    "numberOfStops": 0,
+                    "duration": "PT9H20M"
+                }
+                ]
+            }
+            ],
+            "price": {
+            "currency": "USD",
+            "total": "2778.98",
+            "base": "2568.00",
+            "fees": [
+                {
+                "amount": "0.00",
+                "type": "SUPPLIER"
+                },
+                {
+                "amount": "0.00",
+                "type": "TICKETING"
+                },
+                {
+                "amount": "0.00",
+                "type": "FORM_OF_PAYMENT"
+                }
+            ],
+            "grandTotal": "2778.98",
+            "billingCurrency": "USD"
+            },
+            "pricingOptions": {
+            "fareType": [
+                "PUBLISHED"
+            ],
+            "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+            "AT"
+            ],
+            "travelerPricings": [
+            {
+                "travelerId": "1",
+                "fareOption": "STANDARD",
+                "travelerType": "ADULT",
+                "price": {
+                "currency": "USD",
+                "total": "1625.49",
+                "base": "1520.00",
+                "taxes": [
+                    {
+                    "amount": "31.99",
+                    "code": "BR"
+                    },
+                    {
+                    "amount": "24.27",
+                    "code": "JD"
+                    },
+                    {
+                    "amount": "44.59",
+                    "code": "MA"
+                    },
+                    {
+                    "amount": "0.69",
+                    "code": "OG"
+                    },
+                    {
+                    "amount": "3.95",
+                    "code": "QV"
+                    }
+                ]
+                },
+                "fareDetailsBySegment": [
+                {
+                    "segmentId": "3",
+                    "cabin": "BUSINESS",
+                    "fareBasis": "DA0R0BRA",
+                    "class": "D",
+                    "includedCheckedBags": {
+                    "quantity": 3
+                    }
+                },
+                {
+                    "segmentId": "4",
+                    "cabin": "BUSINESS",
+                    "fareBasis": "DA0R0BRA",
+                    "class": "D",
+                    "includedCheckedBags": {
+                    "quantity": 3
+                    }
+                },
+                {
+                    "segmentId": "47",
+                    "cabin": "ECONOMY",
+                    "fareBasis": "XL0R0BRA",
+                    "class": "X",
+                    "includedCheckedBags": {
+                    "quantity": 2
+                    }
+                },
+                {
+                    "segmentId": "48",
+                    "cabin": "ECONOMY",
+                    "fareBasis": "XL0R0BRA",
+                    "class": "X",
+                    "includedCheckedBags": {
+                    "quantity": 2
+                    }
+                }
+                ]
+            },
+            {
+                "travelerId": "2",
+                "fareOption": "STANDARD",
+                "travelerType": "CHILD",
+                "price": {
+                "currency": "USD",
+                "total": "1153.49",
+                "base": "1048.00",
+                "taxes": [
+                    {
+                    "amount": "31.99",
+                    "code": "BR"
+                    },
+                    {
+                    "amount": "24.27",
+                    "code": "JD"
+                    },
+                    {
+                    "amount": "44.59",
+                    "code": "MA"
+                    },
+                    {
+                    "amount": "0.69",
+                    "code": "OG"
+                    },
+                    {
+                    "amount": "3.95",
+                    "code": "QV"
+                    }
+                ]
+                },
+                "fareDetailsBySegment": [
+                {
+                    "segmentId": "3",
+                    "cabin": "BUSINESS",
+                    "fareBasis": "DA0R0BRACH",
+                    "class": "D",
+                    "includedCheckedBags": {
+                    "quantity": 3
+                    }
+                },
+                {
+                    "segmentId": "4",
+                    "cabin": "BUSINESS",
+                    "fareBasis": "DA0R0BRACH",
+                    "class": "D",
+                    "includedCheckedBags": {
+                    "quantity": 3
+                    }
+                },
+                {
+                    "segmentId": "47",
+                    "cabin": "ECONOMY",
+                    "fareBasis": "XL0R0BRACH",
+                    "class": "X",
+                    "includedCheckedBags": {
+                    "quantity": 2
+                    }
+                },
+                {
+                    "segmentId": "48",
+                    "cabin": "ECONOMY",
+                    "fareBasis": "XL0R0BRACH",
+                    "class": "X",
+                    "includedCheckedBags": {
+                    "quantity": 2
+                    }
+                }
+                ]
+            }
+            ],
+            "paymentCardRequired": false
+        }
+        ]
+    },
+    "dictionaries": {
+        "locations": {
+        "MAD": {
+            "cityCode": "MAD",
+            "countryCode": "ES"
+        },
+        "GIG": {
+            "cityCode": "RIO",
+            "countryCode": "BR"
+        },
+        "CMN": {
+            "cityCode": "CAS",
+            "countryCode": "MA"
+        }
+        }
+    }
+}

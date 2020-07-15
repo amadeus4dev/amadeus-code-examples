@@ -1,0 +1,33 @@
+{
+  "data": {
+    "type": "location",
+    "subType": "POINT_OF_INTEREST",
+    "id": "9CB40CB5D0",
+    "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/pois/9CB40CB5D0",
+        "methods": [
+            "GET"
+        ]
+    },
+    "geoCode": {
+        "latitude": 41.39165,
+        "longitude": 2.164772
+    },
+    "name": "Casa Batlló",
+    "category": "SIGHTS",
+    "rank": 1,
+    "tags": [
+        "sightseeing",
+        "sights",
+        "museum",
+        "landmark",
+        "tourguide",
+        "restaurant",
+        "attraction",
+        "activities",
+        "commercialplace",
+        "shopping",
+        "souvenir"
+    ]
+  }
+}

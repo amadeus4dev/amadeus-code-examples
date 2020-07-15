@@ -1,0 +1,38 @@
+{
+    "warnings": [
+        {
+            "status": 200,
+            "code": 10151,
+            "title": "DEFAULT LANGUAGE USED",
+            "detail": "Language not available for this airline, default language applied",
+            "source": {
+                "parameter": "language"
+            }
+        }
+    ],
+    "meta": {
+        "count": 1,
+        "links": {
+            "self": "http://test.api.amadeus.com/v2/reference-data/urls/checkin-links?airlineCode=BA"
+        }
+    },
+    "data": [
+        {
+            "type": "checkin-link",
+            "id": "BAEN-GBAll",
+            "href": "https://www.britishairways.com/travel/managebooking/public/en_ch?&bookingRef={PNR}&lastname={LAST}",
+            "channel": "All",
+            "parameters": {
+                "LAST": {
+                    "description": "Passenger Last Name",
+                    "type": "string"
+                },
+                "PNR": {
+                    "description": "Record Locator",
+                    "type": "string",
+                    "format": "([a-zA-Z]|[0-9]){6}"
+                }
+            }
+        }
+    ]
+}

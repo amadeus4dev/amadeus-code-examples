@@ -5,7 +5,7 @@ var amadeus: Amadeus = Amadeus(
     client_secret: "YOUR_API_SECRET"
 )
 
-amadeus.shopping.flightDestinations.get(params: ["origin": "MAD", "maxPrice": "200"],
+amadeus.shopping.flightDestinations.get(params: ["origin": "MAD"],
                                         onCompletion: {
                                             response, error in
                                             if error == nil {

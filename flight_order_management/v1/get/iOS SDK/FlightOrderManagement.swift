@@ -5,7 +5,7 @@ var amadeus: Amadeus = Amadeus(
     client_secret: "YOUR_API_SECRET"
 )
 
-amadeus.booking.flightOrder(flightOrderId: "eJzTd9f3NjIJdzUGAAp%2fAiY=").get(
+amadeus.booking.flightOrder(flightOrderId: "MlpZVkFMfFdBVFNPTnwyMDE1LTExLTAy").get(
     onCompletion: {
         response, error in
         if error == nil {

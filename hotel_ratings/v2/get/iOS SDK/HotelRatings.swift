@@ -6,7 +6,7 @@ var amadeus: Amadeus = Amadeus(
 )
 
 // Hotel Ratings / Sentiments
-amadeus.eReputation.hotelSentiments.get(params: ["hotelIds": "TELONMFS,ADNYCCTB,XXXYYY01"],
+amadeus.eReputation.hotelSentiments.get(params: ["hotelIds": "ADNYCCTB"],
                                         onCompletion: {
                                             response, error in
                                             if error == nil {

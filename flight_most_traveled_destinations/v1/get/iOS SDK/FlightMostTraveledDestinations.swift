@@ -7,7 +7,7 @@ var amadeus: Amadeus = Amadeus(
 
 // Flight Most Traveles Destinations
 amadeus.travel.analytics.airTraffic.traveled.get(params: ["originCityCode": "MAD",
-                                                          "period": "2017-11"],
+                                                          "period": "2017-01"],
                                                  onCompletion: {
                                                      response, error in
                                                      if error == nil {

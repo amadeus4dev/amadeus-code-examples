@@ -6,8 +6,8 @@ var amadeus = new Amadeus({
 
 // What relevant airports are there around a specific location?
 amadeus.referenceData.locations.airports.get({
-  longitude: 0.1278,
-  latitude: 51.5074
+  longitude: 2.55,
+  latitude: 49.0000
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {

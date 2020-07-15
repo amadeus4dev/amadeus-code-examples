@@ -13,6 +13,7 @@ try:
     body = amadeus.shopping.flight_offers_search.get(originLocationCode='MAD',
                                                         destinationLocationCode='NYC',
                                                         departureDate='2020-11-01',
+                                                        returnDate='2020-11-09',
                                                         adults=1).result
     response = amadeus.shopping.flight_offers.prediction.post(body)
     print(response.data)

@@ -13,7 +13,7 @@ public class SeatMaps {
               .build();
       
         SeatMap[] seatmap = amadeus.shopping.seatMaps.get(Params
-                .with("flight-orderId", "eJzTd9f39rUIsDAGAArnAjE%3D"));
+                .with("flight-orderId", "eJzTd9cPDPMwcooAAAtXAmE="));
         if(seatmap.length != 0){
           if (seatmap[0].getResponse().getStatusCode() != 200) {
             System.out.println("Wrong status code: " + seatmap[0].getResponse().getStatusCode());

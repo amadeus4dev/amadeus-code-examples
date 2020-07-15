@@ -14,7 +14,7 @@ public class AirportOnTime {
         .build();
 
     OnTime onTime = amadeus.airport.predictions.onTime.get(Params
-        .with("airportCode", "NCE")
+        .with("airportCode", "JFK")
         .and("date", "2020-09-01"));
 
     if(onTime.getResponse().getStatusCode() != 200) {

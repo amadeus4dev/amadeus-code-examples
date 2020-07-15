@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "type": "hotel-booking",
+      "id": "XD_8138319951754",
+      "providerConfirmationId": "8138319951754",
+      "associatedRecords": [
+        {
+          "reference": "QVH2BX",
+          "originSystemCode": "GDS"
+        }
+      ]
+    }
+  ]
+}

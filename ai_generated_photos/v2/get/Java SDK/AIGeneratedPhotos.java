@@ -15,7 +15,7 @@ public class AIGeneratedPhotos {
 
     // Generates a fake beach image
     GeneratedPhoto photo = amadeus.media.files.generatedPhotos.get(Params
-        .with("category", "BEACH"));
+        .with("category", "MOUNTAIN"));
 
     if (photo.getResponse().getStatusCode() != 200) {
         System.out.println("Wrong status code: " + photo.getResponse().getStatusCode());

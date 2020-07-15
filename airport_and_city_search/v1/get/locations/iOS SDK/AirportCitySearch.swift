@@ -5,13 +5,10 @@ var amadeus: Amadeus = Amadeus(
     client_secret: "YOUR_API_SECRET"
 )
 
-/// Airport & City Search (autocomplete)
-/// Find all the cities and airports starting by the keyword 'LON'
-amadeus.referenceData.locations.get(params: ["subType": "AIRPORT,CITY",
-                                             "keyword": "LON"],
-                                    onCompletion: {
-                                        response, error in
-                                        if error == nil {
-                                            print(response!.data)
-                                        }
+// Get a specific city or airport based on its id
+amadeus.referenceData.location(locationId: "CMUC").get(onCompletion: {
+    response, error in
+    if error == nil {
+        print(response!.data)
+    }
                                         })
