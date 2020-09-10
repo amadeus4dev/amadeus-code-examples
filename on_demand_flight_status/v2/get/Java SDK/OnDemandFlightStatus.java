@@ -25,6 +25,6 @@ public class OnDemandFlightStatus {
         System.exit(-1);
     }
 
-    System.out.println(pointsOfInterest[0]);
+    System.out.println(flightStatus[0]);
   }
 }
