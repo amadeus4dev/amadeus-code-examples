@@ -9,7 +9,7 @@ public class PointsOfInterest {
 
   public static void main(String[] args) throws ResponseException {
 
-    Amadeus amadeus = AAmadeus
+    Amadeus amadeus = Amadeus
         .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS_API_SECRET")
         .build();
 
