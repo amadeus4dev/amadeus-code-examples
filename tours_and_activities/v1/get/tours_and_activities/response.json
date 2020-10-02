@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "count": "1",
+    "self": "https://test.api.amadeus.com/v1/shopping/activities/longitude=-3.69170868&latitude=40.41436995&radius=1"
+  },
+  "data": [
+    {
+      "type": "activity",
+      "id": "3216547684",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/shopping/activities/3216547684",
+        "methods": [
+          "GET"
+        ]
+      },
+      "name": "Madrid:\nPrado Museum Direct Entrance Ticket",
+      "shortDescription": "Discover\nmasterpieces of art with a full-day entrance ticket to Madrid’s Prado Museum\nand see works by Velázquez, Goya, El Greco and many more. Covering the full\nrange of Spanish art, the collection includes 7,600 paintings and 1,000\nsculptures.",
+      "geoCode": {
+        "latitude": "40.41436995",
+        "longitude": "-3.69170868"
+      },
+      "rating": "4.3",
+      "pictures": [
+        "https://cdn.getyourguide.com/img/tour_img-478731-145.jpg"
+      ],
+      "bookingLink": "https://b2c.mla.cloud/c/WAfQop1R2Q?ctx=5dc3d546d7cbb50001f51a33",
+      "price": {
+        "currencyCode": "EUR",
+        "amount": "16"
+      }
+    }
+  ]
+}
