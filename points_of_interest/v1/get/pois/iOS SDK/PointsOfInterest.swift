@@ -7,11 +7,13 @@ var amadeus: Amadeus = Amadeus(
 
 // What are the popular places in Barcelona?
 amadeus.referenceData.locations.pointsOfInterest.get(params: ["latitude": "41.397158",
-                                                              "longitude": "2.160873",
-                                                              "radius": "2"],
-                                                     onCompletion: {
-                                                         response, error in
-                                                         if error == nil {
-                                                             print(response!.data)
-                                                         }
-                                        })
+    "longitude": "2.160873",
+    "radius": "2"],
+    onCompletion: { result in
+        switch result {
+        case let .success(response):
+            print(response.data)
+        case let .failure(error):
+            fatalError(error.localizedDescription)
+        }
+    })

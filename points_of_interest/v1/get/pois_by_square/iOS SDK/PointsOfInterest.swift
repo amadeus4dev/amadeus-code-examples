@@ -7,12 +7,14 @@ var amadeus: Amadeus = Amadeus(
 
 // What are the popular places in Barcelona? (based on a square)
 amadeus.referenceData.locations.pointsOfInterest.bySquare.get(params: ["north": "41.397158",
-                                                                       "west": "2.160873",
-                                                                       "south": "41.394582",
-                                                                       "east": "2.177181"],
-                                                              onCompletion: {
-                                                                  response, error in
-                                                                  if error == nil {
-                                                                      print(response!.data)
-                                                                  }
+    "west": "2.160873",
+    "south": "41.394582",
+    "east": "2.177181"],
+    onCompletion: { result in
+        switch result {
+        case let .success(response):
+            print(response.data)
+        case let .failure(error):
+            fatalError(error.localizedDescription)
+        }
     })
