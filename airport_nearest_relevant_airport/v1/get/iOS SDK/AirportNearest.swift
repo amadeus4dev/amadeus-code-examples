@@ -7,10 +7,12 @@ var amadeus: Amadeus = Amadeus(
 
 // Airport Nearest Relevant (for London)
 amadeus.referenceData.locations.airports.get(params: ["longitude": "49.0000",
-                                                      "latitude": "2.55"],
-                                             onCompletion: {
-                                                 response, error in
-                                                 if error == nil {
-                                                     print(response!.data)
-                                                 }
-                                        })
+    "latitude": "2.55"],
+    onCompletion: { result in
+        switch result {
+        case let .success(response):
+            print(response.data)
+        case let .failure(error):
+            fatalError(error.localizedDescription)
+        }
+    })

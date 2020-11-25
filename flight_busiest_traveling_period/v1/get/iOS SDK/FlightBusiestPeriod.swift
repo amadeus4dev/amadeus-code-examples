@@ -7,11 +7,13 @@ var amadeus: Amadeus = Amadeus(
 
 // Flight Busiest Traveling Period
 amadeus.travel.analytics.airTraffic.busiestPeriod.get(params: ["cityCode": "MAD",
-                                                               "period": "2017",
-                                                               "direction": "ARRIVING"],
-                                                      onCompletion: {
-                                                          response, error in
-                                                          if error == nil {
-                                                              print(response!.data)
-                                                          }
-                                        })
+    "period": "2017",
+    "direction": "ARRIVING"],
+    onCompletion: { result in
+        switch result {
+        case let .success(response):
+            print(response.data)
+        case let .failure(error):
+            fatalError(error.localizedDescription)
+        }
+    })

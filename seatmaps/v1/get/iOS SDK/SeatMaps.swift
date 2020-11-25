@@ -6,9 +6,11 @@ var amadeus: Amadeus = Amadeus(
 )
 
 amadeus.shopping.seatMaps.get(params: ["flight-orderId": "eJzTd9f3NjIJdzUGAAp%2fAiY="],
-                              onCompletion: {
-                                  response, error in
-                                  if error == nil {
-                                      print(response!.data)
-                                  }
-                            })
+    onCompletion: { result in
+        switch result {
+        case let .success(response):
+            print(response.data)
+        case let .failure(error):
+            fatalError(error.localizedDescription)
+        }
+    })
