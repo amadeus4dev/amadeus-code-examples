@@ -6,11 +6,12 @@ var amadeus: Amadeus = Amadeus(
 )
 
 amadeus.safety.safetyRatedLocation(locationId: "Q930402753").get(onCompletion: {
-                                                            result in
-                                                            switch result {
-                                                            case .success(let response):
-                                                                print(response.data)
-                                                            case .failure(let error):
-                                                                print(error.localizedDescription)
-                                                            }
+    result in
+    switch result {
+    case .success(let response):
+        print(response.data)
+    case .failure(let error):
+        print(error.localizedDescription)
+    }
+})
 

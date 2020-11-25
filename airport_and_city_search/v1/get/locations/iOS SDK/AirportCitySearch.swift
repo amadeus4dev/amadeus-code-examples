@@ -6,9 +6,11 @@ var amadeus: Amadeus = Amadeus(
 )
 
 // Get a specific city or airport based on its id
-amadeus.referenceData.location(locationId: "CMUC").get(onCompletion: {
-    response, error in
-    if error == nil {
-        print(response!.data)
-    }
-                                        })
+amadeus.referenceData.location(locationId: "CMUC").get(onCompletion: { result in
+        switch result {
+        case let .success(response):
+            print(response.data)
+        case let .failure(error):
+            fatalError(error.localizedDescription)
+        }
+    })

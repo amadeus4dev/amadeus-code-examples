@@ -6,13 +6,15 @@ var amadeus: Amadeus = Amadeus(
 )
 
 amadeus.shopping.flightOffersSearch.get(params: ["originLocationCode": "MAD",
-                                                 "destinationLocationCode": "BER",
-                                                 "departureDate": "2020-09-16",
-                                                 "returnDate": "2020-09-30",
-                                                 "adults": "2"],
-                                        onCompletion: {
-                                            response, error in
-                                            if error == nil {
-                                                print(response!.data)
-                                            }
-                                        })
+    "destinationLocationCode": "BER",
+    "departureDate": "2020-09-16",
+    "returnDate": "2020-09-30",
+    "adults": "2"],
+    onCompletion: { result in
+        switch result {
+        case let .success(response):
+            print(response.data)
+        case let .failure(error):
+            fatalError(error.localizedDescription)
+        }
+    })

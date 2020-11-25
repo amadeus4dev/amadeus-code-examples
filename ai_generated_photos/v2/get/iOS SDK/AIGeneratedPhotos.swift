@@ -7,9 +7,11 @@ var amadeus: Amadeus = Amadeus(
 
 /// Generates a fake mountain image
 amadeus.media.files.generatedPhotos.get(params: ["category": "MOUNTAIN"],
-                                        onCompletion: {
-                                            response, error in
-                                            if error == nil {
-                                                print(response!.data)
+                                        onCompletion: { result in
+                                            switch result {
+                                            case let .success(response):
+                                                print(response.data)
+                                            case let .failure(error):
+                                                fatalError(error.localizedDescription)
                                             }
                                         })

@@ -6,10 +6,12 @@ var amadeus: Amadeus = Amadeus(
 )
 
 amadeus.shopping.flightDates.get(params: ["origin": "MAD",
-                                          "destination": "MUC"],
-                                 onCompletion: {
-                                     response, error in
-                                     if error == nil {
-                                         print(response!.data)
-                                     }
+    "destination": "MUC"],
+    onCompletion: { result in
+        switch result {
+        case let .success(response):
+            print(response.data)
+        case let .failure(error):
+            fatalError(error.localizedDescription)
+        }
     })

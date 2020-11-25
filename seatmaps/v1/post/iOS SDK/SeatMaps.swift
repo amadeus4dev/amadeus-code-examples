@@ -150,10 +150,12 @@ let dataFromString = jsonString.data(using: .utf8, allowLossyConversion: false)
 do {
     let body: JSON = try JSON(data: dataFromString!)
 
-    amadeus.shopping.seatMaps.post(body: body, onCompletion: {
-        response, error in
-        if error == nil {
-            print(response!.data)
+    amadeus.shopping.seatMaps.post(body: body, onCompletion: { result in
+        switch result {
+        case let .success(response):
+            print(response.data)
+        case let .failure(error):
+            fatalError(error.localizedDescription)
         }
     })
 } catch _ as NSError {
