@@ -11,7 +11,7 @@ try:
     hotels_by_city = amadeus.shopping.hotel_offers.get(cityCode='LON')
 
     # Get list of offers for a specific hotel
-    hotel_offers = amadeus.shopping.hotel_offers_by_hotel.get(hotelId = 'HSMADAMI', checkInDate='2020-10-10', checkOutDate='2020-10-12')
+    hotel_offers = amadeus.shopping.hotel_offers_by_hotel.get(hotelId = 'HSMADAMI', checkInDate='2021-02-01', checkOutDate='2021-01-02')
 
     # Confirm the availability of a specific offer
     offer = hotel_offers.data['offers'][0]['id']
