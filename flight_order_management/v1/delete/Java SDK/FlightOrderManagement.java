@@ -5,19 +5,18 @@ import com.amadeus.booking.FlightOrder;
 import com.amadeus.exceptions.ResponseException;
 
 public class FlightOrderManagement {
-    public static void main(String[] args) throws ResponseException {
-
+    public static void main(String[] args) {
       Amadeus amadeus = Amadeus
-              .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS)API_SECRET")
+              .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS_API_SECRET")
               .build();
-
-      com.amadeus.resources.FlightOrder order = amadeus.booking.flightOrder("MlpZVkFMfFdBVFNPTnwyMDE1LTExLTAy").delete();
-
-      if (order.getResponse().getStatusCode() != 200) {
-        System.out.println("Wrong status code: " + order.getResponse().getStatusCode());
-        System.exit(-1);
+      try {
+        com.amadeus.resources.FlightOrder order = amadeus.booking.flightOrder("eJzTd9cP8A8y8nIDAAtUAlk%3D").delete();
+      } catch (ResponseException e) {
+        if (!e.getMessage().equals("[204]")) {
+            System.out.println("Wrong status code: " + e.getMessage());
+            System.exit(-1);
+        }
+        System.out.println("Flight order successfully deleted");
       }
-
-      System.out.println(order);
-     }
+    }
 }
