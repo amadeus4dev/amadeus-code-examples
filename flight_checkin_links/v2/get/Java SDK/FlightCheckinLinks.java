@@ -17,10 +17,10 @@ public class FlightCheckinLinks {
       .with("airlineCode", "BA"));
 
     if(checkinLinks[0].getResponse().getStatusCode() != 200) {
-        System.out.println("Wrong status code: " + (checkinLinks[0].getResponse().getStatusCode());
+        System.out.println("Wrong status code: " + (checkinLinks[0].getResponse().getStatusCode()));
         System.exit(-1);
     }
 
-    System.out.println((checkinLinks[0]);
+    System.out.println((checkinLinks[0]));
   }
 }
