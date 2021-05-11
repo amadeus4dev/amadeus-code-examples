@@ -1,0 +1,1084 @@
+{
+    "meta": {
+        "count": 5
+    },
+    "data": [
+        {
+            "type": "flight-offer",
+            "id": "2",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "paymentCardRequired": false,
+            "lastTicketingDate": "2021-05-12",
+            "itineraries": [
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "CDG",
+                                "terminal": "3",
+                                "at": "2021-07-04T20:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "at": "2021-07-04T22:55:00"
+                            },
+                            "carrierCode": "IB",
+                            "number": "3741",
+                            "aircraft": {
+                                "code": "32A"
+                            },
+                            "operating": {
+                                "carrierCode": "IB"
+                            },
+                            "duration": "PT2H10M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "123.02",
+                "base": "92.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "123.02"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false,
+                "refundableFare": false,
+                "noRestrictionFare": false,
+                "noPenaltyFare": false
+            },
+            "validatingAirlineCodes": [
+                "IB"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "123.02",
+                        "base": "92.00",
+                        "taxes": [
+                            {
+                                "amount": "16.36",
+                                "code": "FR"
+                            },
+                            {
+                                "amount": "1.13",
+                                "code": "IZ"
+                            },
+                            {
+                                "amount": "1.50",
+                                "code": "O4"
+                            },
+                            {
+                                "amount": "12.03",
+                                "code": "QX"
+                            }
+                        ]
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "4",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "SDNNEOB2",
+                            "brandedFare": "NOBAG",
+                            "class": "S",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            },
+                            "amenities": [
+                                {
+                                    "code": "0L5",
+                                    "description": "FIRST HAND BAG",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "077",
+                                    "description": "ON BOARD PERSONAL ITEM",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "IB0",
+                                    "description": "AVIOS",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB1",
+                                    "description": "AVIOS ELITE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "050",
+                                    "description": "STANDARD SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB5",
+                                    "description": "XL SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "05Z",
+                                    "description": "EMERGENCY SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB3",
+                                    "description": "FRONT SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB4",
+                                    "description": "STD SEAT SEL 24H BEFORE DEPART",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IC3",
+                                    "description": "SNACK OR DRINK",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL"
+                                },
+                                {
+                                    "code": "09A",
+                                    "description": "WIFI CONNECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "IC4",
+                                    "description": "PARTIAL REFUND AS A VOUCHER BD",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "068",
+                                    "description": "CHANGE ANYTIME",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "0CC",
+                                    "description": "FIRST CHECKED BAG",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "0CD",
+                                    "description": "SECOND CHECKED BAG",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "0CE",
+                                    "description": "THIRD CHECKED BAG",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "3",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "paymentCardRequired": false,
+            "lastTicketingDate": "2021-05-12",
+            "itineraries": [
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "CDG",
+                                "terminal": "3",
+                                "at": "2021-07-04T20:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "at": "2021-07-04T22:55:00"
+                            },
+                            "carrierCode": "IB",
+                            "number": "3741",
+                            "aircraft": {
+                                "code": "32A"
+                            },
+                            "operating": {
+                                "carrierCode": "IB"
+                            },
+                            "duration": "PT2H10M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "155.02",
+                "base": "124.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "155.02"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false,
+                "refundableFare": false,
+                "noRestrictionFare": false,
+                "noPenaltyFare": false
+            },
+            "validatingAirlineCodes": [
+                "IB"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "155.02",
+                        "base": "124.00",
+                        "taxes": [
+                            {
+                                "amount": "16.36",
+                                "code": "FR"
+                            },
+                            {
+                                "amount": "1.13",
+                                "code": "IZ"
+                            },
+                            {
+                                "amount": "1.50",
+                                "code": "O4"
+                            },
+                            {
+                                "amount": "12.03",
+                                "code": "QX"
+                            }
+                        ]
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "4",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "SDNNEOM2",
+                            "brandedFare": "BAGSEAT",
+                            "class": "S",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            },
+                            "amenities": [
+                                {
+                                    "code": "IB4",
+                                    "description": "STD SEAT SEL 24H BEFORE DEPART",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "0L5",
+                                    "description": "FIRST HAND BAG",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "077",
+                                    "description": "ON BOARD PERSONAL ITEM",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "0CC",
+                                    "description": "FIRST CHECKED BAG",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "IB0",
+                                    "description": "AVIOS",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB1",
+                                    "description": "AVIOS ELITE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "050",
+                                    "description": "STANDARD SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB5",
+                                    "description": "XL SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "05Z",
+                                    "description": "EMERGENCY SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB3",
+                                    "description": "FRONT SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IC3",
+                                    "description": "SNACK OR DRINK",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL"
+                                },
+                                {
+                                    "code": "09A",
+                                    "description": "WIFI CONNECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "IC4",
+                                    "description": "PARTIAL REFUND AS A VOUCHER BD",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "068",
+                                    "description": "CHANGE ANYTIME",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "0CD",
+                                    "description": "SECOND CHECKED BAG",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "0CE",
+                                    "description": "THIRD CHECKED BAG",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "4",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "paymentCardRequired": false,
+            "lastTicketingDate": "2021-05-12",
+            "itineraries": [
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "CDG",
+                                "terminal": "3",
+                                "at": "2021-07-04T20:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "at": "2021-07-04T22:55:00"
+                            },
+                            "carrierCode": "IB",
+                            "number": "3741",
+                            "aircraft": {
+                                "code": "32A"
+                            },
+                            "operating": {
+                                "carrierCode": "IB"
+                            },
+                            "duration": "PT2H10M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "190.02",
+                "base": "159.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "190.02"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false,
+                "refundableFare": false,
+                "noRestrictionFare": false,
+                "noPenaltyFare": false
+            },
+            "validatingAirlineCodes": [
+                "IB"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "190.02",
+                        "base": "159.00",
+                        "taxes": [
+                            {
+                                "amount": "16.36",
+                                "code": "FR"
+                            },
+                            {
+                                "amount": "1.13",
+                                "code": "IZ"
+                            },
+                            {
+                                "amount": "1.50",
+                                "code": "O4"
+                            },
+                            {
+                                "amount": "12.03",
+                                "code": "QX"
+                            }
+                        ]
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "4",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "SDNNEOU2",
+                            "brandedFare": "COMFORT",
+                            "class": "S",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            },
+                            "amenities": [
+                                {
+                                    "code": "050",
+                                    "description": "STANDARD SEAT SELECTION",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB5",
+                                    "description": "XL SEAT SELECTION",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "05Z",
+                                    "description": "EMERGENCY SEAT SELECTION",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB3",
+                                    "description": "FRONT SEAT SELECTION",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IC5",
+                                    "description": "EARLY CHECK IN",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IC2",
+                                    "description": "PRIORITY BOARDING GROUP 2",
+                                    "isChargeable": false,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "IC4",
+                                    "description": "PARTIAL REFUND AS A VOUCHER BD",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "0L5",
+                                    "description": "FIRST HAND BAG",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "077",
+                                    "description": "ON BOARD PERSONAL ITEM",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "0CC",
+                                    "description": "FIRST CHECKED BAG",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "IB0",
+                                    "description": "AVIOS",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB1",
+                                    "description": "AVIOS ELITE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IC3",
+                                    "description": "SNACK OR DRINK",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL"
+                                },
+                                {
+                                    "code": "09A",
+                                    "description": "WIFI CONNECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "068",
+                                    "description": "CHANGE ANYTIME",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "0CD",
+                                    "description": "SECOND CHECKED BAG",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "0CE",
+                                    "description": "THIRD CHECKED BAG",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "5",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "paymentCardRequired": false,
+            "lastTicketingDate": "2021-05-12",
+            "itineraries": [
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "CDG",
+                                "terminal": "3",
+                                "at": "2021-07-04T20:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "at": "2021-07-04T22:55:00"
+                            },
+                            "carrierCode": "IB",
+                            "number": "3741",
+                            "aircraft": {
+                                "code": "32A"
+                            },
+                            "operating": {
+                                "carrierCode": "IB"
+                            },
+                            "duration": "PT2H10M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "300.02",
+                "base": "269.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "300.02"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false,
+                "refundableFare": false,
+                "noRestrictionFare": false,
+                "noPenaltyFare": false
+            },
+            "validatingAirlineCodes": [
+                "IB"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "300.02",
+                        "base": "269.00",
+                        "taxes": [
+                            {
+                                "amount": "16.36",
+                                "code": "FR"
+                            },
+                            {
+                                "amount": "1.13",
+                                "code": "IZ"
+                            },
+                            {
+                                "amount": "1.50",
+                                "code": "O4"
+                            },
+                            {
+                                "amount": "12.03",
+                                "code": "QX"
+                            }
+                        ]
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "4",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "KDNNEOS2",
+                            "brandedFare": "FLEXIBLE",
+                            "class": "K",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            },
+                            "amenities": [
+                                {
+                                    "code": "050",
+                                    "description": "STANDARD SEAT SELECTION",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB3",
+                                    "description": "FRONT SEAT SELECTION",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IC5",
+                                    "description": "EARLY CHECK IN",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "068",
+                                    "description": "CHANGE ANYTIME",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB9",
+                                    "description": "CHANGES NO SHOW",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "0L5",
+                                    "description": "FIRST HAND BAG",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "077",
+                                    "description": "ON BOARD PERSONAL ITEM",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "0CC",
+                                    "description": "FIRST CHECKED BAG",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "IB0",
+                                    "description": "AVIOS",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB1",
+                                    "description": "AVIOS ELITE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB5",
+                                    "description": "XL SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "05Z",
+                                    "description": "EMERGENCY SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IC3",
+                                    "description": "SNACK OR DRINK",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL"
+                                },
+                                {
+                                    "code": "09A",
+                                    "description": "WIFI CONNECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "IB7",
+                                    "description": "REFUNDS ANYTIME",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "0CD",
+                                    "description": "SECOND CHECKED BAG",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "0CE",
+                                    "description": "THIRD CHECKED BAG",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "6",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "paymentCardRequired": false,
+            "lastTicketingDate": "2021-05-12",
+            "itineraries": [
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "CDG",
+                                "terminal": "3",
+                                "at": "2021-07-04T20:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "at": "2021-07-04T22:55:00"
+                            },
+                            "carrierCode": "IB",
+                            "number": "3741",
+                            "aircraft": {
+                                "code": "32A"
+                            },
+                            "operating": {
+                                "carrierCode": "IB"
+                            },
+                            "duration": "PT2H10M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "481.66",
+                "base": "433.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "481.66"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false,
+                "refundableFare": false,
+                "noRestrictionFare": false,
+                "noPenaltyFare": false
+            },
+            "validatingAirlineCodes": [
+                "IB"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "481.66",
+                        "base": "433.00",
+                        "taxes": [
+                            {
+                                "amount": "16.36",
+                                "code": "FR"
+                            },
+                            {
+                                "amount": "11.27",
+                                "code": "IZ"
+                            },
+                            {
+                                "amount": "9.00",
+                                "code": "O4"
+                            },
+                            {
+                                "amount": "12.03",
+                                "code": "QX"
+                            }
+                        ]
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "4",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "DDNNEOS2",
+                            "brandedFare": "BUSFLEX",
+                            "class": "D",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            },
+                            "amenities": [
+                                {
+                                    "code": "050",
+                                    "description": "STANDARD SEAT SELECTION",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "05Z",
+                                    "description": "EMERGENCY SEAT SELECTION",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB6",
+                                    "description": "SUPERIOR SEAT SELECTION",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IC5",
+                                    "description": "EARLY CHECK IN",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "0B3",
+                                    "description": "MEAL",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL"
+                                },
+                                {
+                                    "code": "0BX",
+                                    "description": "LOUNGE ACCESS",
+                                    "isChargeable": false,
+                                    "amenityType": "LOUNGE"
+                                },
+                                {
+                                    "code": "0LW",
+                                    "description": "PRIORITY SECURITY",
+                                    "isChargeable": false,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "0LF",
+                                    "description": "PRIORITY BAGGAGE",
+                                    "isChargeable": false,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "0G6",
+                                    "description": "PRIORITY BOARDING GROUP 1",
+                                    "isChargeable": false,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "03P",
+                                    "description": "PRIORITY CHECK IN",
+                                    "isChargeable": false,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "089",
+                                    "description": "FREE LIMITED WIFI",
+                                    "isChargeable": false,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "IB7",
+                                    "description": "REFUNDS ANYTIME",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "068",
+                                    "description": "CHANGE ANYTIME",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "0L5",
+                                    "description": "FIRST HAND BAG",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "077",
+                                    "description": "ON BOARD PERSONAL ITEM",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "0CC",
+                                    "description": "FIRST CHECKED BAG",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "0CD",
+                                    "description": "SECOND CHECKED BAG",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE"
+                                },
+                                {
+                                    "code": "IB0",
+                                    "description": "AVIOS",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB1",
+                                    "description": "AVIOS ELITE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IC3",
+                                    "description": "SNACK OR DRINK",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL"
+                                },
+                                {
+                                    "code": "09A",
+                                    "description": "WIFI CONNECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "TRAVEL_SERVICES"
+                                },
+                                {
+                                    "code": "IB8",
+                                    "description": "REFUNDS NO SHOW",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "IB9",
+                                    "description": "CHANGES NO SHOW",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES"
+                                },
+                                {
+                                    "code": "0CE",
+                                    "description": "THIRD CHECKED BAG",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "dictionaries": {
+        "locations": {
+            "MAD": {
+                "cityCode": "MAD",
+                "countryCode": "ES"
+            },
+            "CDG": {
+                "cityCode": "PAR",
+                "countryCode": "FR"
+            }
+        }
+    }
+}
