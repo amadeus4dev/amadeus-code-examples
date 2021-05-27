@@ -1,6 +1,7 @@
 // How to install the library at https://github.com/amadeus4dev/amadeus-android
 
 import com.amadeus.android.Amadeus
+import com.amadeus.android.ApiResult
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
