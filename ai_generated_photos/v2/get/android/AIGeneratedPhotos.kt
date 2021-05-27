@@ -17,10 +17,10 @@ val amadeus = Amadeus.Builder(context)
 
 scope.launch {
   when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN"))) {
-    is Result.Success -> {
+    is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }
-    is Result.Error -> {
+    is ApiResult.Error -> {
       // Handle your error
     }
   }

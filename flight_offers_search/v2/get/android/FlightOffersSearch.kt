@@ -1,6 +1,7 @@
 // How to install the library at https://github.com/amadeus4dev/amadeus-android
 
 import com.amadeus.android.Amadeus
+import com.amadeus.android.ApiResult
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -23,10 +24,10 @@ scope.launch {
                             returnDate ="2020-11-08",
                             adults = 2,
                             max = 3)) {
-    is Result.Success -> {
+    is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }
-    is Result.Error -> {
+    is ApiResult.Error -> {
       // Handle your error
     }
   }
