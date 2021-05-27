@@ -1,0 +1,235 @@
+{
+  "data": {
+    "type": "string",
+    "hotel": {
+      "type": "hotel",
+      "hotelId": "ADPAR001",
+      "chainCode": "AD",
+      "brandCode": "RT",
+      "dupeId": "501132260",
+      "name": "Hotel de Paris",
+      "rating": "5",
+      "description": {
+        "lang": "string",
+        "text": "string"
+      },
+      "amenities": [
+        "SWIMMING_POOL",
+        "SPA"
+      ],
+      "media": [
+        {
+          "uri": "http://pdt.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/69810B23CB8644A18AF760DC66BE41A6",
+          "category": "EXTERIOR"
+        }
+      ],
+      "cityCode": "PAR",
+      "latitude": 52.52387,
+      "longitude": 13.38357,
+      "hotelDistance": {
+        "distance": 0.3,
+        "distanceUnit": "KM"
+      },
+      "address": {
+        "lines": [
+          "string"
+        ],
+        "postalCode": "string",
+        "cityName": "string",
+        "countryCode": "FR",
+        "stateCode": "string"
+      },
+      "contact": {
+        "phone": "+33679278416",
+        "fax": "+33679278417",
+        "email": "hotel@brand.com"
+      }
+    },
+    "available": true,
+    "offers": [
+      {
+        "type": "hotel-offer",
+        "id": "63A93695B58821ABB0EC2B33FE9FAB24D72BF34B1BD7D707293763D8D9378FC3",
+        "checkInDate": "2020-12-30",
+        "checkOutDate": "2020-12-31",
+        "roomQuantity": 1,
+        "rateCode": "RAC",
+        "rateFamilyEstimated": {
+          "code": "string",
+          "type": "string"
+        },
+        "category": "FAMILY_PLAN",
+        "description": {
+          "lang": "string",
+          "text": "string"
+        },
+        "commission": {
+          "percentage": "string",
+          "amount": "string",
+          "description": {
+            "lang": "string",
+            "text": "string"
+          }
+        },
+        "boardType": "BREAKFAST",
+        "room": {
+          "type": "string",
+          "typeEstimated": {
+            "category": "string",
+            "beds": 0,
+            "bedType": "string"
+          },
+          "description": {
+            "lang": "string",
+            "text": "string"
+          }
+        },
+        "guests": {
+          "adults": 2,
+          "childAges": [
+            0
+          ]
+        },
+        "price": {
+          "currency": "string",
+          "total": "string",
+          "base": "string",
+          "taxes": [
+            {
+              "currency": "string",
+              "amount": "string",
+              "code": "string",
+              "percentage": "string",
+              "included": true,
+              "description": "string",
+              "pricingFrequency": "string",
+              "pricingMode": "string"
+            }
+          ],
+          "variations": {
+            "average": {
+              "base": "string",
+              "total": "string"
+            },
+            "changes": [
+              {
+                "startDate": "2020-07-13",
+                "endDate": "2020-07-13",
+                "base": "string",
+                "total": "string"
+              }
+            ]
+          }
+        },
+        "policies": {
+          "paymentType": "deposit",
+          "guarantee": {
+            "description": {
+              "lang": "string",
+              "text": "string"
+            },
+            "acceptedPayments": {
+              "creditCards": [
+                "CA",
+                "VI",
+                "AX"
+              ],
+              "methods": [
+                "CREDIT_CARD"
+              ]
+            }
+          },
+          "deposit": {
+            "amount": "string",
+            "deadline": "2020-07-13T11:08:33.268Z",
+            "description": {
+              "lang": "string",
+              "text": "string"
+            },
+            "acceptedPayments": {
+              "creditCards": [
+                "CA",
+                "VI",
+                "AX"
+              ],
+              "methods": [
+                "CREDIT_CARD"
+              ]
+            }
+          },
+          "prepay": {
+            "amount": "string",
+            "deadline": "2020-07-13T11:08:33.268Z",
+            "description": {
+              "lang": "string",
+              "text": "string"
+            },
+            "acceptedPayments": {
+              "creditCards": [
+                "CA",
+                "VI",
+                "AX"
+              ],
+              "methods": [
+                "CREDIT_CARD"
+              ]
+            }
+          },
+          "holdTime": {
+            "deadline": "2020-07-13T11:08:33.268Z"
+          },
+          "cancellation": {
+            "type": "string",
+            "amount": "string",
+            "numberOfNights": 0,
+            "percentage": "string",
+            "deadline": "2020-07-13T11:08:33.268Z",
+            "description": {
+              "lang": "string",
+              "text": "string"
+            }
+          },
+          "checkInOut": {
+            "checkIn": "13:00:00",
+            "checkInDescription": {
+              "lang": "string",
+              "text": "string"
+            },
+            "checkOut": "11:00:00",
+            "checkOutDescription": {
+              "lang": "string",
+              "text": "string"
+            }
+          }
+        },
+        "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/63A93695B58821ABB0EC2B33FE9FAB24D72BF34B1BD7D707293763D8D9378FC3"
+      }
+    ],
+    "self": "string"
+  },
+  "meta": {
+    "links": {
+      "next": "string"
+    },
+    "lang": "string"
+  },
+  "dictionaries": {
+    "currencyConversionLookupRates": {
+      "additionalProp1": {
+        "rate": "string",
+        "target": "string",
+        "targetDecimalPlaces": 0
+      },
+      "additionalProp2": {
+        "rate": "string",
+        "target": "string",
+        "targetDecimalPlaces": 0
+      },
+      "additionalProp3": {
+        "rate": "string",
+        "target": "string",
+        "targetDecimalPlaces": 0
+      }
+    }
+  }
+}

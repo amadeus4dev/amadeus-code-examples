@@ -1,0 +1,54 @@
+{ "data": [  {
+    "type": "hotelSentiment",
+    "numberOfReviews": 218,
+    "numberOfRatings": 278,
+   "hotelId": "ADNYCCTB",
+    "overallRating": 93,
+    "sentiments": {
+      "sleepQuality": 87,
+      "service": 98,
+      "facilities": 90,
+      "roomComforts": 92,
+      "valueForMoney": 87,
+      "catering": 89,
+      "location": 98,
+      "pointsOfInterest": 91,
+      "staff": 100
+    }
+  },
+  {
+    "type": "hotelSentiment",
+    "numberOfReviews": 2667,
+    "numberOfRatings": 2666,
+    "hotelId": "TELONMFS",
+    "overallRating": 81,
+    "sentiments": {
+      "sleepQuality": 78,
+      "service": 80,
+      "facilities": 75,
+      "roomComforts": 87,
+      "valueForMoney": 75,
+      "catering": 81,
+     "location": 89,
+      "internet": 72,
+      "pointsOfInterest": 81,
+      "staff": 89
+    }
+  }
+],
+"meta": {    "count": 1,
+    "links": {
+        "self": "https://test.api.amadeus.com/v2/e-reputation/hotel-sentiments?hotelIds=ADNYCCTB,TELONMFS,XXXYYY01"
+    }
+},
+"warnings":  [    {
+      "code": 913,
+      "title": "PROPERTIES NOT FOUND",
+      "detail": "Some of the requested properties were not found in our database.",
+      "source": {
+        "parameter": "hotelIds",
+        "pointer": "XXXYYY01"
+      }
+    }
+  ]
+}

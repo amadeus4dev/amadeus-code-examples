@@ -1,0 +1,207 @@
+{
+    "meta": {
+        "currency": "EUR",
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=MAD&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DESTINATION"
+        },
+        "defaults": {
+            "departureDate": "2019-10-20,2020-04-17",
+            "oneWay": false,
+            "nonStop": false,
+            "viewBy": "DESTINATION"
+        }
+    },
+    "data": [
+        {
+            "type": "flight-destination",
+            "origin": "MAD",
+            "destination": "BIO",
+            "departureDate": "2019-10-21",
+            "returnDate": "2019-10-23",
+            "price": {
+                "total": "92.26"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=BIO&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=BIO&departureDate=2019-10-21&returnDate=2019-10-23&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "MAD",
+            "destination": "BUH",
+            "departureDate": "2019-11-10",
+            "returnDate": "2019-11-12",
+            "price": {
+                "total": "124.37"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=BUH&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=BUH&departureDate=2019-11-10&returnDate=2019-11-12&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "MAD",
+            "destination": "LJU",
+            "departureDate": "2019-12-14",
+            "returnDate": "2019-12-16",
+            "price": {
+                "total": "271.18"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=LJU&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=LJU&departureDate=2019-12-14&returnDate=2019-12-16&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "MAD",
+            "destination": "NYC",
+            "departureDate": "2020-01-18",
+            "returnDate": "2020-01-20",
+            "price": {
+                "total": "324.71"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=NYC&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=NYC&departureDate=2020-01-18&returnDate=2020-01-20&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "MAD",
+            "destination": "DEL",
+            "departureDate": "2019-11-24",
+            "returnDate": "2019-11-26",
+            "price": {
+                "total": "457.56"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=DEL&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=DEL&departureDate=2019-11-24&returnDate=2019-11-26&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "MAD",
+            "destination": "CHI",
+            "departureDate": "2019-11-02",
+            "returnDate": "2019-11-04",
+            "price": {
+                "total": "525.68"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=CHI&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=CHI&departureDate=2019-11-02&returnDate=2019-11-04&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "MAD",
+            "destination": "PUJ",
+            "departureDate": "2020-01-11",
+            "returnDate": "2020-01-13",
+            "price": {
+                "total": "574.55"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=PUJ&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=PUJ&departureDate=2020-01-11&returnDate=2020-01-13&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "MAD",
+            "destination": "UIO",
+            "departureDate": "2019-12-08",
+            "returnDate": "2019-12-10",
+            "price": {
+                "total": "720.23"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=UIO&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=UIO&departureDate=2019-12-08&returnDate=2019-12-10&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "MAD",
+            "destination": "CLO",
+            "departureDate": "2019-10-27",
+            "returnDate": "2019-10-29",
+            "price": {
+                "total": "770.45"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=CLO&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=CLO&departureDate=2019-10-27&returnDate=2019-10-29&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "MAD",
+            "destination": "MEL",
+            "departureDate": "2019-12-22",
+            "returnDate": "2019-12-24",
+            "price": {
+                "total": "781.69"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=MEL&departureDate=2019-10-20,2020-04-17&oneWay=false&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=MEL&departureDate=2019-12-22&returnDate=2019-12-24&adults=1&nonStop=false"
+            }
+        }
+    ],
+    "dictionaries": {
+        "currencies": {
+            "EUR": "EURO"
+        },
+        "locations": {
+            "MAD": {
+                "subType": "AIRPORT",
+                "detailedName": "ADOLFO SUAREZ BARAJAS"
+            },
+            "PUJ": {
+                "subType": "AIRPORT",
+                "detailedName": "INTERNATIONAL"
+            },
+            "BUH": {
+                "subType": "CITY",
+                "detailedName": "BUCHAREST"
+            },
+            "CHI": {
+                "subType": "CITY",
+                "detailedName": "CHICAGO"
+            },
+            "MEL": {
+                "subType": "AIRPORT",
+                "detailedName": "MELBOURNE AIRPORT"
+            },
+            "LJU": {
+                "subType": "AIRPORT",
+                "detailedName": "JOZE PUCNIK"
+            },
+            "CLO": {
+                "subType": "AIRPORT",
+                "detailedName": "ALFONSO B ARAGON INTL"
+            },
+            "BIO": {
+                "subType": "AIRPORT",
+                "detailedName": "BILBAO AIRPORT"
+            },
+            "NYC": {
+                "subType": "CITY",
+                "detailedName": "NEW YORK"
+            },
+            "DEL": {
+                "subType": "AIRPORT",
+                "detailedName": "INDIRA GANDHI INTL"
+            },
+            "UIO": {
+                "subType": "AIRPORT",
+                "detailedName": "MARISCAL SUCRE INTL"
+            }
+        }
+    }
+}

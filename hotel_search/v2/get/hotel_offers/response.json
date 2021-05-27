@@ -1,0 +1,230 @@
+{
+  "data": [
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "EAMIAMAP",
+        "chainCode": "EA",
+        "dupeId": "700107767",
+        "name": "CONCORDE OPERA PARIS OPERA PARIS",
+        "rating": "2",
+        "cityCode": "MIA",
+        "latitude": 48.85693,
+        "longitude": 2.3412,
+        "hotelDistance": {
+          "distance": 0.4,
+          "distanceUnit": "KM"
+        },
+        "address": {
+          "lines": [
+            "LEFISTON STREET"
+          ],
+          "cityName": "PARIS",
+          "countryCode": "FR"
+        },
+        "contact": {
+          "phone": "1-305-436-1811",
+          "fax": "1-305-436-1864"
+        },
+        "amenities": [
+          "HANDICAP_FAC",
+          "ACC_BATHS",
+          "ACC_WASHBASIN",
+          "ACC_BATH_CTRLS",
+          "ACC_LIGHT_SW",
+          "ACC_ELEVATORS",
+          "ACC_TOILETS",
+          "SERV_DOGS_ALWD",
+          "DIS_PARKG",
+          "HANDRAIL_BTHRM",
+          "ADAPTED_PHONES",
+          "ADAPT_RM_DOORS",
+          "ACC_RM_WCHAIR",
+          "TV_SUB/CAPTION",
+          "ACC_WCHAIR",
+          "HANDRAIL_BTHRM",
+          "EXT_ROOM_ENTRY",
+          "EMERG_LIGHTING",
+          "EXTINGUISHERS",
+          "FIRE_SAFETY",
+          "RESTRIC_RM_ACC",
+          "SMOKE_DETECTOR",
+          "SPRINKLERS",
+          "KIDS_WELCOME",
+          "ELEVATOR",
+          "INT_HOTSPOTS",
+          "FREE_INTERNET",
+          "LAUNDRY_SVC",
+          "NO_PORN_FILMS",
+          "PARKING",
+          "PETS_ALLOWED",
+          "SWIMMING_POOL",
+          "AIR_CONDITIONING",
+          "KITCHEN",
+          "NONSMOKING_RMS",
+          "TELEVISION",
+          "WI-FI_IN_ROOM"
+        ],
+        "media": [
+          {
+            "uri": "http://pdt.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/69810B23CB8644A18AF760DC66BE41A6",
+            "category": "EXTERIOR"
+          }
+        ]
+      },
+      "available": true,
+      "offers": [
+        {
+          "id": "ECF8AD653801C3A81B3D04BAEF0D85AF182E8FB2115B0FAD144D49FAD108C60D",
+          "rateCode": "RAC",
+          "room": {
+            "type": "A0C",
+            "typeEstimated": {
+              "category": "ACCESSIBLE_ROOM",
+              "beds": 1,
+              "bedType": "QUEEN"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "NIGHTLY VALUE RATE\nSTANDARD STUDIO 1 QUEEN NONSMKNG ACCESSIBLE\nFREE WIFI"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "USD",
+            "base": "114.99",
+            "total": "129.94",
+            "variations": {
+              "average": {
+                "base": "114.99"
+              },
+              "changes": [
+                {
+                  "startDate": "2019-01-22",
+                  "endDate": "2019-01-23",
+                  "base": "114.99"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=EAMIAMAP&adults=1&paymentPolicy=NONE&view=FULL"
+    },
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "BWPAR261",
+        "chainCode": "BW",
+        "dupeId": "700019804",
+        "name": "BEST WESTERN AU TROCADERO",
+        "rating": "3",
+        "cityCode": "PAR",
+        "latitude": 48.85326,
+        "longitude": 2.33855,
+        "hotelDistance": {
+          "distance": 0.5,
+          "distanceUnit": "KM"
+        },
+        "address": {
+          "lines": [
+            "3 AVENUE RAYMOND-POINCARE "
+          ],
+          "postalCode": "FR75116",
+          "cityName": "PARIS",
+          "countryCode": "FR"
+        },
+        "contact": {
+          "fax": "33-1-47278085",
+          "phone": "33-1-47273330"
+        },
+        "description": {
+          "lang": "en",
+          "text": "The best western au trocadero is located in one of the most elegant district of paris, facing the trocadero, the eiffel tower and champ de mars. You will enjoy the friendly setting."
+        },
+        "amenities": [
+          "BAR",
+          "ICE_MACHINES",
+          "RESTAURANT",
+          "ACC_BATHS",
+          "ACC_TOILETS",
+          "HANDRAIL_BTHRM",
+          "ACC_RM_WCHAIR",
+          "BABY-SITTING",
+          "KIDS_WELCOME",
+          "ELEVATOR",
+          "WIFI",
+          "LAUNDRY_SVC",
+          "LOUNGE",
+          "AIR_CONDITIONING",
+          "HAIR_DRYER",
+          "MINIBAR",
+          "NONSMOKING_RMS",
+          "ROOM_SERVICE",
+          "TELEVISION",
+          "WI-FI_IN_ROOM",
+          "EXT_ROOM_ENTRY",
+          "EMERG_LIGHTING",
+          "EXTINGUISHERS",
+          "FIRE_SAFETY",
+          "SMOKE_DETECTOR",
+          "VIDEO_SURVEIL"
+        ],
+        "media": [
+          {
+            "uri": "http://pdt.multimediarepository.testing.amadeus.com/cmr/retrieve/hotel/D231E485EDCB4AB1B61F3032404474D1",
+            "category": "EXTERIOR"
+          }
+        ]
+      },
+      "available": true,
+      "offers": [
+        {
+          "id": "7D158B52F8A4EED40A30AA8D96E957EC26C3AC381099486510BA1E32F468FA35",
+          "rateCode": "RAC",
+          "rateFamilyEstimated": {
+            "code": "BAR",
+            "type": "P"
+          },
+          "room": {
+            "type": "A2T",
+            "description": {
+              "lang": "EN",
+              "text": "FLEXIBLE RATE*BEST LEAST RESTRICTIVE RATE\n2 SINGLE BEDS,CONFORT RM,GRABBR,RAMP ACCESS,\nWHEELCHAIR"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "base": "150.00",
+            "total": "151.65",
+            "variations": {
+              "average": {
+                "base": "150.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2019-01-22",
+                  "endDate": "2019-01-23",
+                  "base": "150.00"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=BWPAR261&adults=1&paymentPolicy=NONE&view=FULL"
+    }
+  ],
+  "meta": {
+    "links": {
+      "next": "https://test.api.amadeus.com/v2/shopping/hotel-offers?adults=1&bestRateOnly=true&cityCode=PAR&includeClosed=false&paymentPolicy=NONE&radius=5&radiusUnit=KM&sort=PRICE&view=FULL&page[offset]=05G15W3U2NWG_96"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "data": [
+        {
+            "id": "TK1816NCEIST20200801",
+            "probability": "0.13336977",
+            "result": "LESS_THAN_30_MINUTES",
+            "subType": "flight-delay",
+            "type": "prediction"
+        },
+        {
+            "id": "TK1816NCEIST20200801",
+            "probability": "0.42023364",
+            "result": "BETWEEN_30_AND_60_MINUTES",
+            "subType": "flight-delay",
+            "type": "prediction"
+        },
+        {
+            "id": "TK1816NCEIST20200801",
+            "probability": "0.34671372",
+            "result": "BETWEEN_60_AND_120_MINUTES",
+            "subType": "flight-delay",
+            "type": "prediction"
+        },
+        {
+            "id": "TK1816NCEIST20200801",
+            "probability": "0.09968289",
+            "result": "OVER_120_MINUTES_OR_CANCELLED",
+            "subType": "flight-delay",
+            "type": "prediction"
+        }
+    ],
+    "meta": {
+        "count": 4,
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/travel/predictions/flight-delay?originLocationCode=NCE&destinationLocationCode=IST&departureDate=2020-08-01&departureTime=18:20:00&arrivalDate=2020-08-01&arrivalTime=22:15:00&aircraftCode=321&carrierCode=TK&flightNumber=1816&duration=PT31H10M"
+        }
+    }
+}

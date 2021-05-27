@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "count": 10,
+    "links": {
+      "self": "https://api.amadeus.com/v1/travel/analytics/air-traffic/booked?originCityCode=MAD&page%5Blimit%5D=10&page%5Boffset%5D=0&period=2017-08"
+    }
+  },
+  "data": [
+    {
+      "type": "air-traffic",
+      "destination": "TCI",
+      "subType": "BOOKED",
+      "analytics": {
+        "flights": {
+          "score": 63
+        },
+        "travelers": {
+          "score": 100
+        }
+      }
+    },
+    {
+      "type": "air-traffic",
+      "destination": "PAR",
+      "subType": "BOOKED",
+      "analytics": {
+        "flights": {
+          "score": 86
+        },
+        "travelers": {
+          "score": 98
+        }
+      }
+    },
+    {
+      "type": "air-traffic",
+      "destination": "BUE",
+      "subType": "BOOKED",
+      "analytics": {
+        "flights": {
+          "score": 100
+        },
+        "travelers": {
+          "score": 95
+        }
+      }
+    },
+    {
+      "type": "air-traffic",
+      "destination": "LPA",
+      "subType": "BOOKED",
+      "analytics": {
+        "flights": {
+          "score": 52
+        },
+        "travelers": {
+          "score": 94
+        }
+      }
+    },
+    {
+      "type": "air-traffic",
+      "destination": "LON",
+      "subType": "BOOKED",
+      "analytics": {
+        "flights": {
+          "score": 88
+        },
+        "travelers": {
+          "score": 89
+        }
+      }
+    },
+    {
+      "type": "air-traffic",
+      "destination": "PMI",
+      "subType": "BOOKED",
+      "analytics": {
+        "flights": {
+          "score": 57
+        },
+        "travelers": {
+          "score": 71
+        }
+      }
+    },
+    {
+      "type": "air-traffic",
+      "destination": "BCN",
+      "subType": "BOOKED",
+      "analytics": {
+        "flights": {
+          "score": 72
+        },
+        "travelers": {
+          "score": 67
+        }
+      }
+    },
+    {
+      "type": "air-traffic",
+      "destination": "LIS",
+      "subType": "BOOKED",
+      "analytics": {
+        "flights": {
+          "score": 60
+        },
+        "travelers": {
+          "score": 61
+        }
+      }
+    },
+    {
+      "type": "air-traffic",
+      "destination": "NYC",
+      "subType": "BOOKED",
+      "analytics": {
+        "flights": {
+          "score": 65
+        },
+        "travelers": {
+          "score": 59
+        }
+      }
+    },
+    {
+      "type": "air-traffic",
+      "destination": "LIM",
+      "subType": "BOOKED",
+      "analytics": {
+        "flights": {
+          "score": 42
+        },
+        "travelers": {
+          "score": 56
+        }
+      }
+    }
+  ]
+}

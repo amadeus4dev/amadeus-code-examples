@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "links": {
+      "self": "http://test.api.amadeus.com/v1/safety/safety-rated-locations/Q930400801"
+    }
+  },
+  "data": {
+    "type": "safety-rated-location",
+    "id": "Q930400801",
+    "self": {
+      "href": "http://test.api.amadeus.com/v1/safety/safety-rated-locations/Q930400801",
+      "methods": [
+        "GET"
+      ]
+    },
+    "subType": "CITY",
+    "name": "Nice",
+    "geoCode": {
+      "longitude": 7.265592,
+      "latitude": 43.696036
+    },
+    "safetyRating": {
+      "women": 20,
+      "physicalHarm": 20,
+      "theft": 20,
+      "politicalFreedom": 20,
+      "lgbtq": 20,
+      "medical": 20,
+      "overall": 20
+    }
+  }
+}

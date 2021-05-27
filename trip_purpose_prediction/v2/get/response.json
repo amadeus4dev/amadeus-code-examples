@@ -1,0 +1,14 @@
+{
+  "meta": {
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/travel/predictions/trip-purpose?originLocationCode=NYC&destinationLocationCode=MAD&departureDate=2020-08-01&returnDate=2020-08-12&searchDate=2020-06-11"
+        }
+    },
+  "data": {
+      "id": "NCECDG25012019",
+      "type": "prediction",
+      "subtype": "trip-purpose",
+      "result": "BUSINESS",
+      "probability" : 0.7891235
+    }
+}
