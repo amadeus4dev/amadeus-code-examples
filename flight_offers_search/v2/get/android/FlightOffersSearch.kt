@@ -20,8 +20,8 @@ scope.launch {
   when (val flightOffersSearches = amadeus.shopping.flightOffersSearch.get(
                             originLocationCode = "SYD",
                             destinationLocationCode = "BKK",
-                            departureDate = "2020-11-01",
-                            returnDate ="2020-11-08",
+                            departureDate = "2021-11-01",
+                            returnDate ="2021-11-08",
                             adults = 2,
                             max = 3)) {
     is ApiResult.Success -> {

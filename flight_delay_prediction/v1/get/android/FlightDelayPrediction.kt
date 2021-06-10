@@ -20,9 +20,9 @@ scope.launch {
   when (val flightDelay = amadeus.travel.predictions.flightDelay.get(
                     originLocationCode = "NCE",
                     destinationLocationCode = "IST",
-                    departureDate = "2020-08-01",
+                    departureDate = "2021-11-01",
                     departureTime = "18:20:00",
-                    arrivalDate = "2020-08-01",
+                    arrivalDate = "2021-11-01",
                     arrivalTime = "22:15:00",
                     aircraftCode = "321",
                     carrierCode = "TK",
