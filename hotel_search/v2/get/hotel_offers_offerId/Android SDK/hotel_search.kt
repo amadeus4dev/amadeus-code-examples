@@ -17,7 +17,7 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (amadeus.shopping.hotelOffer("'176383FB301E78D430F81A6CB6134EBF801DCC1AE14FC9DCCE84D17C6B519F5B'").get()) {
+  when (amadeus.shopping.hotelOffer("8MXZ1TKO5T").get()) {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }
