@@ -17,7 +17,10 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN")) {
+  when (val activities = amadeus.shopping.activities.get(
+                    latitude = 41.397158,
+                    longitude = 2.160873,
+                    radius = 2)) {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }

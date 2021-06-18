@@ -17,7 +17,7 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN")) {
+  when (val recommendations = amadeus.referenceData.recommendedLocations.get(cityCodes = "PAR", travelerCountryCode = "FR")) {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }

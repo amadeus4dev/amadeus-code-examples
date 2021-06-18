@@ -17,7 +17,11 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN")) {
+  when (val hotels = amadeus.shopping.hotelOffers.get(
+            hotelId = "BGMILBGB",
+            checkInDate = "2021-09-01",
+            checkOutDate = "2021-09-02",
+            adults = 2) {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }

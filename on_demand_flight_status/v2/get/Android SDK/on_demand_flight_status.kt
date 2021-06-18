@@ -17,7 +17,10 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN")) {
+  when (val status = amadeus.schedule.flights.get(
+                carrierCode = "IB",
+                flightNumber = "532",
+                scheduleDepartureDate = "2021-11-23") {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }

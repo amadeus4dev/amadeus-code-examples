@@ -17,7 +17,10 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN")) {
+  when (val analysis = amadeus.analytics.itineraryPriceMetrics.get(
+                originIataCode = "MAD",
+                destinationIataCode = "CDG",
+                departureDate = "2021-03-21")) {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }

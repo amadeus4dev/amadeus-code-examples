@@ -17,7 +17,7 @@ val amadeus = Amadeus.Builder(context)
     .build()
 
 scope.launch {
-  when (val result = amadeus.media.files.generatedPhotos.get("MOUNTAIN")) {
+  when (val activity = amadeus.shopping.activity("23642").get()) {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }
