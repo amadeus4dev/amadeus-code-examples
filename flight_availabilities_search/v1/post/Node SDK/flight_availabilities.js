@@ -1,7 +1,7 @@
 var Amadeus = require("amadeus");
 var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+    clientId: 'YOUR_API_KEY',
+    clientSecret: 'YOUR_API_SECRET'
 });
 
 body = JSON.stringify({
@@ -11,7 +11,7 @@ body = JSON.stringify({
             "originLocationCode": "MIA",
             "destinationLocationCode": "ATL",
             "departureDateTime": {
-                "date": "2021-11-01"
+                "date": "2022-11-01"
             }
         }
     ],
@@ -27,7 +27,7 @@ body = JSON.stringify({
 })
 
 amadeus.shopping.availability.flightAvailabilities.post(body).then(function (response) {
-  console.log(response);
+    console.log(response);
 }).catch(function (response) {
-  console.error(response);
+    console.error(response);
 });

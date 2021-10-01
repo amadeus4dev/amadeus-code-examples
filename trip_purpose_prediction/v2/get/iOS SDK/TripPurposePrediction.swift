@@ -7,9 +7,9 @@ var amadeus: Amadeus = Amadeus(
 
 amadeus.travel.predictions.tripPurpose.get(params: ["originLocationCode": "NYC",
     "destinationLocationCode": "MAD",
-    "departureDate": "2020-08-01",
-    "returnDate": "2020-08-12",
-    "searchDate": "2020-06-11"],
+    "departureDate": "2022-08-01",
+    "returnDate": "2022-08-12",
+    "searchDate": "2022-06-11"],
     onCompletion: { result in
         switch result {
         case let .success(response):

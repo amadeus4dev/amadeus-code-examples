@@ -17,7 +17,7 @@ https://test.api.amadeus.com/v1/shopping/seatmaps \
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
-            "lastTicketingDate": "2020-03-07",
+            "lastTicketingDate": "2022-03-07",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -27,12 +27,12 @@ https://test.api.amadeus.com/v1/shopping/seatmaps \
                             "departure": {
                                 "iataCode": "NCE",
                                 "terminal": "1",
-                                "at": "2020-09-26T06:00:00"
+                                "at": "2022-09-26T06:00:00"
                             },
                             "arrival": {
                                 "iataCode": "LIS",
                                 "terminal": "1",
-                                "at": "2020-09-26T07:35:00"
+                                "at": "2022-09-26T07:35:00"
                             },
                             "carrierCode": "TP",
                             "number": "481",
@@ -51,12 +51,12 @@ https://test.api.amadeus.com/v1/shopping/seatmaps \
                             "departure": {
                                 "iataCode": "LIS",
                                 "terminal": "1",
-                                "at": "2020-09-26T12:15:00"
+                                "at": "2022-09-26T12:15:00"
                             },
                             "arrival": {
                                 "iataCode": "EWR",
                                 "terminal": "B",
-                                "at": "2020-09-26T15:15:00"
+                                "at": "2022-09-26T15:15:00"
                             },
                             "carrierCode": "TP",
                             "number": "201",

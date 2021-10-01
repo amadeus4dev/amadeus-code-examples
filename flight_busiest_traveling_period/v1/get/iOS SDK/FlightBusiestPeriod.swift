@@ -7,7 +7,7 @@ var amadeus: Amadeus = Amadeus(
 
 // Flight Busiest Traveling Period
 amadeus.travel.analytics.airTraffic.busiestPeriod.get(params: ["cityCode": "MAD",
-    "period": "2017",
+    "period": "2022",
     "direction": "ARRIVING"],
     onCompletion: { result in
         switch result {

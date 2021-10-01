@@ -6,16 +6,16 @@ var amadeus = new Amadeus({
 });
 
 amadeus.shopping.flightOffersSearch.get({
-    originLocationCode: 'SYD',
-    destinationLocationCode: 'BKK',
-    departureDate: '2020-08-01',
-    adults: '2'
-}).then(function(response){
-    return amadeus.shopping.flightOffers.prediction.post(
-      JSON.stringify(response)
-    );
-}).then(function(response){
-    console.log(response.data);
-}).catch(function(responseError){
-    console.log(responseError);
+  originLocationCode: 'SYD',
+  destinationLocationCode: 'BKK',
+  departureDate: '2022-08-01',
+  adults: '2'
+}).then(function (response) {
+  return amadeus.shopping.flightOffers.prediction.post(
+    JSON.stringify(response)
+  );
+}).then(function (response) {
+  console.log(response.data);
+}).catch(function (responseError) {
+  console.log(responseError);
 });

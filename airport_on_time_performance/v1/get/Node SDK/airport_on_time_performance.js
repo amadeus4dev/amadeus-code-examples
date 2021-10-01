@@ -7,7 +7,7 @@ var amadeus = new Amadeus({
 // Will there be a delay in the JFK airport on the 1st of September?
 amadeus.airport.predictions.onTime.get({
   airportCode: 'JFK',
-  date: '2020-09-01'
+  date: '2022-09-01'
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {

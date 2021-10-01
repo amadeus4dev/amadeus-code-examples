@@ -7,7 +7,7 @@ var amadeus = new Amadeus({
 // What were the busiest months for Madrid in 2017?
 amadeus.travel.analytics.airTraffic.busiestPeriod.get({
   cityCode: 'MAD',
-  period: '2017',
+  period: '2022',
   direction: Amadeus.direction.arriving
 }).then(function (response) {
   console.log(response);

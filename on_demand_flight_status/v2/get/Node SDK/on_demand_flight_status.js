@@ -8,7 +8,7 @@ var amadeus = new Amadeus({
 amadeus.schedule.flights.get({
   carrierCode: 'AZ',
   flightNumber: '319',
-  scheduledDepartureDate: '2021-03-13'
+  scheduledDepartureDate: '2022-03-13'
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {

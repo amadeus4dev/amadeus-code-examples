@@ -15,7 +15,7 @@ https://test.api.amadeus.com/v1/shopping/availability/flight-availabilities \
             "originLocationCode": "MIA",
             "destinationLocationCode": "ATL",
             "departureDateTime": {
-                "date": "2021-11-01"
+                "date": "2022-11-01"
             }
         }
     ],

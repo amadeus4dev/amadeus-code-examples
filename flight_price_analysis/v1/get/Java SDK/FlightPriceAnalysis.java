@@ -17,7 +17,7 @@ public class FlightPriceAnalysis {
     ItineraryPriceMetric[] metrics = amadeus.analytics.itineraryPriceMetrics.get(Params
         .with("originIataCode", "MAD")
         .and("destinationIataCode", "CDG")
-        .and("departureDate", "2021-03-21"));
+        .and("departureDate", "2022-03-21"));
 
     if (metrics[0].getResponse().getStatusCode() != 200) {
         System.out.println("Wrong status code: " + metrics[0].getResponse().getStatusCode());

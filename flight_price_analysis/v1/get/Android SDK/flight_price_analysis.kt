@@ -20,7 +20,7 @@ scope.launch {
   when (val analysis = amadeus.analytics.itineraryPriceMetrics.get(
                 originIataCode = "MAD",
                 destinationIataCode = "CDG",
-                departureDate = "2021-03-21")) {
+                departureDate = "2022-03-21")) {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }

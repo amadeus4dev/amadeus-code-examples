@@ -8,38 +8,38 @@ var amadeus = new Amadeus({
 amadeus.shopping.flightOffersSearch.post(JSON.stringify({
   "currencyCode": "USD",
   "originDestinations": [{
-      "id": "1",
-      "originLocationCode": "SYD",
-      "destinationLocationCode": "BKK",
-      "departureDateTimeRange": {
-        "date": "2020-08-01",
-        "time": "10:00:00"
-      }
-    },
-    {
-      "id": "2",
-      "originLocationCode": "BKK",
-      "destinationLocationCode": "SYD",
-      "departureDateTimeRange": {
-        "date": "2020-08-05",
-        "time": "17:00:00"
-      }
+    "id": "1",
+    "originLocationCode": "SYD",
+    "destinationLocationCode": "BKK",
+    "departureDateTimeRange": {
+      "date": "2022-08-01",
+      "time": "10:00:00"
     }
+  },
+  {
+    "id": "2",
+    "originLocationCode": "BKK",
+    "destinationLocationCode": "SYD",
+    "departureDateTimeRange": {
+      "date": "2022-08-05",
+      "time": "17:00:00"
+    }
+  }
   ],
   "travelers": [{
-      "id": "1",
-      "travelerType": "ADULT",
-      "fareOptions": [
-        "STANDARD"
-      ]
-    },
-    {
-      "id": "2",
-      "travelerType": "CHILD",
-      "fareOptions": [
-        "STANDARD"
-      ]
-    }
+    "id": "1",
+    "travelerType": "ADULT",
+    "fareOptions": [
+      "STANDARD"
+    ]
+  },
+  {
+    "id": "2",
+    "travelerType": "CHILD",
+    "fareOptions": [
+      "STANDARD"
+    ]
+  }
   ],
   "sources": [
     "GDS"

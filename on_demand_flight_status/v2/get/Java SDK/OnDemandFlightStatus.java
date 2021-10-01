@@ -18,7 +18,7 @@ public class OnDemandFlightStatus {
     DatedFlight[] flightStatus = amadeus.schedule.flights.get(Params
         .with("flightNumber", "319")
         .and("carrierCode", "AZ")
-        .and("scheduledDepartureDate", "2021-03-13"));
+        .and("scheduledDepartureDate", "2022-03-13"));
 
    if (flightStatus[0].getResponse().getStatusCode() != 200) {
         System.out.println("Wrong status code: " + flightStatus[0].getResponse().getStatusCode());

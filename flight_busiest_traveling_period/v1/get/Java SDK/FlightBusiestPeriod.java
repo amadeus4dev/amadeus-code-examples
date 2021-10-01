@@ -16,7 +16,7 @@ public class FlightBusiestPeriod {
     // Flight Busiest Traveling Period
     Period[] busiestPeriods = amadeus.travel.analytics.airTraffic.busiestPeriod.get(Params
       .with("cityCode", "MAD")
-      .and("period", "2017")
+      .and("period", "2022")
       .and("direction", BusiestPeriod.ARRIVING));
 
     if(busiestPeriods[0].getResponse().getStatusCode() != 200) {

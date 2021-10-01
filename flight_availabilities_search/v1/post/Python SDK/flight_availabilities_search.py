@@ -14,7 +14,7 @@ try:
                 "originLocationCode": "MIA",
                 "destinationLocationCode": "ATL",
                 "departureDateTime": {
-                    "date": "2021-11-01"
+                    "date": "2022-11-01"
                 }
             }
         ],

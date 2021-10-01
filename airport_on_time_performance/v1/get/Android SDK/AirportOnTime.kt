@@ -19,7 +19,7 @@ val amadeus = Amadeus.Builder(context)
 scope.launch {
   when (val airportOnTime = amadeus.airport.predictions.onTime.get(
                       airportCode = "BOS",
-                      date = "2021-12-01")) {
+                      date = "2022-12-01")) {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }

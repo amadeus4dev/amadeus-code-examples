@@ -15,7 +15,7 @@ body = JSON.stringify({
                 "instantTicketingRequired": false,
                 "nonHomogeneous": false,
                 "oneWay": false,
-                "lastTicketingDate": "2021-05-11",
+                "lastTicketingDate": "2022-05-11",
                 "numberOfBookableSeats": 9,
                 "itineraries": [
                     {
@@ -25,12 +25,12 @@ body = JSON.stringify({
                                 "departure": {
                                     "iataCode": "CDG",
                                     "terminal": "3",
-                                    "at": "2021-07-04T20:45:00"
+                                    "at": "2022-07-04T20:45:00"
                                 },
                                 "arrival": {
                                     "iataCode": "MAD",
                                     "terminal": "4",
-                                    "at": "2021-07-04T22:55:00"
+                                    "at": "2022-07-04T22:55:00"
                                 },
                                 "carrierCode": "IB",
                                 "number": "3741",
