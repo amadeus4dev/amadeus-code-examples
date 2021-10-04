@@ -19,7 +19,7 @@ val amadeus = Amadeus.Builder(context)
 scope.launch {
   when (val busiestPeriods = amadeus.travel.analytics.airTraffic.busiestPeriod.get(
                       cityCode = "MAD",
-                      period = "2022",
+                      period = "2017",
                       direction = "ARRIVING")) {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
