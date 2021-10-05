@@ -16,9 +16,9 @@ public class FlightDelayPrediction {
     Delay[] flightDelay = amadeus.travel.predictions.flightDelay.get(Params
     .with("originLocationCode", "NCE")
     .and("destinationLocationCode", "IST")
-    .and("departureDate", "2020-08-01")
+    .and("departureDate", "2022-08-01")
     .and("departureTime", "18:20:00")
-    .and("arrivalDate", "2020-08-01")
+    .and("arrivalDate", "2022-08-01")
     .and("arrivalTime", "22:15:00")
     .and("aircraftCode", "321")
     .and("carrierCode", "TK")

@@ -15,7 +15,7 @@ public class AirportOnTime {
 
     OnTime onTime = amadeus.airport.predictions.onTime.get(Params
         .with("airportCode", "JFK")
-        .and("date", "2020-09-01"));
+        .and("date", "2022-09-01"));
 
     if(onTime.getResponse().getStatusCode() != 200) {
         System.out.println("Wrong status code: " + onTime.getResponse().getStatusCode());

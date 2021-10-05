@@ -7,9 +7,9 @@ var amadeus: Amadeus = Amadeus(
 
 amadeus.travel.predictions.flightDelay.get(data: ["originLocationCode": "NCE",
     "destinationLocationCode": "IST",
-    "departureDate": "2021-05-01",
+    "departureDate": "2022-05-01",
     "departureTime": "18:20:00",
-    "arrivalDate": "2021-05-01",
+    "arrivalDate": "2022-05-01",
     "arrivalTime": "22:15:00",
     "aircraftCode": "321",
     "carrierCode": "TK",

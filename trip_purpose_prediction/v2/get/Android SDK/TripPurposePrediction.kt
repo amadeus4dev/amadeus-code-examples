@@ -20,8 +20,8 @@ scope.launch {
   when (val tripPurpose = amadeus.travel.predictions.tripPurpose.get(
                     originLocationCode = "NYC",
                     destinationLocationCode = "MAD",
-                    departureDate = "2021-12-01",
-                    returnDate = "2021-12-12") {
+                    departureDate = "2022-12-01",
+                    returnDate = "2022-12-12") {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }

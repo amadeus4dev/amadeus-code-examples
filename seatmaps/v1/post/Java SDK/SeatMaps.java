@@ -17,8 +17,8 @@ public class SeatMaps {
       FlightOfferSearch[] flightOffers = amadeus.shopping.flightOffersSearch.get(
                     Params.with("originLocationCode", "NYC")
                             .and("destinationLocationCode", "MAD")
-                            .and("departureDate", "2020-11-01")
-                            .and("returnDate", "2020-11-09")
+                            .and("departureDate", "2022-11-01")
+                            .and("returnDate", "2022-11-09")
                             .and("max", "1")
                             .and("adults", 1));
 

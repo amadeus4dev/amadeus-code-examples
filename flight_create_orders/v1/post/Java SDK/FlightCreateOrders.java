@@ -50,8 +50,8 @@ public class FlightCreateOrders {
     FlightOfferSearch[] flightOffersSearches = amadeus.shopping.flightOffersSearch.get(
             Params.with("originLocationCode", "PAR")
                     .and("destinationLocationCode", "NYC")
-                    .and("departureDate", "2020-11-01")
-                    .and("returnDate", "2020-11-08")
+                    .and("departureDate", "2022-11-01")
+                    .and("returnDate", "2022-11-08")
                     .and("adults", 1)
                     .and("max", 3));
 

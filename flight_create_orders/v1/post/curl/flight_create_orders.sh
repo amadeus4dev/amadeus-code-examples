@@ -19,7 +19,7 @@ https://test.api.amadeus.com/v1/booking/flight-orders \
         "instantTicketingRequired": false,
         "nonHomogeneous": false,
         "paymentCardRequired": false,
-        "lastTicketingDate": "2020-03-01",
+        "lastTicketingDate": "2022-03-01",
         "itineraries": [
           {
             "segments": [
@@ -27,12 +27,12 @@ https://test.api.amadeus.com/v1/booking/flight-orders \
                 "departure": {
                   "iataCode": "GIG",
                   "terminal": "2",
-                  "at": "2020-03-01T21:05:00"
+                  "at": "2022-03-01T21:05:00"
                 },
                 "arrival": {
                   "iataCode": "CDG",
                   "terminal": "2E",
-                  "at": "2020-03-02T12:20:00"
+                  "at": "2022-03-02T12:20:00"
                 },
                 "carrierCode": "KL",
                 "number": "2410",
@@ -50,11 +50,11 @@ https://test.api.amadeus.com/v1/booking/flight-orders \
                 "departure": {
                   "iataCode": "CDG",
                   "terminal": "2F",
-                  "at": "2020-03-02T14:30:00"
+                  "at": "2022-03-02T14:30:00"
                 },
                 "arrival": {
                   "iataCode": "AMS",
-                  "at": "2020-03-02T15:45:00"
+                  "at": "2022-03-02T15:45:00"
                 },
                 "carrierCode": "KL",
                 "number": "1234",
@@ -71,12 +71,12 @@ https://test.api.amadeus.com/v1/booking/flight-orders \
               {
                 "departure": {
                   "iataCode": "AMS",
-                  "at": "2020-03-02T17:05:00"
+                  "at": "2022-03-02T17:05:00"
                 },
                 "arrival": {
                   "iataCode": "MAD",
                   "terminal": "2",
-                  "at": "2020-03-02T19:35:00"
+                  "at": "2022-03-02T19:35:00"
                 },
                 "carrierCode": "KL",
                 "number": "1705",
@@ -98,11 +98,11 @@ https://test.api.amadeus.com/v1/booking/flight-orders \
                 "departure": {
                   "iataCode": "MAD",
                   "terminal": "2",
-                  "at": "2020-03-05T20:25:00"
+                  "at": "2022-03-05T20:25:00"
                 },
                 "arrival": {
                   "iataCode": "AMS",
-                  "at": "2020-03-05T23:00:00"
+                  "at": "2022-03-05T23:00:00"
                 },
                 "carrierCode": "KL",
                 "number": "1706",
@@ -119,12 +119,12 @@ https://test.api.amadeus.com/v1/booking/flight-orders \
               {
                 "departure": {
                   "iataCode": "AMS",
-                  "at": "2020-03-06T10:40:00"
+                  "at": "2022-03-06T10:40:00"
                 },
                 "arrival": {
                   "iataCode": "GIG",
                   "terminal": "2",
-                  "at": "2020-03-06T18:35:00"
+                  "at": "2022-03-06T18:35:00"
                 },
                 "carrierCode": "KL",
                 "number": "705",

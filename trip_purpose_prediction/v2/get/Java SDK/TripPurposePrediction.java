@@ -17,8 +17,8 @@ public class TripPurposePrediction {
     Prediction tripPurpose = amadeus.travel.predictions.tripPurpose.get(Params
         .with("originLocationCode", "NYC")
         .and("destinationLocationCode", "MAD")
-        .and("departureDate", "2020-08-01")
-        .and("returnDate", "2020-08-12"));
+        .and("departureDate", "2022-08-01")
+        .and("returnDate", "2022-08-12"));
 
     if(tripPurpose.getResponse().getStatusCode() != 200) {
         System.out.println("Wrong status code" + tripPurpose.getResponse().getStatusCode());

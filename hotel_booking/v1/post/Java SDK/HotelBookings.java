@@ -19,7 +19,7 @@ public class HotelBookings {
         + "email\":\"bob.smith@email.com\"}}],\""
         + "payments\":[{\"id\":1,\"method\":\"creditCard\",\""
         + "card\":{\"vendorCode\":\"VI\",\"cardNumber\""
-        + ":\"4151289722471370\",\"expiryDate\":\"2021-08\"}}]}}";
+        + ":\"4151289722471370\",\"expiryDate\":\"2022-08\"}}]}}";
 
     HotelBooking[] hotel = amadeus.booking.hotelBookings.post(body);
 

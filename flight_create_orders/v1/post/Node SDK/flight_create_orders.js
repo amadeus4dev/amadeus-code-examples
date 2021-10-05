@@ -4,11 +4,11 @@ var amadeus = new Amadeus({
   clientSecret: 'YOUR_API_SECRET'
 });
 
-// Book a flight from MAD to ATH on 2021-08-01
+// Book a flight from MAD to ATH on 2022-08-01
 amadeus.shopping.flightOffersSearch.get({
   originLocationCode: 'MAD',
   destinationLocationCode: 'ATH',
-  departureDate: '2021-08-01',
+  departureDate: '2022-08-01',
   adults: '1'
 }).then(function (flightOffersResponse) {
   return amadeus.shopping.flightOffers.pricing.post(
