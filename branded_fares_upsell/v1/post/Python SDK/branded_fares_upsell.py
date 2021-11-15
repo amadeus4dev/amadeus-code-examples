@@ -11,11 +11,11 @@ try:
     json_string = '{ "data": { "type": "flight-offers-upselling", "flightOffers": [ { "type": "flight-offer", ' \
                   '"id": "1", ' \
                   '"source": "GDS", "instantTicketingRequired": false, "nonHomogeneous": false, "oneWay": false, ' \
-                  '"lastTicketingDate": "2021-05-11", "numberOfBookableSeats": 9, "itineraries": [ { "duration": ' \
+                  '"lastTicketingDate": "2022-05-11", "numberOfBookableSeats": 9, "itineraries": [ { "duration": ' \
                   '"PT2H10M", ' \
-                  '"segments": [ { "departure": { "iataCode": "CDG", "terminal": "3", "at": "2021-07-04T20:45:00" }, ' \
+                  '"segments": [ { "departure": { "iataCode": "CDG", "terminal": "3", "at": "2022-07-04T20:45:00" }, ' \
                   '"arrival": { ' \
-                  '"iataCode": "MAD", "terminal": "4", "at": "2021-07-04T22:55:00" }, "carrierCode": "IB", ' \
+                  '"iataCode": "MAD", "terminal": "4", "at": "2022-07-04T22:55:00" }, "carrierCode": "IB", ' \
                   '"number": "3741", ' \
                   '"aircraft": { "code": "32A" }, "operating": { "carrierCode": "I2" }, "duration": "PT2H10M", ' \
                   '"id": "4", ' \

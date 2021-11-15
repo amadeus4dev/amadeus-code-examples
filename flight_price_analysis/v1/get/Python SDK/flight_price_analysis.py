@@ -12,7 +12,7 @@ try:
     '''
     response = amadeus.analytics.itinerary_price_metrics.get(originIataCode='MAD',
                                                              destinationIataCode='CDG',
-                                                             departureDate='2021-03-21')
+                                                             departureDate='2022-03-21')
     print(response.data)
 except ResponseError as error:
     raise error

@@ -7,7 +7,7 @@ var amadeus: Amadeus = Amadeus(
 
 // Percentage of on-time flight departures for JFK Airport
 amadeus.airport.predictions.onTime.get(params: ["airportCode": "JFK",
-    "date": "2020-09-01"],
+    "date": "2022-09-01"],
     onCompletion: { result in
         switch result {
         case let .success(response):

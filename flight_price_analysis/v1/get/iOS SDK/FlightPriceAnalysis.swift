@@ -7,7 +7,7 @@ var amadeus: Amadeus = Amadeus(
 
 amadeus.analytics.itineraryPriceMetrics.get(params: ["originIataCode": "MAD",
     "destinationIataCode": "CDG",
-    "departureDate": "2021-01-15"],
+    "departureDate": "2022-01-15"],
     onCompletion: { result in
         switch result {
         case let .success(response):

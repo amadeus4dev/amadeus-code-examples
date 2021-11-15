@@ -17,8 +17,8 @@ public class FlightChoicePrediction {
     FlightOfferSearch[] flightOffers = amadeus.shopping.flightOffersSearch.get(
                   Params.with("originLocationCode", "MAD")
                           .and("destinationLocationCode", "NYC")
-                          .and("departureDate", "2020-11-01")
-                          .and("returnDate", "2020-11-09")
+                          .and("departureDate", "2022-11-01")
+                          .and("returnDate", "2022-11-09")
                           .and("adults", 1));
 
     JsonObject body = flightOffers[0].getResponse().getResult();

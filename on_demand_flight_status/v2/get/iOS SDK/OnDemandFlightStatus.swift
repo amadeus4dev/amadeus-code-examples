@@ -7,7 +7,7 @@ var amadeus: Amadeus = Amadeus(
 
 amadeus.schedule.flights.get(params:["carrierCode":"AZ",
     "flightNumber":"319",
-    "scheduledDepartureDate":"2021-03-13"],
+    "scheduledDepartureDate":"2022-03-13"],
     onCompletion: { result in
         switch result {
         case let .success(response):

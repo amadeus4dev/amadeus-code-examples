@@ -11,7 +11,7 @@ try:
     '''
     response = amadeus.schedule.flights.get(carrierCode='AZ',
                                             flightNumber='319',
-                                            scheduledDepartureDate='2021-03-13')
+                                            scheduledDepartureDate='2022-03-13')
     print(response.data)
 except ResponseError as error:
     raise error

@@ -7,8 +7,8 @@ var amadeus: Amadeus = Amadeus(
 
 amadeus.shopping.flightOffersSearch.get(params: ["originLocationCode": "MAD",
     "destinationLocationCode": "BER",
-    "departureDate": "2020-09-16",
-    "returnDate": "2020-09-30",
+    "departureDate": "2022-09-16",
+    "returnDate": "2022-09-30",
     "adults": "2"],
     onCompletion: { result in
         switch result {

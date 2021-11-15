@@ -7,9 +7,9 @@ var amadeus = new Amadeus({
 
 // Am I getting a good deal on this flight?
 amadeus.analytics.itineraryPriceMetrics.get({
-   originIataCode: 'MAD',
-   destinationIataCode: 'CDG',
-   departureDate: '2021-01-13',
+  originIataCode: 'MAD',
+  destinationIataCode: 'CDG',
+  departureDate: '2022-01-13',
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {

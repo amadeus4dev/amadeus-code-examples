@@ -32,7 +32,7 @@ https://test.api.amadeus.com/v1/booking/hotel-bookings \
         "card": {
           "vendorCode": "VI",
           "cardNumber": "4151289722471370",
-          "expiryDate": "2021-08"
+          "expiryDate": "2022-08"
         }
       }
     ],

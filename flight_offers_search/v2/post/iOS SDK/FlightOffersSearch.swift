@@ -16,7 +16,7 @@ let jsonString: String = """
             "originLocationCode": "RIO",
             "destinationLocationCode": "MAD",
             "departureDateTimeRange": {
-                "date": "2020-08-01",
+                "date": "2022-08-01",
                 "time": "10:00:00"
             }
         },
@@ -25,7 +25,7 @@ let jsonString: String = """
             "originLocationCode": "MAD",
             "destinationLocationCode": "RIO",
             "departureDateTimeRange": {
-                "date": "2020-08-05",
+                "date": "2022-08-05",
                 "time": "17:00:00"
             }
         }

@@ -20,7 +20,7 @@ scope.launch {
   when (val status = amadeus.schedule.flights.get(
                 carrierCode = "IB",
                 flightNumber = "532",
-                scheduleDepartureDate = "2021-11-23") {
+                scheduleDepartureDate = "2022-11-23") {
     is ApiResult.Success -> {
       Log.d("Result", "${result.data}")
     }

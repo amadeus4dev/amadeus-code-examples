@@ -8,8 +8,8 @@ var amadeus = new Amadeus({
 amadeus.travel.predictions.tripPurpose.get({
   originLocationCode: 'NYC',
   destinationLocationCode: 'MAD',
-  departureDate: '2020-08-01',
-  returnDate: '2020-08-12'
+  departureDate: '2022-08-01',
+  returnDate: '2022-08-12'
 }).then(function (response) {
   console.log(response);
 }).catch(function (response) {
