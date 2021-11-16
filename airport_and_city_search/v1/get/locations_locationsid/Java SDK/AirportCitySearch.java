@@ -3,6 +3,7 @@
 import com.amadeus.Amadeus;
 import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
+import com.amadeus.referenceData.Locations;
 import com.amadeus.resources.Location;
 
 public class AirportCitySearch {
