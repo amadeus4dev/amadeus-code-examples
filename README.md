@@ -1,4 +1,3 @@
-[![Contact Support](https://github.com/amadeus4dev/amadeus-android/raw/master/.github/images/support.svg?sanitize=true)][support]
 [![Discord](https://img.shields.io/discord/696822960023011329?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/cVrFBqx)
 
 # Amadeus Code Examples
@@ -25,9 +24,6 @@ Depending on the language of your choice you have to install it's SDK. The insta
 This code is released under the [MIT License](LICENSE).
 
 ## Help
-Our [developer support team](https://developers.amadeus.com/support) is here
-to help you. You can find us on
-[StackOverflow](https://stackoverflow.com/questions/tagged/amadeus) and
-[email](mailto:developers@amadeus.com).
-
-[support]: http://developers.amadeus.com/support
+You can find us on
+[StackOverflow](https://stackoverflow.com/questions/tagged/amadeus) or join our developer community on
+[Discord](https://discord.gg/cVrFBqx).
