@@ -1,0 +1,10 @@
+# Each line is a file pattern followed by one or more owners.
+
+# The '*' pattern is global owners.
+
+# These owners will be the default owners for everything in
+# the repo and will be requested for
+# review when someone opens a pull request.
+
+# Global Rule
+*       @tsolakoua @minjikarin @jabrena
