@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "chainCode": "AR",
+            "iataCode": "PAR",
+            "dupeId": 700222594,
+            "name": "AC BY MARRIOTT PORTE MAILLOT",
+            "hotelId": "ARPARARA",
+            "geoCode": {
+                "latitude": 48.88202,
+                "longitude": 2.28223
+            },
+            "address": {
+                "countryCode": "FR"
+            }
+        }
+    ],
+    "meta": {
+        "count": 1,
+        "links": {
+            "self": "http://test.api.amadeus.com/reference-data/locations/hotels/by-hotels?hotelIds=ARPARARA"
+        }
+    }
+}

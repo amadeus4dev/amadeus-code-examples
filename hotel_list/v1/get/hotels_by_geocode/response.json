@@ -1,0 +1,4017 @@
+{
+    "data": [
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700025574,
+            "name": "ACTUAL",
+            "hotelId": "HSBCNARR",
+            "geoCode": {
+                "latitude": 41.39598,
+                "longitude": 2.16077
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.13,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "DS",
+            "iataCode": "BCN",
+            "dupeId": 700055778,
+            "name": "OMM",
+            "hotelId": "DSBCNOMM",
+            "geoCode": {
+                "latitude": 41.39593,
+                "longitude": 2.16084
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.13,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "XH",
+            "iataCode": "BCN",
+            "dupeId": 504073587,
+            "name": "EL PALAUET LIVING BARCELONA",
+            "hotelId": "XHBCN8LA",
+            "geoCode": {
+                "latitude": 41.39571,
+                "longitude": 2.16079
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.16,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "XH",
+            "iataCode": "BEL",
+            "dupeId": 504073965,
+            "name": "HOTEL SOFT INN HANGAR",
+            "hotelId": "XHBEL232",
+            "geoCode": {
+                "latitude": 41.39571,
+                "longitude": 2.16079
+            },
+            "address": {
+                "countryCode": "BR"
+            },
+            "distance": {
+                "value": 0.16,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "XH",
+            "iataCode": "BEL",
+            "dupeId": 504046331,
+            "name": "HOTEL SOFT INN HANGAR",
+            "hotelId": "XHBELHE9",
+            "geoCode": {
+                "latitude": 41.39571,
+                "longitude": 2.16079
+            },
+            "address": {
+                "countryCode": "BR"
+            },
+            "distance": {
+                "value": 0.16,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "XH",
+            "iataCode": "BEL",
+            "dupeId": 504075891,
+            "name": "HOTEL SOFT INN HANGAR",
+            "hotelId": "XHBEL0RU",
+            "geoCode": {
+                "latitude": 41.39571,
+                "longitude": 2.16079
+            },
+            "address": {
+                "countryCode": "BR"
+            },
+            "distance": {
+                "value": 0.16,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "XH",
+            "iataCode": "BCN",
+            "dupeId": 504046634,
+            "name": "EL PALAUET LIVING BARCELONA",
+            "hotelId": "XHBCNBU7",
+            "geoCode": {
+                "latitude": 41.39571,
+                "longitude": 2.16079
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.16,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "ON",
+            "iataCode": "BCN",
+            "dupeId": 700146346,
+            "name": "EL PALAUET LIVING BARCELONA",
+            "hotelId": "ONBCNELP",
+            "geoCode": {
+                "latitude": 41.39685,
+                "longitude": 2.15885
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.17,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700016174,
+            "name": "CATALONIA LA PEDRERA",
+            "hotelId": "UIBCNCCH",
+            "geoCode": {
+                "latitude": 41.39869,
+                "longitude": 2.16237
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.21,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "LW",
+            "iataCode": "BCN",
+            "dupeId": 700030556,
+            "name": "CASA FUSTER",
+            "hotelId": "LWBCN430",
+            "geoCode": {
+                "latitude": 41.39784,
+                "longitude": 2.15789
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.26,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700923049,
+            "name": "CIRCA 1905 BOUTIQUE B-B",
+            "hotelId": "HSBCNBCZ",
+            "geoCode": {
+                "latitude": 41.39415,
+                "longitude": 2.16094
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.33,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "PH",
+            "iataCode": "BCN",
+            "dupeId": 700053895,
+            "name": "HOTEL MURMURI PREFERRED BOUTIQ",
+            "hotelId": "PHBCNMUR",
+            "geoCode": {
+                "latitude": 41.39407,
+                "longitude": 2.15964
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.35,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700148399,
+            "name": "ALMA BARCELONA HOTEL",
+            "hotelId": "UIBCN265",
+            "geoCode": {
+                "latitude": 41.39439,
+                "longitude": 2.16332
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.36,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WW",
+            "iataCode": "BCN",
+            "dupeId": 700005006,
+            "name": "HOTEL BALMES",
+            "hotelId": "WWBCNBAL",
+            "geoCode": {
+                "latitude": 41.3939,
+                "longitude": 2.15901
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.39,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700044763,
+            "name": "987 BARCELONA HOTEL",
+            "hotelId": "UIBCN987",
+            "geoCode": {
+                "latitude": 41.39651,
+                "longitude": 2.16611
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.44,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HL",
+            "iataCode": "BCN",
+            "dupeId": 700001463,
+            "name": "ALEXANDRA BARCELONA A DT BY HILTON",
+            "hotelId": "HLBCN116",
+            "geoCode": {
+                "latitude": 41.39306,
+                "longitude": 2.1615
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.45,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700007776,
+            "name": "CATALONIA DIAGONAL CENTRO",
+            "hotelId": "UIBCNNHO",
+            "geoCode": {
+                "latitude": 41.39379,
+                "longitude": 2.15672
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.5,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700188091,
+            "name": "DINGDONG EXPRESS HOSTAL",
+            "hotelId": "HSBCNAED",
+            "geoCode": {
+                "latitude": 41.3987,
+                "longitude": 2.15413
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.58,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700136485,
+            "name": "ROOM MATE EMMA",
+            "hotelId": "WVBCNEMA",
+            "geoCode": {
+                "latitude": 41.39273,
+                "longitude": 2.1564
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.61,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700094416,
+            "name": "FELIPE II. HOSTAL",
+            "hotelId": "HSBCNAQP",
+            "geoCode": {
+                "latitude": 41.39821,
+                "longitude": 2.1683500000000004
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.63,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700005008,
+            "name": "ABBA BALMORAL HOTEL",
+            "hotelId": "UIBCNBAM",
+            "geoCode": {
+                "latitude": 41.39865,
+                "longitude": 2.15311
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.66,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700217304,
+            "name": "H10 ART GALLERY",
+            "hotelId": "UIBCNHAG",
+            "geoCode": {
+                "latitude": 41.39184,
+                "longitude": 2.15701
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.67,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "BR",
+            "iataCode": "BCN",
+            "dupeId": 700004123,
+            "name": "RENAISSANCE BARCELONA HOTEL",
+            "hotelId": "BRBCNDMB",
+            "geoCode": {
+                "latitude": 41.39247,
+                "longitude": 2.1674
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.75,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700018612,
+            "name": "CATALONIA EIXAMPLE 1864 HOTEL",
+            "hotelId": "UIBCNCBH",
+            "geoCode": {
+                "latitude": 41.39332,
+                "longitude": 2.16861
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.77,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "SE",
+            "iataCode": "BCN",
+            "dupeId": 700007233,
+            "name": "HOTEL SERCOTEL EUROPARK",
+            "hotelId": "SEBCNEUR",
+            "geoCode": {
+                "latitude": 41.39613,
+                "longitude": 2.17014
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.78,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "LE",
+            "iataCode": "BCN",
+            "dupeId": 700053896,
+            "name": "EUROSTARS BCN DESIGN",
+            "hotelId": "LEBCNDES",
+            "geoCode": {
+                "latitude": 41.3908,
+                "longitude": 2.16608
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.82,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700129687,
+            "name": "CITY CENTRE HOSTAL",
+            "hotelId": "HSBCNASZ",
+            "geoCode": {
+                "latitude": 41.38962,
+                "longitude": 2.16236
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.84,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700025269,
+            "name": "HOTEL DEL MAR - BARCELONA",
+            "hotelId": "HABCNMAR",
+            "geoCode": {
+                "latitude": 41.4001,
+                "longitude": 2.15138
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.85,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700165925,
+            "name": "HOSTAL EDEN",
+            "hotelId": "HABCNEDE",
+            "geoCode": {
+                "latitude": 41.3895,
+                "longitude": 2.16221
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.85,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700025838,
+            "name": "HCC ST MORITZ",
+            "hotelId": "UIBCNSTM",
+            "geoCode": {
+                "latitude": 41.39092,
+                "longitude": 2.16773
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.89,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700003602,
+            "name": "EUROSTARS CRISTAL PALACE",
+            "hotelId": "HABCNCRI",
+            "geoCode": {
+                "latitude": 41.38953,
+                "longitude": 2.16475
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.9,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700130749,
+            "name": "HOTEL CONTINENTAL PALACETE",
+            "hotelId": "WVBCN087",
+            "geoCode": {
+                "latitude": 41.38953,
+                "longitude": 2.16572
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.93,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700009811,
+            "name": "APARTHOTEL MARIANO CUBI",
+            "hotelId": "UIBCN28A",
+            "geoCode": {
+                "latitude": 41.39814,
+                "longitude": 2.14945
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.95,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700043331,
+            "name": "PETIT PALACE MUSEUM ",
+            "hotelId": "UIBCN375",
+            "geoCode": {
+                "latitude": 41.38922,
+                "longitude": 2.16549
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.96,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700165931,
+            "name": "BARCELONA CENTRO HOSTAL",
+            "hotelId": "HSBCNAWM",
+            "geoCode": {
+                "latitude": 41.39123,
+                "longitude": 2.16932
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.96,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700165933,
+            "name": "SUITES BARCELONA ARA 367 APARTMENTS",
+            "hotelId": "HSBCNAXG",
+            "geoCode": {
+                "latitude": 41.39822,
+                "longitude": 2.17262
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 0.98,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700094407,
+            "name": "ONIX RAMBLA",
+            "hotelId": "UIBCNHOR",
+            "geoCode": {
+                "latitude": 41.38913,
+                "longitude": 2.16627
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.0,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "LX",
+            "iataCode": "BCN",
+            "dupeId": 700072279,
+            "name": "HOTEL CRAM",
+            "hotelId": "LXBCNCLH",
+            "geoCode": {
+                "latitude": 41.38817,
+                "longitude": 2.15967
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.0,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "IN",
+            "iataCode": "BCN",
+            "dupeId": 700181639,
+            "name": "HOTEL INDIGO PLAZA CATALUNYA",
+            "hotelId": "INBCNAC7",
+            "geoCode": {
+                "latitude": 41.39132,
+                "longitude": 2.17047
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.03,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "TY",
+            "iataCode": "BCN",
+            "dupeId": 700165956,
+            "name": "CASTRO EXC RESID SPA SAGRADA FAMILIA",
+            "hotelId": "TYBCNAEC",
+            "geoCode": {
+                "latitude": 41.40207,
+                "longitude": 2.17137
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.03,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "RT",
+            "iataCode": "BCN",
+            "dupeId": 700189958,
+            "name": "IBIS BCN CENTRO SAGRADA FAM",
+            "hotelId": "RTBCNBSF",
+            "geoCode": {
+                "latitude": 41.40073,
+                "longitude": 2.17247
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.04,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700211360,
+            "name": "CATALONIA PASSEIG DE GRACIA",
+            "hotelId": "UIBCN106",
+            "geoCode": {
+                "latitude": 41.39007,
+                "longitude": 2.16945
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.06,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700025712,
+            "name": "ACTA ATRIUM PALACE",
+            "hotelId": "HSBCNAKP",
+            "geoCode": {
+                "latitude": 41.39094,
+                "longitude": 2.17068
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.07,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700148841,
+            "name": "BARCELONA CITY STREET HOSTAL",
+            "hotelId": "HSBCNAZN",
+            "geoCode": {
+                "latitude": 41.39899,
+                "longitude": 2.14824
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.07,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "LW",
+            "iataCode": "BCN",
+            "dupeId": 700011873,
+            "name": "EL PALACE BARCELONA",
+            "hotelId": "LWBCN401",
+            "geoCode": {
+                "latitude": 41.39177,
+                "longitude": 2.17167
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.08,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "KY",
+            "iataCode": "BCN",
+            "dupeId": 700033128,
+            "name": "AXEL HOTEL BARCELONA",
+            "hotelId": "KYBCNAXH",
+            "geoCode": {
+                "latitude": 41.38741,
+                "longitude": 2.16068
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.08,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "YJB",
+            "dupeId": 700882491,
+            "name": "BARCELONA CITY SEVEN HOSTAL",
+            "hotelId": "HSYJBAAF",
+            "geoCode": {
+                "latitude": 41.39747,
+                "longitude": 2.14752
+            },
+            "distance": {
+                "value": 1.11,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700053385,
+            "name": "AUGUSTA APPARTMENTS",
+            "hotelId": "HABCNAUG",
+            "geoCode": {
+                "latitude": 41.40158,
+                "longitude": 2.14828
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.16,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700054322,
+            "name": "RESIDENCIA ERASMUS GRACIA",
+            "hotelId": "HSBCNBDC",
+            "geoCode": {
+                "latitude": 41.40592,
+                "longitude": 2.15308
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.17,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700118738,
+            "name": "CONSTANZA HOTEL",
+            "hotelId": "HABCNTAN",
+            "geoCode": {
+                "latitude": 41.392,
+                "longitude": 2.17316
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.17,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700028092,
+            "name": "HOTEL ZENIT BARCELONA",
+            "hotelId": "UIBCNBAC",
+            "geoCode": {
+                "latitude": 41.39482,
+                "longitude": 2.14685
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.19,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700026149,
+            "name": "GUILLERMO TELL HOTEL",
+            "hotelId": "HABCNAOL",
+            "geoCode": {
+                "latitude": 41.40182,
+                "longitude": 2.14766
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.21,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "ON",
+            "iataCode": "BCN",
+            "dupeId": 700025800,
+            "name": "HOTEL ARANEA",
+            "hotelId": "ONBCNARA",
+            "geoCode": {
+                "latitude": 41.39842,
+                "longitude": 2.17549
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.22,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700024852,
+            "name": "H10 UNIVERSITAT HOTEL",
+            "hotelId": "UIBCNHUN",
+            "geoCode": {
+                "latitude": 41.38674,
+                "longitude": 2.16671
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.25,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700028916,
+            "name": "HESPERIA CARLIT",
+            "hotelId": "HSBCNAKS",
+            "geoCode": {
+                "latitude": 41.39709,
+                "longitude": 2.17593
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.25,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700007827,
+            "name": "SILKEN GRAN HAVANA HOTEL",
+            "hotelId": "UIBCNMAD",
+            "geoCode": {
+                "latitude": 41.39288,
+                "longitude": 2.17484
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.25,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "LE",
+            "iataCode": "BCN",
+            "dupeId": 700026426,
+            "name": "HOTEL ROGER DE LLURIA BARCELONA",
+            "hotelId": "LEBCNROG",
+            "geoCode": {
+                "latitude": 41.39288,
+                "longitude": 2.17484
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.25,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700024202,
+            "name": "CONDESTABLE",
+            "hotelId": "HSBCNAHX",
+            "geoCode": {
+                "latitude": 41.38613,
+                "longitude": 2.1648
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.26,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 505076137,
+            "name": "HOTUSA PROPERTY      ",
+            "hotelId": "HABCNGAT",
+            "geoCode": {
+                "latitude": 41.38803,
+                "longitude": 2.17001
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.26,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700005885,
+            "name": "H10 CATALUNYA PLAZA",
+            "hotelId": "UIBCNH07",
+            "geoCode": {
+                "latitude": 41.38724,
+                "longitude": 2.16886
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.28,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700033110,
+            "name": "SAGRADA FAMILIA",
+            "hotelId": "HABCNFAM",
+            "geoCode": {
+                "latitude": 41.40567,
+                "longitude": 2.17144
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.29,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700026609,
+            "name": "HOTEL CITY PELAYO",
+            "hotelId": "HSBCNBCM",
+            "geoCode": {
+                "latitude": 41.38595,
+                "longitude": 2.16535
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.3,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700220078,
+            "name": "CATALONIA SQUARE HOTEL",
+            "hotelId": "UIBCNCSH",
+            "geoCode": {
+                "latitude": 41.38834,
+                "longitude": 2.17112
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.3,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700129542,
+            "name": "AYRE HOTEL ROSELLON",
+            "hotelId": "UIBCN149",
+            "geoCode": {
+                "latitude": 41.40488,
+                "longitude": 2.17268
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.3,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "SE",
+            "iataCode": "BCN",
+            "dupeId": 700020254,
+            "name": "HOTEL SERCOTEL U232",
+            "hotelId": "SEBCNNUN",
+            "geoCode": {
+                "latitude": 41.38942,
+                "longitude": 2.14889
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.31,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700025264,
+            "name": "CENTURY PARK",
+            "hotelId": "HABCNCEN",
+            "geoCode": {
+                "latitude": 41.38615,
+                "longitude": 2.15479
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.32,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "TY",
+            "iataCode": "BCN",
+            "dupeId": 700024470,
+            "name": "BARCELONA ATIRAM HOTELS",
+            "hotelId": "TYBCNH01",
+            "geoCode": {
+                "latitude": 41.39139,
+                "longitude": 2.1749
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.33,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700024449,
+            "name": "CATALONIA PLAZA CATALUNA",
+            "hotelId": "UIBCNDUQ",
+            "geoCode": {
+                "latitude": 41.38632,
+                "longitude": 2.16814
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.34,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700022675,
+            "name": "HOTEL PULITZER",
+            "hotelId": "WVBCN014",
+            "geoCode": {
+                "latitude": 41.38629,
+                "longitude": 2.16844
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.36,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "KY",
+            "iataCode": "BCN",
+            "dupeId": 700026641,
+            "name": "ACEVI VILLARROEL",
+            "hotelId": "KYBCNACE",
+            "geoCode": {
+                "latitude": 41.3853,
+                "longitude": 2.15664
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.36,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700011675,
+            "name": "HOTEL REGINA",
+            "hotelId": "WVBCN054",
+            "geoCode": {
+                "latitude": 41.38594,
+                "longitude": 2.16756
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.36,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700083039,
+            "name": "SUITES MARINA",
+            "hotelId": "HSBCNAQD",
+            "geoCode": {
+                "latitude": 41.40562,
+                "longitude": 2.17275
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.36,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700011641,
+            "name": "REDING",
+            "hotelId": "HSBCNAWK",
+            "geoCode": {
+                "latitude": 41.38532,
+                "longitude": 2.16566
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.37,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "NS",
+            "iataCode": "BCN",
+            "dupeId": 700024849,
+            "name": "NH BARCELONA EIXAMPLE",
+            "hotelId": "NSBCNMAS",
+            "geoCode": {
+                "latitude": 41.38583,
+                "longitude": 2.1542
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.37,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "CH",
+            "iataCode": "BCN",
+            "dupeId": 501376003,
+            "name": "OLD TOWN APARTMENTS",
+            "hotelId": "CHBCNHOT",
+            "geoCode": {
+                "latitude": 41.38821,
+                "longitude": 2.17253
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.39,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700165943,
+            "name": "DELFOS HOSTAL",
+            "hotelId": "HSBCNAVW",
+            "geoCode": {
+                "latitude": 41.38467,
+                "longitude": 2.16385
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.41,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700033127,
+            "name": "SUNOTEL ASTON",
+            "hotelId": "UIBCNASN",
+            "geoCode": {
+                "latitude": 41.38921,
+                "longitude": 2.14735
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.43,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "OI",
+            "iataCode": "BCN",
+            "dupeId": 700118828,
+            "name": "HOTEL REKORD BARCELONA",
+            "hotelId": "OIBCNRKD",
+            "geoCode": {
+                "latitude": 41.39852,
+                "longitude": 2.14367
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.44,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700050252,
+            "name": "SUNOTEL CENTRAL",
+            "hotelId": "UIBCNSUN",
+            "geoCode": {
+                "latitude": 41.38418,
+                "longitude": 2.16161
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.44,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700079992,
+            "name": "ACTA ANTIBES",
+            "hotelId": "HSBCNAHU",
+            "geoCode": {
+                "latitude": 41.3984,
+                "longitude": 2.1783
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.46,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700129214,
+            "name": "AINB B-B EIXAMPLE - MUNTANER",
+            "hotelId": "HSBCNAVI",
+            "geoCode": {
+                "latitude": 41.38411,
+                "longitude": 2.16299
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.46,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700934593,
+            "name": "APARTAMENTOS SATA PARK GUELL",
+            "hotelId": "HABCNSAT",
+            "geoCode": {
+                "latitude": 41.40564,
+                "longitude": 2.14747
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.46,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "EP",
+            "iataCode": "BCN",
+            "dupeId": 700084568,
+            "name": "HOTEL DENIT BARCELONA",
+            "hotelId": "EPBCNHDB",
+            "geoCode": {
+                "latitude": 41.38709,
+                "longitude": 2.17241
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.47,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "AR",
+            "iataCode": "BCN",
+            "dupeId": 700028088,
+            "name": "AC BY MARRIOTT HOTEL IRLA",
+            "hotelId": "ARBCNIRL",
+            "geoCode": {
+                "latitude": 41.39471,
+                "longitude": 2.14346
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.47,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700024850,
+            "name": "HOTEL ZENIT BORRELL",
+            "hotelId": "UIBCNCNB",
+            "geoCode": {
+                "latitude": 41.38577,
+                "longitude": 2.15151
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.48,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700026072,
+            "name": "MEDIUM MONEGAL",
+            "hotelId": "HSBCNAHK",
+            "geoCode": {
+                "latitude": 41.38539,
+                "longitude": 2.16943
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.49,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700132552,
+            "name": "GRAU BARCELONA HOSTAL",
+            "hotelId": "HSBCNBCX",
+            "geoCode": {
+                "latitude": 41.38469,
+                "longitude": 2.16818
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.51,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "NS",
+            "iataCode": "BCN",
+            "dupeId": 700019409,
+            "name": "NH BARCELONA PODIUM",
+            "hotelId": "NSBCNPOD",
+            "geoCode": {
+                "latitude": 41.39141,
+                "longitude": 2.17772
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.54,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700183616,
+            "name": "HOTEL VUELING BCN BY HC",
+            "hotelId": "UIBCN852",
+            "geoCode": {
+                "latitude": 41.38321,
+                "longitude": 2.16031
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.55,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700027282,
+            "name": "NAPOLS APARTHOTEL",
+            "hotelId": "HSBCNAQE",
+            "geoCode": {
+                "latitude": 41.39544,
+                "longitude": 2.17945
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.56,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700040929,
+            "name": "ADVANCE",
+            "hotelId": "HSBCNAQX",
+            "geoCode": {
+                "latitude": 41.383,
+                "longitude": 2.16299
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.58,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700053954,
+            "name": "CATALUNA",
+            "hotelId": "HSBCNAGY",
+            "geoCode": {
+                "latitude": 41.38548,
+                "longitude": 2.1718
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.58,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "CA",
+            "iataCode": "BCN",
+            "dupeId": 700025469,
+            "name": "CONFORTEL BEL ART",
+            "hotelId": "CABCNBEL",
+            "geoCode": {
+                "latitude": 41.41035,
+                "longitude": 2.16932
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.62,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "SE",
+            "iataCode": "BCN",
+            "dupeId": 700032950,
+            "name": "HOTEL SERCOTEL AMISTER",
+            "hotelId": "SEBCN003",
+            "geoCode": {
+                "latitude": 41.38433,
+                "longitude": 2.15135
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.63,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "YJB",
+            "dupeId": 700147367,
+            "name": "ELS ANGELS HOSTAL",
+            "hotelId": "HSYJBAAI",
+            "geoCode": {
+                "latitude": 41.38244,
+                "longitude": 2.16021
+            },
+            "distance": {
+                "value": 1.63,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700165940,
+            "name": "BRUSTAR GOTIC HOSTAL",
+            "hotelId": "HSBCNAWP",
+            "geoCode": {
+                "latitude": 41.39155,
+                "longitude": 2.17916
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.64,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700020462,
+            "name": "ROYAL RAMBLAS",
+            "hotelId": "WVBCNROY",
+            "geoCode": {
+                "latitude": 41.38423,
+                "longitude": 2.17065
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.65,
+                "unit": "KM"
+            },
+            "lastUpdate": "2022-05-18T06:00:13"
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700046709,
+            "name": "ACTA BCN 40",
+            "hotelId": "HSBCNATH",
+            "geoCode": {
+                "latitude": 41.38266,
+                "longitude": 2.16579
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.66,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700076200,
+            "name": "PUTXET HOSTAL",
+            "hotelId": "HSBCNATX",
+            "geoCode": {
+                "latitude": 41.40581,
+                "longitude": 2.14457
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.66,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "XL",
+            "iataCode": "BCN",
+            "dupeId": 700211760,
+            "name": "MH APARTMENTS BARCELONA SUMMIT",
+            "hotelId": "XLBCNMAH",
+            "geoCode": {
+                "latitude": 41.3832,
+                "longitude": 2.15314
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.68,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700891066,
+            "name": "TRAVESSERA",
+            "hotelId": "HSBCNAGC",
+            "geoCode": {
+                "latitude": 41.4123,
+                "longitude": 2.1591
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.69,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700181414,
+            "name": "MERCER HOTEL BARCELONA",
+            "hotelId": "WVBCNMER",
+            "geoCode": {
+                "latitude": 41.38212,
+                "longitude": 2.16496
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.7,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "NS",
+            "iataCode": "BCN",
+            "dupeId": 700021318,
+            "name": "NH BARCELONA CENTRO",
+            "hotelId": "NSBCNDUC",
+            "geoCode": {
+                "latitude": 41.38468,
+                "longitude": 2.17299
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.71,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700004468,
+            "name": "SILKEN RAMBLAS HOTEL",
+            "hotelId": "UIBCNAMB",
+            "geoCode": {
+                "latitude": 41.38309,
+                "longitude": 2.17003
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.74,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "CA",
+            "iataCode": "BCN",
+            "dupeId": 700024081,
+            "name": "CONFORTEL ALMIRANTE",
+            "hotelId": "CABCNCAL",
+            "geoCode": {
+                "latitude": 41.38595,
+                "longitude": 2.17604
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.77,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700174638,
+            "name": "MUSIK BOUTIQUE HOTEL",
+            "hotelId": "HABCNMUS",
+            "geoCode": {
+                "latitude": 41.388,
+                "longitude": 2.17838
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.78,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700024453,
+            "name": "CATALONIA PARK PUTXET HOTEL",
+            "hotelId": "UIBCNPAR",
+            "geoCode": {
+                "latitude": 41.40742,
+                "longitude": 2.14424
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.79,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "SE",
+            "iataCode": "BCN",
+            "dupeId": 700032711,
+            "name": "SERCOTEL B-HOTEL",
+            "hotelId": "SEBCN229",
+            "geoCode": {
+                "latitude": 41.38136,
+                "longitude": 2.15628
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.79,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700011656,
+            "name": "HOTEL REGENCIA COLON",
+            "hotelId": "WVBCNRGC",
+            "geoCode": {
+                "latitude": 41.38524,
+                "longitude": 2.17558
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.8,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "XK",
+            "iataCode": "BEF",
+            "dupeId": 504059285,
+            "name": "XAPIAN RENAMED",
+            "hotelId": "XKBEFMKW",
+            "geoCode": {
+                "latitude": 41.38288,
+                "longitude": 2.17191
+            },
+            "address": {
+                "countryCode": "AT"
+            },
+            "distance": {
+                "value": 1.83,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "XK",
+            "iataCode": "BCN",
+            "dupeId": 504018214,
+            "name": "TEST PROPERTY FOR TAXES",
+            "hotelId": "XKBCNANH",
+            "geoCode": {
+                "latitude": 41.38288,
+                "longitude": 2.17191
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.83,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "XK",
+            "iataCode": "BCN",
+            "dupeId": 504018213,
+            "name": "TEST PROPERTY FOR TAXES",
+            "hotelId": "XKBCNTVS",
+            "geoCode": {
+                "latitude": 41.38288,
+                "longitude": 2.17191
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.83,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700026738,
+            "name": "HCC OPEN",
+            "hotelId": "UIBCNHOH",
+            "geoCode": {
+                "latitude": 41.38118,
+                "longitude": 2.15485
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.84,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700006115,
+            "name": "HOTEL COLON",
+            "hotelId": "WVBCNCOL",
+            "geoCode": {
+                "latitude": 41.38482,
+                "longitude": 2.176
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.86,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700131419,
+            "name": "ERIC VOEKEL INDUSTRIA SUITES",
+            "hotelId": "HSBCNAOE",
+            "geoCode": {
+                "latitude": 41.41017,
+                "longitude": 2.17506
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.87,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700005636,
+            "name": "APARTHOTEL CALABRIA",
+            "hotelId": "UIBCNH09",
+            "geoCode": {
+                "latitude": 41.38109,
+                "longitude": 2.15319
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.89,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700079818,
+            "name": "EUROSTARS RAMBLAS BOQUERIA HOTEL",
+            "hotelId": "HABCNBOQ",
+            "geoCode": {
+                "latitude": 41.38228,
+                "longitude": 2.17211
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.9,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700094403,
+            "name": "BOQUERIA HOSTAL",
+            "hotelId": "HSBCNADP",
+            "geoCode": {
+                "latitude": 41.38234,
+                "longitude": 2.17239
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.9,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700022877,
+            "name": "EUROSTARS MITRE",
+            "hotelId": "HABCNMIT",
+            "geoCode": {
+                "latitude": 41.40498,
+                "longitude": 2.14051
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.91,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700011963,
+            "name": "HOTEL SERHS RIVOLI RAMBLA",
+            "hotelId": "UIBCNRIV",
+            "geoCode": {
+                "latitude": 41.38427,
+                "longitude": 2.17655
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.94,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "TP",
+            "iataCode": "BCN",
+            "dupeId": 700020515,
+            "name": "TOP RAMBLAS HOTEL BARCELONA",
+            "hotelId": "TPBCNTOP",
+            "geoCode": {
+                "latitude": 41.38427,
+                "longitude": 2.17655
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.94,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700042212,
+            "name": "AINB BORN - TIRADORS",
+            "hotelId": "HSBCNAJP",
+            "geoCode": {
+                "latitude": 41.38792,
+                "longitude": 2.18072
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.94,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "DS",
+            "iataCode": "BCN",
+            "dupeId": 700039424,
+            "name": "GRAND HOTEL CENTRAL",
+            "hotelId": "DSBCNGHC",
+            "geoCode": {
+                "latitude": 41.38485,
+                "longitude": 2.17759
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.95,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700128374,
+            "name": "SM TEATRE AUDITORI",
+            "hotelId": "HSBCNAKG",
+            "geoCode": {
+                "latitude": 41.39988,
+                "longitude": 2.18404
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.95,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700053781,
+            "name": "MARKET HOTEL - RESTAURANT",
+            "hotelId": "HSBCNASS",
+            "geoCode": {
+                "latitude": 41.37948,
+                "longitude": 2.16082
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.96,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WB",
+            "iataCode": "BCN",
+            "dupeId": 700024459,
+            "name": "NERI HOTEL AND RESTAURANT",
+            "hotelId": "WBBCNNER",
+            "geoCode": {
+                "latitude": 41.38313,
+                "longitude": 2.17542
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.97,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700081362,
+            "name": "ATLAS BARCELONA RAMBLAS",
+            "hotelId": "HSBCNAKF",
+            "geoCode": {
+                "latitude": 41.38197,
+                "longitude": 2.17339
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.98,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700055777,
+            "name": "ALLADA APARTMENTS",
+            "hotelId": "WVBCN886",
+            "geoCode": {
+                "latitude": 41.38718,
+                "longitude": 2.1807
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.99,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700165911,
+            "name": "FLORES HOSTAL",
+            "hotelId": "HSBCNASM",
+            "geoCode": {
+                "latitude": 41.38156,
+                "longitude": 2.17271
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 1.99,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700165904,
+            "name": "CENTRAL STATION HOSTEL BARCELONA",
+            "hotelId": "HSBCNAWA",
+            "geoCode": {
+                "latitude": 41.38022,
+                "longitude": 2.16949
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.01,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700094397,
+            "name": "ALBA",
+            "hotelId": "HSBCNAIM",
+            "geoCode": {
+                "latitude": 41.38038,
+                "longitude": 2.1701
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.01,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700044055,
+            "name": "AINB PICASSO - CORDERS",
+            "hotelId": "HSBCNAPT",
+            "geoCode": {
+                "latitude": 41.38529,
+                "longitude": 2.17936
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.03,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "NS",
+            "iataCode": "BCN",
+            "dupeId": 700127522,
+            "name": "HESPERIA RAMBLAS",
+            "hotelId": "NSBCN017",
+            "geoCode": {
+                "latitude": 41.38089,
+                "longitude": 2.17213
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.03,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700010249,
+            "name": "MODERNO",
+            "hotelId": "HSBCNABT",
+            "geoCode": {
+                "latitude": 41.38109,
+                "longitude": 2.17268
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.04,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "TY",
+            "iataCode": "BCN",
+            "dupeId": 700019416,
+            "name": "ORIENTE ATIRAM HOTELS",
+            "hotelId": "TYBCNORI",
+            "geoCode": {
+                "latitude": 41.38198,
+                "longitude": 2.17481
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.04,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700038314,
+            "name": "PETIT PALACE OPERA GARDEN",
+            "hotelId": "UIBCNOGR",
+            "geoCode": {
+                "latitude": 41.38147,
+                "longitude": 2.17397
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.05,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700154611,
+            "name": "PETIT PALACE BOQUERIA",
+            "hotelId": "HSBCNAST",
+            "geoCode": {
+                "latitude": 41.38143,
+                "longitude": 2.17393
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.06,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700027851,
+            "name": "INGLES",
+            "hotelId": "HSBCNASE",
+            "geoCode": {
+                "latitude": 41.38144,
+                "longitude": 2.17399
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.06,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700094402,
+            "name": "CALL",
+            "hotelId": "HSBCNAYO",
+            "geoCode": {
+                "latitude": 41.38227,
+                "longitude": 2.17567
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.06,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700008718,
+            "name": "INTERNACIONAL COOL LOCAL HOTEL",
+            "hotelId": "UIBCNINN",
+            "geoCode": {
+                "latitude": 41.3811,
+                "longitude": 2.17356
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.07,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700094396,
+            "name": "MARE NOSTRUM HOSTAL",
+            "hotelId": "HSBCNAOC",
+            "geoCode": {
+                "latitude": 41.38089,
+                "longitude": 2.17321
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.08,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700044056,
+            "name": "AINB GOTHIC - JAUME I.",
+            "hotelId": "HSBCNAKJ",
+            "geoCode": {
+                "latitude": 41.38346,
+                "longitude": 2.17788
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.08,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700148482,
+            "name": "ERIC VOEKEL GRAN VIA SUITES",
+            "hotelId": "HSBCNADJ",
+            "geoCode": {
+                "latitude": 41.37892,
+                "longitude": 2.15458
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.09,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700018690,
+            "name": "ABBA RAMBLA HOTEL",
+            "hotelId": "UIBCNRAM",
+            "geoCode": {
+                "latitude": 41.37917,
+                "longitude": 2.16847
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.09,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700024454,
+            "name": "CATALONIA ROMA",
+            "hotelId": "HSBCNAHH",
+            "geoCode": {
+                "latitude": 41.38188,
+                "longitude": 2.14577
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.11,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700130307,
+            "name": "CASA CON ESTILO MAISON D'HOTES",
+            "hotelId": "HSBCNANY",
+            "geoCode": {
+                "latitude": 41.40639,
+                "longitude": 2.13865
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.12,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "NS",
+            "iataCode": "BCN",
+            "dupeId": 700027198,
+            "name": "NH BARCELONA ENTENZA",
+            "hotelId": "NSBCNFOR",
+            "geoCode": {
+                "latitude": 41.3857,
+                "longitude": 2.14034
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.13,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700188089,
+            "name": "HOTEL DALIA RAMBLAS",
+            "hotelId": "HABCNDAL",
+            "geoCode": {
+                "latitude": 41.38013,
+                "longitude": 2.17285
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.14,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700225199,
+            "name": "CEL BARCELONA",
+            "hotelId": "HSBCNBCA",
+            "geoCode": {
+                "latitude": 41.3838,
+                "longitude": 2.17969
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.16,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "TY",
+            "iataCode": "BCN",
+            "dupeId": 700026052,
+            "name": "HOTEL SANT ANGELO",
+            "hotelId": "TYBCNANG",
+            "geoCode": {
+                "latitude": 41.37939,
+                "longitude": 2.15015
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.16,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700015096,
+            "name": "H10 ITACA",
+            "hotelId": "UIBCN31A",
+            "geoCode": {
+                "latitude": 41.38112,
+                "longitude": 2.14498
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.22,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700024471,
+            "name": "HUSA ILLA",
+            "hotelId": "UIBCN462",
+            "geoCode": {
+                "latitude": 41.39025,
+                "longitude": 2.13587
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.22,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "GZ",
+            "iataCode": "BCN",
+            "dupeId": 700165134,
+            "name": "HOTEL D.O. PLACA REIAL",
+            "hotelId": "GZBCNDPR",
+            "geoCode": {
+                "latitude": 41.38002,
+                "longitude": 2.17488
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.23,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "NS",
+            "iataCode": "BCN",
+            "dupeId": 700044553,
+            "name": "NH COLLECTION CONSTANZA",
+            "hotelId": "NSBCNCOZ",
+            "geoCode": {
+                "latitude": 41.38886,
+                "longitude": 2.13642
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.24,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700024851,
+            "name": "ACTA CITY 47 HOTEL",
+            "hotelId": "HABCNCIT",
+            "geoCode": {
+                "latitude": 41.38351,
+                "longitude": 2.14091
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.25,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "LM",
+            "iataCode": "BCN",
+            "dupeId": 700094401,
+            "name": "KKHOTEL PICASSO BARCELONA",
+            "hotelId": "LMBCNPIC",
+            "geoCode": {
+                "latitude": 41.38669,
+                "longitude": 2.18417
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.26,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700156078,
+            "name": "RAMBLAS BACARDI APARTMENTS",
+            "hotelId": "HSBCNAXT",
+            "geoCode": {
+                "latitude": 41.37966,
+                "longitude": 2.17526
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.28,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700156437,
+            "name": "BERTRAN APARTHOTEL",
+            "hotelId": "HSBCNANO",
+            "geoCode": {
+                "latitude": 41.41038,
+                "longitude": 2.13973
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.29,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700003604,
+            "name": "GAUDI",
+            "hotelId": "HSBCNADA",
+            "geoCode": {
+                "latitude": 41.37901,
+                "longitude": 2.17404
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.29,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700024452,
+            "name": "CATALONIA PARK GUELL",
+            "hotelId": "UIBCNRUB",
+            "geoCode": {
+                "latitude": 41.41413,
+                "longitude": 2.14469
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.32,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "FI",
+            "iataCode": "BCN",
+            "dupeId": 700079401,
+            "name": "CAPRI BY FRASER BARCELONA",
+            "hotelId": "FIBCNPOR",
+            "geoCode": {
+                "latitude": 41.39775,
+                "longitude": 2.18888
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.33,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "KY",
+            "iataCode": "BCN",
+            "dupeId": 700022066,
+            "name": "EXE AMREY SANT PAU",
+            "hotelId": "KYBCNPAU",
+            "geoCode": {
+                "latitude": 41.41399,
+                "longitude": 2.17789
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.35,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700044279,
+            "name": "AINB BORN - DAMES",
+            "hotelId": "HSBCNAJO",
+            "geoCode": {
+                "latitude": 41.38378,
+                "longitude": 2.18289
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.36,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "OI",
+            "iataCode": "NCE",
+            "dupeId": 504181198,
+            "name": "ABBA SANTS HOTEL",
+            "hotelId": "OINCE7FA",
+            "geoCode": {
+                "latitude": 41.38256,
+                "longitude": 2.14001
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.38,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700046986,
+            "name": "AINB LAS RAMBLAS - GUARDIA",
+            "hotelId": "HSBCNAVG",
+            "geoCode": {
+                "latitude": 41.37789,
+                "longitude": 2.17374
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.39,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700165952,
+            "name": "BARCELONA CITY APARTAMENTOS",
+            "hotelId": "HSBCNATT",
+            "geoCode": {
+                "latitude": 41.40062,
+                "longitude": 2.18939
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.41,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700129689,
+            "name": "BARCELONA URBANY HOSTAL",
+            "hotelId": "HSBCNANQ",
+            "geoCode": {
+                "latitude": 41.40706,
+                "longitude": 2.18657
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.41,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700027306,
+            "name": "MUR MAR APARTAMENTOS",
+            "hotelId": "HABCNMUR",
+            "geoCode": {
+                "latitude": 41.37863,
+                "longitude": 2.17592
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.41,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700025470,
+            "name": "MILLENNI GARBI",
+            "hotelId": "HSBCNAGW",
+            "geoCode": {
+                "latitude": 41.37596,
+                "longitude": 2.16701
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.41,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700144832,
+            "name": "AINB RAMBLAS - AMPLE",
+            "hotelId": "HSBCNAVP",
+            "geoCode": {
+                "latitude": 41.38087,
+                "longitude": 2.18038
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.43,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700010920,
+            "name": "PARK HOTEL",
+            "hotelId": "HABCNPAR",
+            "geoCode": {
+                "latitude": 41.38409,
+                "longitude": 2.1844
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.44,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "XL",
+            "iataCode": "BCN",
+            "dupeId": 700021915,
+            "name": "TORRE CATALUNYA GRAN HOTEL",
+            "hotelId": "XLBCNGTC",
+            "geoCode": {
+                "latitude": 41.37984,
+                "longitude": 2.14265
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.45,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "TY",
+            "iataCode": "BCN",
+            "dupeId": 700165961,
+            "name": "CASTRO EXCLUSIVE RESIDENCES SANT PAU",
+            "hotelId": "TYBCNCSN",
+            "geoCode": {
+                "latitude": 41.41664,
+                "longitude": 2.17505
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.47,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700181749,
+            "name": "HOTEL CIUTADELLA BARCELONA",
+            "hotelId": "HABCNTAD",
+            "geoCode": {
+                "latitude": 41.38385,
+                "longitude": 2.18464
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.47,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700161617,
+            "name": "ANDANTE HOTEL",
+            "hotelId": "HSBCNAXA",
+            "geoCode": {
+                "latitude": 41.37671,
+                "longitude": 2.1728
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.48,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "LX",
+            "iataCode": "BCN",
+            "dupeId": 700079432,
+            "name": "ABAC RESTAURANT   HOTEL",
+            "hotelId": "LXBCNABA",
+            "geoCode": {
+                "latitude": 41.41019,
+                "longitude": 2.13669
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.48,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700025215,
+            "name": "SILKEN CONCORDIA HOTEL",
+            "hotelId": "UIBCNSCH",
+            "geoCode": {
+                "latitude": 41.3748,
+                "longitude": 2.16095
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.48,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700094406,
+            "name": "RIO DE CASTRO BARCELONA HOSTAL",
+            "hotelId": "HSBCNAPV",
+            "geoCode": {
+                "latitude": 41.3748,
+                "longitude": 2.16064
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.48,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700050710,
+            "name": "MELONDISTRICT POBLE SEC RESIDENCIA DE ES",
+            "hotelId": "HSBCNAVR",
+            "geoCode": {
+                "latitude": 41.37484,
+                "longitude": 2.16317
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.49,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700043752,
+            "name": "MEDINACELI",
+            "hotelId": "HABCNMED",
+            "geoCode": {
+                "latitude": 41.37906,
+                "longitude": 2.17881
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.5,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700025370,
+            "name": "HOTEL PARAL.LEL",
+            "hotelId": "WVBCN779",
+            "geoCode": {
+                "latitude": 41.37486,
+                "longitude": 2.16608
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.51,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "DS",
+            "iataCode": "BCN",
+            "dupeId": 700886574,
+            "name": "THE SERRAS",
+            "hotelId": "DSBCNSER",
+            "geoCode": {
+                "latitude": 41.38021,
+                "longitude": 2.18115
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.53,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700016176,
+            "name": "OASIS",
+            "hotelId": "HSBCNAOZ",
+            "geoCode": {
+                "latitude": 41.38277,
+                "longitude": 2.18465
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.55,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WV",
+            "iataCode": "BCN",
+            "dupeId": 700007276,
+            "name": "EXPO HOTEL BARCELONA",
+            "hotelId": "WVBCNEXP",
+            "geoCode": {
+                "latitude": 41.37872,
+                "longitude": 2.14249
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.56,
+                "unit": "KM"
+            },
+            "lastUpdate": "2022-05-18T06:00:13"
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700072278,
+            "name": "CATALONIA PORT",
+            "hotelId": "UIBCN825",
+            "geoCode": {
+                "latitude": 41.37834,
+                "longitude": 2.17857
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.56,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700032592,
+            "name": "TRANSIT",
+            "hotelId": "HSBCNAQT",
+            "geoCode": {
+                "latitude": 41.37816,
+                "longitude": 2.14301
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.58,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "KY",
+            "iataCode": "BCN",
+            "dupeId": 700026446,
+            "name": "HOTEL TRES TORRES",
+            "hotelId": "KYBCNTRE",
+            "geoCode": {
+                "latitude": 41.39976,
+                "longitude": 2.13002
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.59,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700004635,
+            "name": "CATALONIA SAGRADA FAMILIA HOTE",
+            "hotelId": "UIBCNARA",
+            "geoCode": {
+                "latitude": 41.41255,
+                "longitude": 2.1842
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.59,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "NS",
+            "iataCode": "BCN",
+            "dupeId": 700151806,
+            "name": "NH BARCELONA DIAGONAL CENTER",
+            "hotelId": "NSBCNDIA",
+            "geoCode": {
+                "latitude": 41.39775,
+                "longitude": 2.19211
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.6,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700003600,
+            "name": "CATALONIA BARCELONA PLAZA HOTEL",
+            "hotelId": "UIBCNPLA",
+            "geoCode": {
+                "latitude": 41.37529,
+                "longitude": 2.14851
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.64,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700024173,
+            "name": "CATALONIA ATENAS HOTEL",
+            "hotelId": "UIBCNATE",
+            "geoCode": {
+                "latitude": 41.41119,
+                "longitude": 2.18678
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.66,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700028091,
+            "name": "CATALONIA CASTELLNOU HOTEL",
+            "hotelId": "UIBCNCAS",
+            "geoCode": {
+                "latitude": 41.3966,
+                "longitude": 2.12859
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.69,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700130777,
+            "name": "CORONADO",
+            "hotelId": "HSBCNAYL",
+            "geoCode": {
+                "latitude": 41.37348,
+                "longitude": 2.16824
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.7,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700004834,
+            "name": "APARTHOTEL ATENEA BARCELONA",
+            "hotelId": "UIBCNH08",
+            "geoCode": {
+                "latitude": 41.38639,
+                "longitude": 2.12952
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.87,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700146134,
+            "name": "GRUMS HOTEL",
+            "hotelId": "UIBCN384",
+            "geoCode": {
+                "latitude": 41.37265,
+                "longitude": 2.17207
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.88,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700076203,
+            "name": "AYRE HOTEL GRAN VIA",
+            "hotelId": "UIBCN411",
+            "geoCode": {
+                "latitude": 41.37334,
+                "longitude": 2.14725
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.88,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700171222,
+            "name": "08028 APARTMENTS",
+            "hotelId": "HABCN080",
+            "geoCode": {
+                "latitude": 41.38356,
+                "longitude": 2.13089
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 2.92,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "TY",
+            "iataCode": "BCN",
+            "dupeId": 700027871,
+            "name": "ARENAS ATIRAM HOTELS",
+            "hotelId": "TYBCN488",
+            "geoCode": {
+                "latitude": 41.39031,
+                "longitude": 2.12608
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.0,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "SI",
+            "iataCode": "BCN",
+            "dupeId": 700027545,
+            "name": "FOUR POINTS BARCELONA DIAGONAL",
+            "hotelId": "SIBCN692",
+            "geoCode": {
+                "latitude": 41.40527,
+                "longitude": 2.196
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.06,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "PU",
+            "iataCode": "BCN",
+            "dupeId": 700034062,
+            "name": "PULLMAN BARCELONA SKIPPER",
+            "hotelId": "PUBCNPUL",
+            "geoCode": {
+                "latitude": 41.38586,
+                "longitude": 2.1945
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.07,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HI",
+            "iataCode": "BCN",
+            "dupeId": 700056340,
+            "name": "HOLIDAY INN EXPRESS CITY 22",
+            "hotelId": "HIBCN5A4",
+            "geoCode": {
+                "latitude": 41.40144,
+                "longitude": 2.19816
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.14,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700117726,
+            "name": "CATALONIA RIGOLETTO HOTEL",
+            "hotelId": "UIBCN083",
+            "geoCode": {
+                "latitude": 41.38642,
+                "longitude": 2.1255
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.18,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700072280,
+            "name": "54 BARCELONETA",
+            "hotelId": "HSBCNAID",
+            "geoCode": {
+                "latitude": 41.37699,
+                "longitude": 2.18884
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.23,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700885894,
+            "name": "AURA PARK NORD APARTMENTS",
+            "hotelId": "HABCNAUR",
+            "geoCode": {
+                "latitude": 41.42211,
+                "longitude": 2.18118
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.25,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "ON",
+            "iataCode": "BCN",
+            "dupeId": 700117532,
+            "name": "HOTEL 4 BARCELONA",
+            "hotelId": "ONBCN4BC",
+            "geoCode": {
+                "latitude": 41.39643,
+                "longitude": 2.20054
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.31,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "PH",
+            "iataCode": "BCN",
+            "dupeId": 700011323,
+            "name": "HOTEL PRINCESA SOFIA PREFERRED",
+            "hotelId": "PHBCNPSH",
+            "geoCode": {
+                "latitude": 41.3866,
+                "longitude": 2.12297
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.37,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "CA",
+            "iataCode": "BCN",
+            "dupeId": 700053828,
+            "name": "CONFORTEL BARCELONA",
+            "hotelId": "CABCN780",
+            "geoCode": {
+                "latitude": 41.39911,
+                "longitude": 2.20213
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.45,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700888552,
+            "name": "MARTI-CODOLAR RESIDENCIA SALESIANA",
+            "hotelId": "HSBCNBDE",
+            "geoCode": {
+                "latitude": 41.42842,
+                "longitude": 2.15086
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.57,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700027164,
+            "name": "HUSA PEDRALBES",
+            "hotelId": "UIBCN888",
+            "geoCode": {
+                "latitude": 41.39262,
+                "longitude": 2.11648
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.74,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700147533,
+            "name": "LAUMON",
+            "hotelId": "HSBCNAUB",
+            "geoCode": {
+                "latitude": 41.4232,
+                "longitude": 2.19057
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.81,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "SE",
+            "iataCode": "BCN",
+            "dupeId": 700163742,
+            "name": "HOTEL SERCOTEL MADANIS",
+            "hotelId": "SEBCNDAN",
+            "geoCode": {
+                "latitude": 41.37149,
+                "longitude": 2.12752
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 3.98,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "SE",
+            "iataCode": "BCN",
+            "dupeId": 700094707,
+            "name": "SERCOTEL MADANIS APARTAMENTOS",
+            "hotelId": "SEBCNMAD",
+            "geoCode": {
+                "latitude": 41.37646,
+                "longitude": 2.12162
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 4.0,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WH",
+            "iataCode": "BCN",
+            "dupeId": 700117270,
+            "name": "W HOTEL BARCELONA",
+            "hotelId": "WHBCN183",
+            "geoCode": {
+                "latitude": 41.36848,
+                "longitude": 2.19006
+            },
+            "distance": {
+                "value": 4.01,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "NS",
+            "iataCode": "BCN",
+            "dupeId": 700015093,
+            "name": "HESPERIA DEL MAR",
+            "hotelId": "NSBCNHDM",
+            "geoCode": {
+                "latitude": 41.40155,
+                "longitude": 2.20986
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 4.11,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "BN",
+            "iataCode": "BCN",
+            "dupeId": 700028089,
+            "name": "BARCELO ATENEA MAR",
+            "hotelId": "BNBCNBAM",
+            "geoCode": {
+                "latitude": 41.40222,
+                "longitude": 2.21202
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 4.3,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700019949,
+            "name": "VINCCI MARITIMO",
+            "hotelId": "UIBCNVBM",
+            "geoCode": {
+                "latitude": 41.40764,
+                "longitude": 2.21084
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 4.33,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "WT",
+            "iataCode": "BCN",
+            "dupeId": 700032712,
+            "name": "TRYP BARCELONA CONDAL MAR",
+            "hotelId": "WTBCNMAR",
+            "geoCode": {
+                "latitude": 41.41267,
+                "longitude": 2.20856
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 4.33,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HA",
+            "iataCode": "BCN",
+            "dupeId": 700084579,
+            "name": "EUROSTARS LEX",
+            "hotelId": "HABCNLEX",
+            "geoCode": {
+                "latitude": 41.36547,
+                "longitude": 2.1305
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 4.34,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "FA",
+            "iataCode": "BCN",
+            "dupeId": 700023491,
+            "name": "FAIRMONT REY JUAN CARLOS I",
+            "hotelId": "FABCN270",
+            "geoCode": {
+                "latitude": 41.38373,
+                "longitude": 2.11012
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 4.49,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HL",
+            "iataCode": "BCN",
+            "dupeId": 700034036,
+            "name": "HILTON DIAGONAL MAR BARCELON",
+            "hotelId": "HLBCN100",
+            "geoCode": {
+                "latitude": 41.40758,
+                "longitude": 2.21593
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 4.74,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "ON",
+            "iataCode": "BCN",
+            "dupeId": 700004124,
+            "name": "FRONT MARITIM",
+            "hotelId": "ONBCNFRM",
+            "geoCode": {
+                "latitude": 41.40562,
+                "longitude": 2.21658
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 4.74,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "HS",
+            "iataCode": "BCN",
+            "dupeId": 700075036,
+            "name": "AGORA BCN RESIDENCIA UNIVERSITARIA INTER",
+            "hotelId": "HSBCNAVM",
+            "geoCode": {
+                "latitude": 41.43943,
+                "longitude": 2.14891
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 4.81,
+                "unit": "KM"
+            }
+        },
+        {
+            "chainCode": "UI",
+            "iataCode": "BCN",
+            "dupeId": 700024451,
+            "name": "CATALONIA MIKADO HOTEL",
+            "hotelId": "UIBCNMIR",
+            "geoCode": {
+                "latitude": 41.41599,
+                "longitude": 2.10232
+            },
+            "address": {
+                "countryCode": "ES"
+            },
+            "distance": {
+                "value": 5.31,
+                "unit": "KM"
+            }
+        }
+    ],
+    "meta": {
+        "count": 223,
+        "links": {
+            "self": "http://test.api.amadeus.com/reference-data/locations/hotels/by-geocode?latitude=41.397158&longitude=2.160873"
+        }
+    }
+}
