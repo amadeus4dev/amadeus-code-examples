@@ -10,7 +10,7 @@ try:
     '''
     What are the destinations served by BLR airport?
     '''
-    response = amadeus.airport.direct_destinations.get(departureAirportCode='BLR')
+    response = amadeus.airport.direct_destinations.get(departureAirportCode='MAD')
     print(response.data)
 except ResponseError as error:
     raise error
