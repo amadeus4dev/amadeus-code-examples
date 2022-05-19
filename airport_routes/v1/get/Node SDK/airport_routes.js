@@ -6,7 +6,7 @@ var amadeus = new Amadeus({
 
 // Find all destinations served by CDG Airport
 amadeus.airport.directDestinations.get({
-    departureAirportCode: 'CDG',
+    departureAirportCode: 'MAD',
 }).catch(function (response) {
     console.error(response);
 });
