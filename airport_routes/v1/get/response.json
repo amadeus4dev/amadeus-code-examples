@@ -1,0 +1,1108 @@
+{
+    "meta": {
+        "count": 183,
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/airport/direct-destinations?departureAirportCode=MAD"
+        }
+    },
+    "data": [
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ALBACETE",
+            "iataCode": "ABC"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LANZAROTE",
+            "iataCode": "ACE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MALAGA",
+            "iataCode": "AGP"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ALGHERO",
+            "iataCode": "AHO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ALICANTE",
+            "iataCode": "ALC"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ALGIERS",
+            "iataCode": "ALG"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "AMMAN",
+            "iataCode": "AMM"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "AMSTERDAM",
+            "iataCode": "AMS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ASUNCION",
+            "iataCode": "ASU"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ATHENS",
+            "iataCode": "ATH"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ATLANTA",
+            "iataCode": "ATL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ABU DHABI",
+            "iataCode": "AUH"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SAMANA",
+            "iataCode": "AZS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BACAU",
+            "iataCode": "BCM"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BARCELONA",
+            "iataCode": "BCN"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BELGRADE",
+            "iataCode": "BEG"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BERLIN",
+            "iataCode": "BER"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BEIRUT",
+            "iataCode": "BEY"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BERGEN",
+            "iataCode": "BGO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BILBAO",
+            "iataCode": "BIO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BEIJING",
+            "iataCode": "BJS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BADAJOZ",
+            "iataCode": "BJZ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BOLOGNA",
+            "iataCode": "BLQ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BORDEAUX",
+            "iataCode": "BOD"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BOGOTA",
+            "iataCode": "BOG"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BOSTON",
+            "iataCode": "BOS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BARI",
+            "iataCode": "BRI"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BRISTOL",
+            "iataCode": "BRS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BRUSSELS",
+            "iataCode": "BRU"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BUDAPEST",
+            "iataCode": "BUD"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BUENOS AIRES",
+            "iataCode": "BUE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BUCHAREST",
+            "iataCode": "BUH"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CAGLIARI",
+            "iataCode": "CAG"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CAIRO",
+            "iataCode": "CAI"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "COCHABAMBA",
+            "iataCode": "CBB"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CARACAS",
+            "iataCode": "CCS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "KERKYRA",
+            "iataCode": "CFU"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CHICAGO",
+            "iataCode": "CHI"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CLUJ NAPOCA",
+            "iataCode": "CLJ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CALI",
+            "iataCode": "CLO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CHARLOTTE",
+            "iataCode": "CLT"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CASABLANCA",
+            "iataCode": "CMN"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "COPENHAGEN",
+            "iataCode": "CPH"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CRAIOVA",
+            "iataCode": "CRA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CATANIA",
+            "iataCode": "CTA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "CANCUN",
+            "iataCode": "CUN"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "DUBROVNIK",
+            "iataCode": "DBV"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "DALLAS",
+            "iataCode": "DFW"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "DAKAR",
+            "iataCode": "DKR"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "DOHA",
+            "iataCode": "DOH"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "DUBLIN",
+            "iataCode": "DUB"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "DUESSELDORF",
+            "iataCode": "DUS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "DUBAI",
+            "iataCode": "DXB"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BASEL MULHOUSE",
+            "iataCode": "EAP"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SAN SEBASTIAN",
+            "iataCode": "EAS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "EDINBURGH",
+            "iataCode": "EDI"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "KEFALLINIA",
+            "iataCode": "EFL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "FARO",
+            "iataCode": "FAO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "FLORENCE",
+            "iataCode": "FLR"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "FUNCHAL",
+            "iataCode": "FNC"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "FORTALEZA",
+            "iataCode": "FOR"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "FRANKFURT",
+            "iataCode": "FRA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "FUERTEVENTURA",
+            "iataCode": "FUE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "GENOA",
+            "iataCode": "GOA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "GRANADA",
+            "iataCode": "GRX"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "GUATEMALA CITY",
+            "iataCode": "GUA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "GENEVA",
+            "iataCode": "GVA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "GUAYAQUIL",
+            "iataCode": "GYE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "HAMBURG",
+            "iataCode": "HAM"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "HANOI",
+            "iataCode": "HAN"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "HAVANA",
+            "iataCode": "HAV"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "IRAKLEION",
+            "iataCode": "HER"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "HONG KONG",
+            "iataCode": "HKG"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "IBIZA",
+            "iataCode": "IBZ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ISTANBUL",
+            "iataCode": "IST"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "JEDDAH",
+            "iataCode": "JED"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MYKONOS",
+            "iataCode": "JMK"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "THIRA",
+            "iataCode": "JTR"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LOS ANGELES",
+            "iataCode": "LAX"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "A CORUNA",
+            "iataCode": "LCG"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ALMERIA",
+            "iataCode": "LEI"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LEON",
+            "iataCode": "LEN"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LIMA",
+            "iataCode": "LIM"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LISBON",
+            "iataCode": "LIS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LJUBLJANA",
+            "iataCode": "LJU"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LONDON",
+            "iataCode": "LON"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "GRAN CANARIA",
+            "iataCode": "LPA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LIVERPOOL",
+            "iataCode": "LPL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LUXEMBOURG",
+            "iataCode": "LUX"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LUXOR",
+            "iataCode": "LXR"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LYON",
+            "iataCode": "LYS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MADRID",
+            "iataCode": "MAD"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MENORCA",
+            "iataCode": "MAH"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MANCHESTER",
+            "iataCode": "MAN"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MEDELLIN",
+            "iataCode": "MDE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MEXICO CITY",
+            "iataCode": "MEX"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MIAMI",
+            "iataCode": "MIA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MILAN",
+            "iataCode": "MIL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MURCIA",
+            "iataCode": "MJV"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MALTA",
+            "iataCode": "MLA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MALE",
+            "iataCode": "MLE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MELILLA",
+            "iataCode": "MLN"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MOSCOW",
+            "iataCode": "MOW"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ZHUKOVSKY",
+            "iataCode": "MOW"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MARSEILLE",
+            "iataCode": "MRS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MUNICH",
+            "iataCode": "MUC"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MONTEVIDEO",
+            "iataCode": "MVD"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "NAPLES",
+            "iataCode": "NAP"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "NICE",
+            "iataCode": "NCE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "NANTES",
+            "iataCode": "NTE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "NEW YORK",
+            "iataCode": "NYC"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "OLBIA",
+            "iataCode": "OLB"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PORTO",
+            "iataCode": "OPO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "OSLO",
+            "iataCode": "OSL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ASTURIAS",
+            "iataCode": "OVD"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PARIS",
+            "iataCode": "PAR"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PONTA DELGADA",
+            "iataCode": "PDL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PONFERRADA",
+            "iataCode": "PFE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PHILADELPHIA",
+            "iataCode": "PHL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PALMA DE MALLORCA",
+            "iataCode": "PMI"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PALERMO",
+            "iataCode": "PMO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PAMPLONA",
+            "iataCode": "PNA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PRAGUE",
+            "iataCode": "PRG"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PANAMA CITY",
+            "iataCode": "PTY"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "PUNTA CANA",
+            "iataCode": "PUJ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MARRAKECH",
+            "iataCode": "RAK"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "RABAT",
+            "iataCode": "RBA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "RECIFE",
+            "iataCode": "REC"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "REYKJAVIK",
+            "iataCode": "REK"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "BURGOS",
+            "iataCode": "RGS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "RIO DE JANEIRO",
+            "iataCode": "RIO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "RIGA",
+            "iataCode": "RIX"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LOGRONO",
+            "iataCode": "RJL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ROME",
+            "iataCode": "ROM"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "RIYADH",
+            "iataCode": "RUH"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SAO PAULO",
+            "iataCode": "SAO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SAN PEDRO SULA",
+            "iataCode": "SAP"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SIBIU",
+            "iataCode": "SBZ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SANTIAGO",
+            "iataCode": "SCL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SANTIAGO DE COMPOSTELA",
+            "iataCode": "SCQ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SANTIAGO DE CUBA",
+            "iataCode": "SCU"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SANTO DOMINGO",
+            "iataCode": "SDQ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SANTANDER",
+            "iataCode": "SDR"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SEOUL",
+            "iataCode": "SEL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SAN FRANCISCO",
+            "iataCode": "SFO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SAN JOSE",
+            "iataCode": "SJO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SAN JUAN",
+            "iataCode": "SJU"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SALAMANCA",
+            "iataCode": "SLM"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SOFIA",
+            "iataCode": "SOF"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SANTA CRUZ DE LA PALMA",
+            "iataCode": "SPC"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SPLIT",
+            "iataCode": "SPU"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SANTA CRUZ",
+            "iataCode": "SRZ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SALVADOR",
+            "iataCode": "SSA"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "STOCKHOLM",
+            "iataCode": "STO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "STUTTGART",
+            "iataCode": "STR"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SEVILLA",
+            "iataCode": "SVQ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "STRASBOURG",
+            "iataCode": "SXB"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "TENERIFE",
+            "iataCode": "TCI"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "TOULOUSE",
+            "iataCode": "TLS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "TEL AVIV YAFO",
+            "iataCode": "TLV"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "TANGIER",
+            "iataCode": "TNG"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "TURIN",
+            "iataCode": "TRN"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "TIANJIN",
+            "iataCode": "TSN"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "TIMISOARA",
+            "iataCode": "TSR"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "TUNIS",
+            "iataCode": "TUN"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "TOKYO",
+            "iataCode": "TYO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "QUITO",
+            "iataCode": "UIO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "VENICE",
+            "iataCode": "VCE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "VIGO",
+            "iataCode": "VGO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "VIENNA",
+            "iataCode": "VIE"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "VITORIA",
+            "iataCode": "VIT"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "VALENCIA",
+            "iataCode": "VLC"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "VALLADOLID",
+            "iataCode": "VLL"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "WASHINGTON",
+            "iataCode": "WAS"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "WARSAW",
+            "iataCode": "WAW"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "SORIA",
+            "iataCode": "XJO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "LORCA",
+            "iataCode": "XJR"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "JEREZ",
+            "iataCode": "XRY"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "MONTREAL",
+            "iataCode": "YMQ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "TORONTO",
+            "iataCode": "YTO"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ZAGREB",
+            "iataCode": "ZAG"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ZARAGOZA",
+            "iataCode": "ZAZ"
+        },
+        {
+            "type": "location",
+            "subtype": "city",
+            "name": "ZURICH",
+            "iataCode": "ZRH"
+        }
+    ]
+}
