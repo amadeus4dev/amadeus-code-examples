@@ -1,0 +1,69 @@
+{
+    "data": {
+        "type": "hotel-offers",
+        "hotel": {
+            "type": "hotel",
+            "hotelId": "MCLONGHM",
+            "chainCode": "MC",
+            "name": "JW MARRIOTT GROSVENOR HOUSE",
+            "cityCode": "LON",
+            "address": {
+                "countryCode": "GB"
+            },
+            "amenities": [
+                "CRIBS_AVAILABLE"
+            ]
+        },
+        "available": true,
+        "offers": [
+            {
+                "id": "0LR02W7BCR",
+                "checkInDate": "2022-05-20",
+                "checkOutDate": "2022-05-21",
+                "rateCode": "S9R",
+                "rateFamilyEstimated": {
+                    "code": "SRS",
+                    "type": "N"
+                },
+                "description": {
+                    "text": "Deluxe Queen Room, 1 Queen(s), 20sqm/215sqft-29 sqm/312sqft, Wireless internet, for a fee, Wire d internet, for a fee, Coffee/tea maker, 49in/1 Marriott Senior Discount - Available to guests 62 years of age or older. - Proof of age eligibility required at check-in. - Limit of two rooms per night.",
+                    "lang": "EN"
+                },
+                "room": {
+                    "type": "XMI",
+                    "description": {
+                        "text": "Marriott Senior Discount, 62 years and older va lid ID required",
+                        "lang": "EN"
+                    }
+                },
+                "guests": {
+                    "adults": 1
+                },
+                "price": {
+                    "currency": "GBP",
+                    "base": "352.00",
+                    "total": "352.00",
+                    "variations": {
+                        "changes": [
+                            {
+                                "startDate": "2022-05-20",
+                                "endDate": "2022-05-21",
+                                "base": "352.00"
+                            }
+                        ]
+                    }
+                },
+                "policies": {
+                    "paymentType": "guarantee",
+                    "cancellation": {
+                        "amount": "352.00",
+                        "deadline": "2022-05-19T23:59:00+01:00"
+                    }
+                }
+            }
+        ]
+    },
+    "meta": {
+        "lang": "EN"
+    }
+}
