@@ -9,7 +9,7 @@ public class AirportRoutes {
 
   public static void main(String[] args) throws ResponseException {
     Amadeus amadeus = Amadeus
-      .builder("QsJChFGAfv3HlWoLB5uRbEPRgd0DC1tl", "Odh5xRMAEr7ljAWh")
+      .builder("YOUR_AMADEUS_API_KEY", "YOUR_AMADEUS_API_SECRET")
       .build();
 
     Destination[] directDestinations = amadeus.airport.directDestinations.get(
