@@ -1,69 +1,188 @@
 {
     "data": {
-        "type": "hotel-offers",
-        "hotel": {
-            "type": "hotel",
-            "hotelId": "MCLONGHM",
-            "chainCode": "MC",
-            "name": "JW MARRIOTT GROSVENOR HOUSE",
-            "cityCode": "LON",
-            "address": {
-                "countryCode": "GB"
-            },
-            "amenities": [
-                "CRIBS_AVAILABLE"
-            ]
-        },
-        "available": true,
-        "offers": [
-            {
-                "id": "0LR02W7BCR",
-                "checkInDate": "2022-05-20",
-                "checkOutDate": "2022-05-21",
-                "rateCode": "S9R",
-                "rateFamilyEstimated": {
-                    "code": "SRS",
-                    "type": "N"
-                },
-                "description": {
-                    "text": "Deluxe Queen Room, 1 Queen(s), 20sqm/215sqft-29 sqm/312sqft, Wireless internet, for a fee, Wire d internet, for a fee, Coffee/tea maker, 49in/1 Marriott Senior Discount - Available to guests 62 years of age or older. - Proof of age eligibility required at check-in. - Limit of two rooms per night.",
-                    "lang": "EN"
-                },
-                "room": {
-                    "type": "XMI",
-                    "description": {
-                        "text": "Marriott Senior Discount, 62 years and older va lid ID required",
-                        "lang": "EN"
-                    }
-                },
-                "guests": {
-                    "adults": 1
-                },
-                "price": {
-                    "currency": "GBP",
-                    "base": "352.00",
-                    "total": "352.00",
-                    "variations": {
-                        "changes": [
-                            {
-                                "startDate": "2022-05-20",
-                                "endDate": "2022-05-21",
-                                "base": "352.00"
-                            }
-                        ]
-                    }
-                },
-                "policies": {
-                    "paymentType": "guarantee",
-                    "cancellation": {
-                        "amount": "352.00",
-                        "deadline": "2022-05-19T23:59:00+01:00"
-                    }
-                }
+      "type": "string",
+      "available": true,
+      "self": "string",
+      "offers": [
+        {
+          "type": "hotel-offer",
+          "id": "63A93695B58821ABB0EC2B33FE9FAB24D72BF34B1BD7D707293763D8D9378FC3",
+          "checkInDate": "2020-12-30",
+          "checkOutDate": "2020-12-31",
+          "roomQuantity": "1",
+          "rateCode": "RAC",
+          "rateFamilyEstimated": {
+            "code": "string",
+            "type": "string"
+          },
+          "category": "FAMILY_PLAN",
+          "description": {
+            "text": "A description",
+            "lang": "fr-FR"
+          },
+          "commission": {
+            "percentage": "string",
+            "amount": "string",
+            "description": {
+              "text": "A description",
+              "lang": "fr-FR"
             }
-        ]
-    },
-    "meta": {
-        "lang": "EN"
+          },
+          "boardType": "ROOM_ONLY",
+          "room": {
+            "type": "string",
+            "typeEstimated": {
+              "category": "string",
+              "beds": 0,
+              "bedType": "string"
+            },
+            "description": {
+              "text": "A description",
+              "lang": "fr-FR"
+            }
+          },
+          "guests": {
+            "adults": 2,
+            "childAges": [
+              0
+            ]
+          },
+          "price": {
+            "currency": "string",
+            "sellingTotal": "string",
+            "total": "string",
+            "base": "string",
+            "taxes": [
+              {
+                "amount": "string",
+                "currency": "string",
+                "code": "string",
+                "percentage": "string",
+                "included": true,
+                "description": "string",
+                "pricingFrequency": "string",
+                "pricingMode": "string"
+              }
+            ],
+            "markups": [
+              {
+                "amount": "10"
+              }
+            ],
+            "variations": {
+              "average": {
+                "currency": "string",
+                "sellingTotal": "string",
+                "total": "string",
+                "base": "string",
+                "markups": [
+                  {
+                    "amount": "10"
+                  }
+                ]
+              },
+              "changes": [
+                {
+                  "startDate": "2022-05-23",
+                  "endDate": "2022-05-23",
+                  "currency": "string",
+                  "sellingTotal": "string",
+                  "total": "string",
+                  "base": "string",
+                  "markups": [
+                    {
+                      "amount": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "policies": {
+            "paymentType": "GUARANTEE",
+            "guarantee": {
+              "description": {
+                "text": "A description",
+                "lang": "fr-FR"
+              },
+              "acceptedPayments": {
+                "creditCards": [
+                  "string"
+                ],
+                "methods": [
+                  "CREDIT_CARD"
+                ]
+              }
+            },
+            "deposit": {
+              "amount": "string",
+              "deadline": "2022-05-23T09:38:03.865Z",
+              "description": {
+                "text": "A description",
+                "lang": "fr-FR"
+              },
+              "acceptedPayments": {
+                "creditCards": [
+                  "string"
+                ],
+                "methods": [
+                  "CREDIT_CARD"
+                ]
+              }
+            },
+            "prepay": {
+              "amount": "string",
+              "deadline": "2022-05-23T09:38:03.865Z",
+              "description": {
+                "text": "A description",
+                "lang": "fr-FR"
+              },
+              "acceptedPayments": {
+                "creditCards": [
+                  "string"
+                ],
+                "methods": [
+                  "CREDIT_CARD"
+                ]
+              }
+            },
+            "holdTime": {
+              "deadline": "2022-05-23T09:38:03.865Z"
+            },
+            "cancellation": {
+              "type": "FULL_STAY",
+              "amount": "string",
+              "numberOfNights": 0,
+              "percentage": "string",
+              "deadline": "2022-05-23T09:38:03.865Z",
+              "description": {
+                "text": "A description",
+                "lang": "fr-FR"
+              }
+            },
+            "checkInOut": {
+              "checkIn": "13:00:00",
+              "checkInDescription": {
+                "text": "A description",
+                "lang": "fr-FR"
+              },
+              "checkOut": "11:00:00",
+              "checkOutDescription": {
+                "text": "A description",
+                "lang": "fr-FR"
+              }
+            }
+          },
+          "self": "https://test.travel.api.amadeus.com/v2/shopping/hotel-offers/63A93695B58821ABB0EC2B33FE9FAB24D72BF34B1BD7D707293763D8D9378FC3"
+        }
+      ],
+      "hotel": {
+        "hotelId": "ADPAR001",
+        "chainCode": "AD",
+        "brandCode": "RT",
+        "dupeId": "501132260",
+        "name": "Hotel de Paris",
+        "cityCode": "PAR"
+      }
     }
-}
+  }
