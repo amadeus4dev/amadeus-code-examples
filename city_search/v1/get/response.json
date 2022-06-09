@@ -1,0 +1,443 @@
+{
+    "meta": {
+      "count": 33,
+      "links": {
+        "self": "https://test.api.amadeus.com/v1/reference-data/locations/cities?keyword=PARIS&max=1000"
+      }
+    },
+    "data": [
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "iataCode": "PAR",
+        "address": {
+          "countryCode": "FR",
+          "stateCode": "FR-75"
+        },
+        "geoCode": {
+          "latitude": 48.85341,
+          "longitude": 2.3488
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Le Touquet-Paris-Plage",
+        "iataCode": "LTQ",
+        "address": {
+          "countryCode": "FR",
+          "stateCode": "FR-62"
+        },
+        "geoCode": {
+          "latitude": 50.52432,
+          "longitude": 1.58571
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "iataCode": "PHT",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-TN"
+        },
+        "geoCode": {
+          "latitude": 36.302,
+          "longitude": -88.32671
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "iataCode": "PRX",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-TX"
+        },
+        "geoCode": {
+          "latitude": 33.66094,
+          "longitude": -95.55551
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "address": {
+          "countryCode": "CA",
+          "stateCode": "CA-ON"
+        },
+        "geoCode": {
+          "latitude": 43.2,
+          "longitude": -80.38333
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Seyssinet-Pariset",
+        "address": {
+          "countryCode": "FR",
+          "stateCode": "FR-38"
+        },
+        "geoCode": {
+          "latitude": 45.17675,
+          "longitude": 5.69387
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Damparis",
+        "address": {
+          "countryCode": "FR",
+          "stateCode": "FR-39"
+        },
+        "geoCode": {
+          "latitude": 47.07556,
+          "longitude": 5.41398
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Fontenay-en-Parisis",
+        "address": {
+          "countryCode": "FR",
+          "stateCode": "FR-95"
+        },
+        "geoCode": {
+          "latitude": 49.05371,
+          "longitude": 2.45156
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Villeparisis",
+        "address": {
+          "countryCode": "FR",
+          "stateCode": "FR-77"
+        },
+        "geoCode": {
+          "latitude": 48.94208,
+          "longitude": 2.61463
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Cormeilles-en-Parisis",
+        "address": {
+          "countryCode": "FR",
+          "stateCode": "FR-95"
+        },
+        "geoCode": {
+          "latitude": 48.97111,
+          "longitude": 2.20491
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Fond Parisien",
+        "address": {
+          "countryCode": "HT",
+          "stateCode": "HT-ZZZ"
+        },
+        "geoCode": {
+          "latitude": 18.50547,
+          "longitude": -71.98122
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Parisot",
+        "address": {
+          "countryCode": "FR",
+          "stateCode": "FR-81"
+        },
+        "geoCode": {
+          "latitude": 43.79997,
+          "longitude": 1.82871
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Whiteparish",
+        "address": {
+          "countryCode": "GB",
+          "stateCode": "GB-ZZZ"
+        },
+        "geoCode": {
+          "latitude": 51.01041,
+          "longitude": -1.64855
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Kyparissia",
+        "address": {
+          "countryCode": "GR",
+          "stateCode": "GR-ZZZ"
+        },
+        "geoCode": {
+          "latitude": 37.25111,
+          "longitude": 21.67361
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Danauparis",
+        "address": {
+          "countryCode": "ID",
+          "stateCode": "ID-ZZZ"
+        },
+        "geoCode": {
+          "latitude": 2.41096,
+          "longitude": 98.08537
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "address": {
+          "countryCode": "PA",
+          "stateCode": "PA-ZZZ"
+        },
+        "geoCode": {
+          "latitude": 8.05053,
+          "longitude": -80.55409
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Parista",
+        "address": {
+          "countryCode": "PH",
+          "stateCode": "PH-ZZZ"
+        },
+        "geoCode": {
+          "latitude": 15.8536,
+          "longitude": 120.9282
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-MO"
+        },
+        "geoCode": {
+          "latitude": 39.48087,
+          "longitude": -92.00128
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Parishville",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-NY"
+        },
+        "geoCode": {
+          "latitude": 44.62867,
+          "longitude": -74.8138
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-PA"
+        },
+        "geoCode": {
+          "latitude": 40.40368,
+          "longitude": -80.51257
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-ID"
+        },
+        "geoCode": {
+          "latitude": 42.22715,
+          "longitude": -111.40104
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Kiparisovo",
+        "address": {
+          "countryCode": "RU",
+          "stateCode": "RU-ZZZ"
+        },
+        "geoCode": {
+          "latitude": 43.44835,
+          "longitude": 131.9318
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Kiparisovo-2",
+        "address": {
+          "countryCode": "RU",
+          "stateCode": "RU-ZZZ"
+        },
+        "geoCode": {
+          "latitude": 43.44818,
+          "longitude": 131.9331
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Kiparisovo",
+        "address": {
+          "countryCode": "RU",
+          "stateCode": "RU-ZZZ"
+        },
+        "geoCode": {
+          "latitude": 43.4782,
+          "longitude": 131.9225
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-IL"
+        },
+        "geoCode": {
+          "latitude": 39.61115,
+          "longitude": -87.69614
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-ME"
+        },
+        "geoCode": {
+          "latitude": 44.25979,
+          "longitude": -70.50062
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-KY"
+        },
+        "geoCode": {
+          "latitude": 38.2098,
+          "longitude": -84.25299
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "South Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-ME"
+        },
+        "geoCode": {
+          "latitude": 44.22368,
+          "longitude": -70.51339
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "West Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-ME"
+        },
+        "geoCode": {
+          "latitude": 44.32423,
+          "longitude": -70.57395
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "New Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-OH"
+        },
+        "geoCode": {
+          "latitude": 39.85699,
+          "longitude": -84.79329
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "New Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-IN"
+        },
+        "geoCode": {
+          "latitude": 41.50033,
+          "longitude": -85.82805
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Saint Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-OH"
+        },
+        "geoCode": {
+          "latitude": 40.12839,
+          "longitude": -83.95966
+        }
+      },
+      {
+        "type": "location",
+        "subType": "city",
+        "name": "Paris",
+        "address": {
+          "countryCode": "US",
+          "stateCode": "US-AR"
+        },
+        "geoCode": {
+          "latitude": 35.29203,
+          "longitude": -93.72992
+        }
+      }
+    ]
+  }
