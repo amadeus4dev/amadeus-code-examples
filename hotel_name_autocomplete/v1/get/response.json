@@ -1,0 +1,387 @@
+{
+  "data": [
+    {
+      "id": 3012564,
+      "name": "SHAH PARIE HOUSEBOAT",
+      "iataCode": "SXR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "TKSXRACP"
+      ],
+      "address": {
+        "cityName": "SRINAGAR",
+        "countryCode": "IN"
+      },
+      "geoCode": {
+        "latitude": 34.11059,
+        "longitude": 74.86826
+      }
+    },
+    {
+      "id": 3012697,
+      "name": "HOTEL PARI MAHAL",
+      "iataCode": "SXR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "TKSXRAHS"
+      ],
+      "address": {
+        "cityName": "SRINAGAR",
+        "countryCode": "IN"
+      },
+      "geoCode": {
+        "latitude": 34.08106,
+        "longitude": 74.83126
+      }
+    },
+    {
+      "id": 2811704,
+      "name": "RADISSON BLU LE METROPOLITAN HOTEL PARI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "DGPARCDH"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.83294,
+        "longitude": 2.35734
+      }
+    },
+    {
+      "id": 3422865,
+      "name": "CITADINES BASTILLE MARAIS PARI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_GDS",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "AZPAROBA"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.8581,
+        "longitude": 2.37113
+      }
+    },
+    {
+      "id": 3472386,
+      "name": "THE ORIGINALS CITY HOTEL LECOURBE PARI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "BKPARAIL"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.84449,
+        "longitude": 2.30879
+      }
+    },
+    {
+      "id": 3472349,
+      "name": "SHOWROOM APARTMENT 6P CENTER OF PARI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "BKPARAGY"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.86161,
+        "longitude": 2.35642
+      }
+    },
+    {
+      "id": 3472446,
+      "name": "THE ORIGINALS CITY HOTEL PARISIANA PAR",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "BKPARAKU"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.87666,
+        "longitude": 2.35418
+      }
+    },
+    {
+      "id": 3469571,
+      "name": "LA QUINTA INN AND SUITES BY WYNDHAM PARI",
+      "iataCode": "LEX",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "BKLEXAAX"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "US",
+        "stateCode": "KY"
+      },
+      "geoCode": {
+        "latitude": 33.67333,
+        "longitude": -95.51812
+      }
+    },
+    {
+      "id": 3474304,
+      "name": "LOVELY APARTMENT PARKING TERRASSE PARI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "BKPARDHR"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.88985,
+        "longitude": 2.31307
+      }
+    },
+    {
+      "id": 3503188,
+      "name": "HOTEL MAGENTA 38 EX HOTEL MAGENTA PARI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "ADPAR0I9"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.87208,
+        "longitude": 2.36007
+      }
+    },
+    {
+      "id": 3283089,
+      "name": "HOTEL LEOPOLD PARIS EX HOTEL DE LA PAI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "SJPARAW7"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.84004,
+        "longitude": 2.33032
+      }
+    },
+    {
+      "id": 3275758,
+      "name": "VILLA MARGAUX OPERA MONTMARTRE EX PARI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "CTPARB96"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.88043,
+        "longitude": 2.33738
+      }
+    },
+    {
+      "id": 3275283,
+      "name": "HOTEL MAGENTA 38 EX HOTEL MAGENTA PARI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "CTPARAVY"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.8721,
+        "longitude": 2.36011
+      }
+    },
+    {
+      "id": 2969353,
+      "name": "BEST WESTERN PREMIER OPERA FAUBOURG PARI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "TEPARCFG"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.86821,
+        "longitude": 2.40085
+      }
+    },
+    {
+      "id": 3275600,
+      "name": "MONTPARNASSE ALESIA EX JARDINS DE PARI",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "CTPARB4R"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.83,
+        "longitude": 2.32035
+      }
+    },
+    {
+      "id": 3445495,
+      "name": "PARIS PARA",
+      "iataCode": "ABL",
+      "subType": "HOTEL_GDS",
+      "relevance": 70,
+      "type": "location",
+      "hotelIds": [
+        "OIABLIAD"
+      ],
+      "address": {
+        "cityName": "AMBLER",
+        "countryCode": "US",
+        "stateCode": "AK"
+      },
+      "geoCode": {
+        "latitude": 67.0862,
+        "longitude": -157.85701
+      }
+    },
+    {
+      "id": 1247838,
+      "name": "CONCORDE OPERA PARIS OPERA PARIS",
+      "iataCode": "LON",
+      "subType": "HOTEL_GDS",
+      "relevance": 40,
+      "type": "location",
+      "hotelIds": [
+        "HILON638"
+      ],
+      "address": {
+        "cityName": "LONDON",
+        "countryCode": "GB"
+      },
+      "geoCode": {
+        "latitude": 51.54846,
+        "longitude": -0.18098
+      }
+    },
+    {
+      "id": 3408849,
+      "name": "CONCORDE OPERA PARIS OPERA PARIS",
+      "iataCode": "MIA",
+      "subType": "HOTEL_GDS",
+      "relevance": 40,
+      "type": "location",
+      "hotelIds": [
+        "EAMIAMAP"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 25.77775,
+        "longitude": -80.30379
+      }
+    },
+    {
+      "id": 2969431,
+      "name": "CONCORDE OPERA PARIS OPERA PARIS",
+      "iataCode": "PAR",
+      "subType": "HOTEL_LEISURE",
+      "relevance": 40,
+      "type": "location",
+      "hotelIds": [
+        "TEPARMBU"
+      ],
+      "address": {
+        "cityName": "PARIS",
+        "countryCode": "FR"
+      },
+      "geoCode": {
+        "latitude": 48.89064,
+        "longitude": 2.32484
+      }
+    },
+    {
+      "id": 3408846,
+      "name": "CONCORDE OPERA PARIS OPERA PARIS",
+      "iataCode": "MIA",
+      "subType": "HOTEL_GDS",
+      "relevance": 40,
+      "type": "location",
+      "hotelIds": [
+        "EAMIA276"
+      ],
+      "address": {
+        "cityName": "MIAMI",
+        "countryCode": "US",
+        "stateCode": "FL"
+      },
+      "geoCode": {
+        "latitude": 25.79686,
+        "longitude": -80.31452
+      }
+    }
+  ]
+}

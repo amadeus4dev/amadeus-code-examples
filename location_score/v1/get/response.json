@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "type": "category-rated-area",
+      "geoCode": {
+        "latitude": 41.397158,
+        "longitude": 2.160873
+      },
+      "radius": 200,
+      "categoryScores": {
+        "sight": {
+          "overall": 87,
+          "historical": 83,
+          "beachAndPark": 0
+        },
+        "restaurant": {
+          "overall": 92,
+          "vegetarian": 61
+        },
+        "shopping": {
+          "overall": 96,
+          "luxury": 96
+        },
+        "nightLife": {
+          "overall": 86
+        }
+      }
+    },
+    {
+      "type": "category-rated-area",
+      "geoCode": {
+        "latitude": 41.397158,
+        "longitude": 2.160873
+      },
+      "radius": 500,
+      "categoryScores": {
+        "sight": {
+          "overall": 99,
+          "historical": 69,
+          "beachAndPark": 0
+        },
+        "restaurant": {
+          "overall": 94,
+          "vegetarian": 71
+        },
+        "shopping": {
+          "overall": 99,
+          "luxury": 99
+        },
+        "nightLife": {
+          "overall": 88
+        }
+      }
+    },
+    {
+      "type": "category-rated-area",
+      "geoCode": {
+        "latitude": 41.397158,
+        "longitude": 2.160873
+      },
+      "radius": 1500,
+      "categoryScores": {
+        "sight": {
+          "overall": 99,
+          "historical": 80,
+          "beachAndPark": 0
+        },
+        "restaurant": {
+          "overall": 99,
+          "vegetarian": 87
+        },
+        "shopping": {
+          "overall": 99,
+          "luxury": 99
+        },
+        "nightLife": {
+          "overall": 99
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "links": {
+      "self": "https://test.api.amadeus.com/v1/location/analytics/category-rated-areas?latitude=41.397158&longitude=2.160873"
+    }
+  }
+}
