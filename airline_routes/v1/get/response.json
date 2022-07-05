@@ -1,0 +1,23 @@
+{
+    "data": [
+      {
+        "type": "location",
+        "subtype": "city",
+        "name": "Bangalore",
+        "iataCode": "BLR"
+      },
+      {
+        "type": "location",
+        "subtype": "city",
+        "name": "Paris",
+        "iataCode": "PAR"
+      }
+    ],
+    "meta": {
+      "count": "2",
+      "sort": "iataCode",
+      "links": {
+        "self": "https://test.api.amadeus.com/v1/airline/destinations?airlineCode=BA&max=2"
+      }
+    }
+  }
