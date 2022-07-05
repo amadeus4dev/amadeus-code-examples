@@ -16,7 +16,7 @@ public class LocationScore {
       //Set query parameters
       Params params = Params.with("latitude", 41.397158).and("longitude", 2.160873); 
 
-      //Run the query
+      //What are the location scores for the given coordinates?
       ScoredLocation[] scoredLocations = amadeus.location.analytics.categoryRatedAreas.get(params);
 
       if (scoredLocations[0] && scoredLocations[0].getResponse().getStatusCode() != 200) {

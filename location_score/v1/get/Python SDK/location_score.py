@@ -7,7 +7,7 @@ amadeus = Client(
 
 try:
     '''
-    Gets popularity score for location categories
+    What are the location scores for the given coordinates?
     '''
     response = amadeus.location.analytics.category_rated_areas.get(latitude=41.397158, longitude=2.160873)
     print(response.data)

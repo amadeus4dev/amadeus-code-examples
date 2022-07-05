@@ -1,7 +1,7 @@
 var Amadeus = require('amadeus');
 var amadeus = new Amadeus();
 
-// Search for Covid19 related data for the US
+//What are the location scores for the given coordinates?
 amadeus.location.analytics.categoryRatedAreas.get({
   latitude: 41.397158,
   longitude: 2.160873

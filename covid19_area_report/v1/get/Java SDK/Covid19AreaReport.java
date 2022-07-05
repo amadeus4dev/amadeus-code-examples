@@ -13,7 +13,7 @@ public class AirlineCodeLookup {
         .builder("YOUR_AMADEUS_API_KEY","YOUR_AMADEUS_API_SECRET")
         .build();
 
-    //Get Covid19 restrictions in the USA
+    //What are the Covid19 restrictions for the USA?
     DiseaseAreaReport areaReport = amadeus.dutyOfCare.diseases.covid19AreaReport.get(Params
       .with("countryCode", "US"));
 
