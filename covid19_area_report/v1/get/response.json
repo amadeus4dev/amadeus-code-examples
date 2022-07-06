@@ -1,0 +1,1073 @@
+{
+  "meta": {
+    "links": {
+      "self": "https://test.api.amadeus.com/v1/diseases/covid19-area-report?countryCode=US"
+    }
+  },
+  "data": {
+    "area": {
+      "name": "United States of America",
+      "iataCode": "US",
+      "areaType": "Country"
+    },
+    "summary": "<p>Authorities have imposed international travel restrictions from late February 2020 – one month after the first cases were detected in the country – and nationwide social distancing guidelines from late March 2020. The country has the highest case and fatality figures in the world. From March 2020, stay-at-home lockdown began to be implemented as the virus spread across the country. All states began reopening as of June 2020 at widely varying paces, before reimposing restrictions from October 2020, and then moving once more to lift most remaining measures as of April 2021 while implementing vaccination campaigns. Approximately 100,000 cases per day were reported nationwide as of late May.</p>",
+    "diseaseRiskLevel": "Medium",
+    "diseaseInfection": {
+      "date": "2022-05-22",
+      "level": "Extreme",
+      "rate": 431.11,
+      "infectionMapLink": "https://www.nytimes.com/interactive/2021/us/covid-cases.html"
+    },
+    "diseaseCases": {
+      "date": "2022-05-31",
+      "deaths": 1007032,
+      "confirmed": 84210808
+    },
+    "hotspots": "<p>Alaska, Colorado, Texas, Kentucky, Virginia, North Carolina, New York, New Jersey, Vermont, New Hampshire, Maine, Connecticut, Rhode Island, Massachusetts</p>",
+    "dataSources": {
+      "covidDashboardLink": "https://data.commercialappeal.com/covid-19-hospital-capacity/",
+      "governmentSiteLink": "https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+    },
+    "areaRestrictions": [
+      {
+        "date": "2022-05-19",
+        "text": "<p>American, United, Delta, Southwest, JetBlue, Allegiant, Hawaiian and Alaska Airlines have suspended hundreds of domestic flights due to COVID-19-related staff shortages.</p> <p>The Centers for Disease Control (CDC) announced that domestic travellers who are fully vaccinated against COVID-19, defined as two weeks having passed since obtaining their final dose of the vaccine, do not need to get tested before or after travel and do not need to self-quarantine. Domestic travellers are recommended to take a viral test 1-3 days before departure and to self-quarantine for 7 days upon arrival. Travellers should get tested again 3-5 days after arrival; if a test is not available or results are delayed, travellers should self-quarantine for a total of 10 days.</p>",
+        "restrictionType": "Domestic Travel"
+      },
+      {
+        "date": "2022-05-19",
+        "text": "<p>In areas where COVID-19 hospitalisations are high, non-urgent surgeries will be suspended and ambulance services will not be dispatched for non-life threatening emergencies. Long wait times are highly likely due to staff shortages at public and private healthcare providers nationwide.</p>",
+        "restrictionType": "Others"
+      }
+    ],
+    "areaAccessRestriction": {
+      "transportation": {
+        "date": "2022-05-19",
+        "text": "<p>International flights are subject to suspension on short notice in response to country-specific travel bans.</p>",
+        "transportationType": "FLIGHT",
+        "isBanned": "No"
+      },
+      "declarationDocuments": {
+        "date": "2022-05-19",
+        "text": "<p><strong>Travel (PLF) document</strong><br>All travellers aged two and older must complete an Attestation Form prior to departure. Proof of being fully vaccinated or exempt from this requirement is required for each noncitizen who is a nonimmigrant arriving or transiting by air, as well as via land ports of entry and ferry terminals.</p>\n<p>Further details can be found at <a href=\"https://www.cdc.gov/quarantine/fr-proof-negative-test.html\">https://www.cdc.gov/quarantine/fr-proof-negative-test.html</a></p>\n",
+        "documentRequired": "Yes",
+        "travelDocumentationLink": "https://www.cdc.gov/quarantine/pdf/Combined-Passenger-Attestation-Amended-Testing-Order-12-02-2021-p.pdf"
+      },
+      "entry": {
+        "date": "2022-05-26",
+        "text": "<p>Non-resident air travellers over the age of two, who have been fully vaccinated against COVID-19 and present a negative COVID-19 test no older than 24 hours or proof of recovery no older than 90 days are allowed entry. </p> <p>US citizens, nationals and lawful permanent residents are allowed entry regardless of vaccination status provided they provide a negative COVID-19 test result. Travellers via land ports of entry or ferry terminals, excluding US citizens, Lawful Permanent Residents and US nationals, are required to be fully vaccinated but no pre-travel testing is required. Face masks are no longer mandatory for the journey and travellers are required to share their telephone number and email address for contact tracing. An ongoing judicial review may force the the measure to be reimposed.</p> <p>Embassies and consulates have resumed routine visa services but have broad discretion to determine how to prioritize visa appointments among the range of visa classes as safely as possible, subject to local conditions and restrictions.</p>",
+        "ban": "Partial",
+        "throughDate": "indef",
+        "rules": "https://www.cdc.gov/coronavirus/2019-ncov/travelers/from-other-countries.html",
+        "exemptions": "https://www.nafsa.org/regulatory-information/covid-19-restrictions-us-visas-and-entry",
+        "bannedArea": [
+          {
+            "iataCode": "AD",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AF",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AI",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AL",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AT",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AU",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AW",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "AZ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BB",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BD",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BF",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BH",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BI",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BJ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BL",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BN",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BQ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BS",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BT",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BW",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BY",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "BZ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CC",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CD",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CF",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CH",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CI",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CK",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CL",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CN",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CS",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CU",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CV",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CW",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CY",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "CZ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "DE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "DJ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "DK",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "DM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "DO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "DZ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "EC",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "EE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "EG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "ER",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "ES",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "ET",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "FI",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "FJ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "FM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "FO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "FR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GB",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GD",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GF",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GH",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GI",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GL",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GN",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GP",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GQ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GT",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GW",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "GY",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "HK",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "HN",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "HR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "HT",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "HU",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "ID",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "IE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "IL",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "IN",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "IQ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "IR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "IS",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "IT",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "JE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "JM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "JO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "JP",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KH",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KI",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KN",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KP",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KW",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KY",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "KZ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LB",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LC",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LI",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LK",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LS",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LT",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LU",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LV",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "LY",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MC",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MD",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "ME",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MF",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MH",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MK",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "ML",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MN",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MQ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MS",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MT",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MU",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MV",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MW",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MX",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MY",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "MZ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "NA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "NC",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "NE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "NG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "NI",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "NL",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "NO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "NP",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "NR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "NZ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "OM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PF",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PH",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PK",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PL",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PS",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PT",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PW",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "PY",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "QA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "RE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "RO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "RS",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "RU",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "RW",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SB",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SC",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SD",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SI",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SJ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SK",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SL",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SN",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SS",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "ST",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SV",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SX",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SY",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "SZ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TC",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TD",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TH",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TJ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TL",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TN",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TO",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TR",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TT",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TV",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TW",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "TZ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "UA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "UG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "UY",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "UZ",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "VC",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "VE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "VG",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "VN",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "VU",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "WF",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "WS",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "YE",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "ZA",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "ZM",
+            "areaType": "country"
+          },
+          {
+            "iataCode": "ZW",
+            "areaType": "country"
+          }
+        ],
+        "borderBan": [
+          {
+            "borderType": "maritimeBorderBan",
+            "status": "Partially Open"
+          },
+          {
+            "borderType": "landBorderBan",
+            "status": "Partially Open"
+          }
+        ]
+      },
+      "diseaseTesting": {
+        "date": "2022-05-19",
+        "text": "<p><strong>Before travel</strong></p><p>All passengers on inbound international flights, excluding from American Samoa, Guam and the Northern Marianas Islands, Puerto Rico and the US Virgin Islands, must present a negative COVID-19 test result not older than one day or medical documentation confirming that the traveller has contracted and recovered from COVID-19 in the past 90 days before boarding a flight to the US. An at-home NAAT or antigen SARS-CoV-2 viral test authorised by the Food and Drug Administration (FDA) may be used for this requirement. Officials have imposed a one-day validity period for testing as a more flexible option than a strict 24 hours before departure time, meaning that a negative test obtained at any time on the day prior to travel will be valid.</p>\n<p>Foreign passengers must be fully vaccinated to enter the US.</p>\n<p>Children between the ages of 2 and 17 travelling with fully vaccinated parents or guardians are also subject to pre-departure testing requirements.</p>\n<p>Flight crews, maritime crews with valid visas, diplomats, military personnel and urgent humanitarian or medical cases, including travellers unable to procure a pre-departure test at their point of embarkation, are exempt. Fully vaccinated travellers via land ports of entry and ferry terminals are also exempt. A list of exemptions to testing is available at <a href=\"https://www.cdc.gov/quarantine/pdf/Global-Airline-Testing-Order-RPWSigned-Encrypted-p.pdf\">https://www.cdc.gov/quarantine/pdf/Global-Airline-Testing-Order-RPWSigned-Encrypted-p.pdf</a>.</p>\n<p>All transit passengers on inbound international flights over the age of two must present a negative COVID-19 test result not older than 24 hours or medical documentation confirming that the traveller has contracted and recovered from COVID-19 in the past 90 days before boarding a flight to the US. Travellers arriving from American Samoa, Guam and the Northern Marianas Islands, Puerto Rico and the US Virgin Islands are exempt. An at-home NAAT or antigen SARS-CoV-2 viral test authorised by the Food and Drug Administration (FDA) may be used for this requirement. Officials have imposed a one-day validity period for testing as a more flexible option than a strict 24 hours before departure time, meaning that a negative test obtained at any time on the day prior to travel will be valid.</p>\n",
+        "isRequired": "Yes",
+        "when": "Before travel",
+        "requirement": "Mandatory",
+        "rules": "https://www.cdc.gov/coronavirus/2019-ncov/travelers/testing-international-air-travelers.html#:~:text=On%20January%2012%2C%202021%2C%20CDC,airline%20before%20boarding%20the%20flight.",
+        "testType": "PCR, Antigen, NAAT",
+        "minimumAge": 2,
+        "validityPeriod": {
+          "delay": "P24H",
+          "referenceDateType": "Departure"
+        }
+      },
+      "tracingApplication": {
+        "date": "2022-05-19",
+        "isRequired": "No"
+      },
+      "quarantineModality": {
+        "date": "2022-05-19",
+        "text": "<p>Travellers who are not fully vaccinated but are allowed entry by air through an exception are required to self-quarantine for seven days upon arrival. The list of exceptions can be consulted <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/travelers/proof-of-vaccination.html#faq\">here</a>. Travellers who have recovered from COVID-19 in the past 90 days are exempt.</p>\n<p>Travellers who have not completed the minimum vaccination course, as well as travellers who have not received a booster shot, are recommended to self-quarantine for five days upon arrival.</p>\n",
+        "eligiblePerson": "Some travellers",
+        "quarantineType": "Self",
+        "duration": 7,
+        "rules": "https://www.cdc.gov/coronavirus/2019-ncov/travelers/noncitizens-US-air-travel.html#anchor_1634928804881"
+      },
+      "mask": {
+        "date": "2022-05-19",
+        "text": "<p>Some states and territories require residents to wear masks in indoor public spaces. Violators may be subject to fines and be denied entry to businesses and use of public transport. Most states and territories have voluntary measures or measures restricted to specific venues and municipalities.</p> <p>Mask mandates vary widely and are not consistently enforced below the federal level. A mandate requiring travellers to wear a mask on inter-state transport, including at airports and onboard flights, trains, planes, intercity buses and ferries, was suspended on 18 April pending a judical review of its constitutionality. The rule was in place until 3 May before its suspension. The Centers for Disease Control and Prevention (CDC) continues to recommend all travellers wear masks on airplanes, trains, buses and all other means of public transport.</p>",
+        "isRequired": "Recommended"
+      },
+      "exit": {
+        "date": "2022-05-19",
+        "text": "<p>There are no exit restrictions though international travel to high-COVID-19 risk destinations is strongly discouraged.</p>",
+        "specialRequirements": "No",
+        "rulesLink": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
+        "isBanned": "No"
+      },
+      "otherRestriction": {},
+      "diseaseVaccination": {
+        "date": "2022-05-24",
+        "text": "<p>Non-resident inbound travellers over the age of 18 on non-essential business must be fully vaccinated against COVID-19 with vaccines approved by the US Food and Drug Administration (FDA) or World Health Organization (WHO).</p> <p>Travellers are considered fully vaccinated 14 days after receiving a single-vaccine dose, a second dose in a two-dose series, a full series of an accepted vaccine in a clinical trial (not placebo) or a second dose of any mixed combination of vaccines administered at least 17 days apart. Booster doses are not needed to meet international travel vaccination requirements.</p> <p>Travellers who recently recovered are exempt from before-travel testing requirements. In addition to a positive test result (no older than 90 days), they must present a letter from a licensed healthcare provider or a public health official as proof of past infection.</p> <p>Travellers on non-tourist visas (excludes B-1 and B-2) arriving from approximately 40 listed countries where less than 10 percent of the population is vaccinated due to the unavailability of vaccines will be permitted entry as humanitarian cases. The list is updated every 90 days at <a href=\"https://www.cdc.gov/quarantine/order-safe-travel/technical-instructions.html\" target=\"_blank\" rel=\"noopener\">https://www.cdc.gov/quarantine/order-safe-travel/technical-instructions.html</a>.</p>",
+        "isRequired": "Yes",
+        "referenceLink": "https://www.cdc.gov/coronavirus/2019-ncov/travelers/proof-of-vaccination.html#covid-vaccines",
+        "acceptedCertificates": [
+          "Paper Certificate",
+          " EU Digital COVID Certificate",
+          " NHS Covid Pass",
+          " CDC Covid Vaccination Card",
+          " Vietnam certificate"
+        ],
+        "qualifiedVaccines": [
+          "Pfizer - 14 days after second dose.",
+          "AstraZeneca (Vaxzevria) - 14 days after second dose.",
+          "Vaxevria (South Korea) - 14 days after second dose.",
+          "Covishield (India) - 14 days after second dose.",
+          "Johnson & Johnson - 14 days after first dose.",
+          "Sinopharm (Beijing) - 14 days after second dose.",
+          "CoronaVac - 14 days after second dose.",
+          "Moderna - 14 days after second dose.",
+          "CanSinoBIO - 14 days after first dose.",
+          "Covaxin - 14 days after second dose.",
+          "Nuvaxovid (Novavax) - 14 days after second dose.",
+          "Covovax (Novavax) - 14 days after second dose.",
+          "Covifenz - 14 days after second dose.",
+          "Immunity through previous infection - positive test older than  days, not older than 3 months."
+        ],
+        "policy": "Yes",
+        "exemptions": "Entry Ban, Quarantine"
+      }
+    },
+    "areaPolicy": {
+      "date": "2022-05-19",
+      "text": "<p>Limited federal policies for quarantine and testing are in effect nationwide. Most policy decisions are implemented at the state, county and municipal level.</p>",
+      "status": "Distancing",
+      "startDate": "2020-03-16",
+      "endDate": "indef",
+      "referenceLink": "https://www.covid.gov/"
+    },
+    "relatedArea": [
+      {
+        "methods": [
+          "GET"
+        ],
+        "rel": "Parent"
+      }
+    ],
+    "areaVaccinated": [
+      {
+        "date": "2022-05-20",
+        "vaccinationDoseStatus": "oneDose",
+        "percentage": 78.876
+      },
+      {
+        "date": "2022-05-26",
+        "vaccinationDoseStatus": "fully",
+        "percentage": 66.62
+      }
+    ],
+    "type": "covid19-area-report"
+  }
+}
