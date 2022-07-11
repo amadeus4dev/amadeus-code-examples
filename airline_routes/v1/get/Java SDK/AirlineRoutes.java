@@ -4,7 +4,7 @@ import com.amadeus.Amadeus;
 import com.amadeus.exceptions.ResponseException;
 import com.amadeus.resources.Destination;
 
-// What are the destinations served by the British Airlines (BA)?
+// What are the destinations served by the British Airways (BA)?
 public class AirlineRoutes {
   public static void main(String[] args) throws ResponseException {
 

@@ -8,7 +8,7 @@ amadeus = Client(
 
 try:
     '''
-    What are the destinations served by the British Airlines (BA)?
+    What are the destinations served by the British Airways (BA)?
     '''
     response = amadeus.airline.destinations.get(airlineCode='BA')
     print(response.data)

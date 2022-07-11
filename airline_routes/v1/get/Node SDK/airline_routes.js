@@ -7,7 +7,7 @@ var amadeus = new Amadeus({
 // Or `var amadeus = new Amadeus()` if the environment variables are set
 
 
-// What are the destinations served by the British Airlines (BA)?
+// What are the destinations served by the British Airways (BA)?
 amadeus.airline.destinations.get({airlineCode: 'BA'})
   .then(response => console.log(response))
   .catch(err => console.error(err));
