@@ -7,5 +7,5 @@ https://test.api.amadeus.com/v1/security/oauth2/token \
 
 curl -X POST -H "Authorization: Bearer $ACCESS_TOKEN" \
 -H "Content-Type: application/json" \
--d @../body.json \
+-d @../request_body.json \
 https://test.api.amadeus.com/v3/travel/trip-parser

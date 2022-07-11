@@ -9,9 +9,9 @@ amadeus = Client(
 
 try:
     '''
-    Hotel name autocomplete for keyword 'PARI' using HOTEL_LEISURE and HOTEL_GDS categories of search
+    Hotel name autocomplete for keyword 'PARI' using HOTEL_GDS category of search
     '''
-    response = amadeus.reference_data.locations.hotel.get(keyword='PARI', subType=[Hotel.HOTEL_GDS, Hotel.HOTEL_LEISURE])
+    response = amadeus.reference_data.locations.hotel.get(keyword='PARI', subType=[Hotel.HOTEL_GDS])
     print(response.data)
 except ResponseError as error:
     raise error

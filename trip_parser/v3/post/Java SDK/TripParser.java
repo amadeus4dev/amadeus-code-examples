@@ -19,7 +19,7 @@ public class TripParser {
 
       //Read trip data from file
       Gson gson = new Gson();
-      Reader reader = Files.newBufferedReader(Paths.get("../body.json"));
+      Reader reader = Files.newBufferedReader(Paths.get("../request_body.json"));
       JsonObject body = gson.fromJson(reader, JsonObject.class);  
 
       TripDetail trip = amadeus.travel.tripParser.post(body);
