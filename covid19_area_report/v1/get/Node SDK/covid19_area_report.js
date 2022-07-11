@@ -4,7 +4,7 @@ var amadeus = new Amadeus({
   clientSecret: 'YOUR_API_SECRET'
 });
 
-// Search for Covid19 related data for the US
+// What are the Covid19 restrictions for the USA?
 amadeus.dutyOfCare.diseases.covid19AreaReport.get({
   countryCode: 'US'
 }).then(data => {

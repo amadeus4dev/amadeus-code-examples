@@ -1,4 +1,4 @@
-# Install the Python library from https://pypi.org/project/amadeus
+import json
 from amadeus import Client, ResponseError
 
 amadeus = Client(
@@ -7,10 +7,9 @@ amadeus = Client(
 )
 
 try:
-    '''
-    What are the destinations served by the British Airlines (BA)?
-    '''
-    response = amadeus.airline.destinations.get(airlineCode='BA')
+  with open('../request_body.json') as file:
+    body = json.load(file)
+    response = amadeus.travel.trip_parser.post(body)
     print(response.data)
 except ResponseError as error:
     raise error
