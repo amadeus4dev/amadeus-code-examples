@@ -5,7 +5,7 @@ import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
 import com.amadeus.resources.Airline;
 
-public class AirlineCodeLookup {
+public class Covid19AreaReport {
 
   public static void main(String[] args) throws ResponseException {
 
