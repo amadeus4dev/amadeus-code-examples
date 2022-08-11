@@ -3,7 +3,7 @@
 import com.amadeus.Amadeus;
 import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
-import com.amadeus.resources.Airline;
+import com.amadeus.resources.DiseaseAreaReport;
 
 public class Covid19AreaReport {
 
