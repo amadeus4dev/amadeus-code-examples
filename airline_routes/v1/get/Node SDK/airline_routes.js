@@ -1,8 +1,8 @@
 const Amadeus = require('amadeus');
 
 var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+  clientId: 'YOUR_AMADEUS_API_KEY',
+  clientSecret: 'YOUR_AMADEUS_API_SECRET'
 });
 // Or `var amadeus = new Amadeus()` if the environment variables are set
 
