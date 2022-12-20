@@ -1,5 +1,3 @@
-package examples.flight.offers;
-
 // How to install the library at https://github.com/amadeus4dev/amadeus-java
 
 import com.amadeus.Amadeus;
