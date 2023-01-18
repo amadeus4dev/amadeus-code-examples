@@ -19,8 +19,8 @@ public class AirlineRoutes {
     // Run the query
     Destination[] destinations = amadeus.airline.destinations.get(params);
 
-    if (destinations.getResponse().getStatusCode() != 200) {
-      System.out.println("Wrong status code: " + destinations.getResponse().getStatusCode());
+    if (destinations[0].getResponse().getStatusCode() != 200) {
+      System.out.println("Wrong status code: " + destinations[0].getResponse().getStatusCode());
       System.exit(-1);
     }
 
