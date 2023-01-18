@@ -24,8 +24,6 @@ public class AirlineRoutes {
       System.exit(-1);
     }
 
-    Arrays.stream(destinations)
-        .map(Destination::getName)
-        .forEach(System.out::println);
+    System.out.println(destinations[0]);
   }
 }
