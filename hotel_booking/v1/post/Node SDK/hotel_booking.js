@@ -4,22 +4,24 @@ var amadeus = new Amadeus({
   clientSecret: 'YOUR_API_SECRET'
 });
 
-// Book a hotel in LON for 2020-10-10 to 2020-10-12
-amadeus.shopping.hotelOffers.get({
+// Book a hotel in DEL for 2023-10-10 to 2023-10-12 
+// 1. Hotel List API to get the list of hotels 
+amadeus.referenceData.locations.hotels.byCity.get({
   cityCode: 'LON'
-}).then(function (hotels) {
-  return amadeus.shopping.hotelOffersByHotel.get({
-    'hotelId': hotels.data[0].hotel.hotelId,
-    'checkInDate': '2020-10-10',
-    'checkOutDate': '2020-10-12'
+}).then(function (hotelsList) {
+// 2. Hotel Search API to get the price and offer id
+  return amadeus.shopping.hotelOffersSearch.get({
+    'hotelIds': hotelsList.data[0].hotelId,
+    'adults' : 1,
+    'checkInDate': '2023-10-10',
+    'checkOutDate': '2023-10-12'
   });
-}).then(function (hotelOffers) {
-  return amadeus.shopping.hotelOffer(hotelOffers.data.offers[0].id).get();
 }).then(function (pricingResponse) {
+// Finally, Hotel Booking API to book the offer
   return amadeus.booking.hotelBookings.post(
     JSON.stringify({
       'data': {
-        'offerId': pricingResponse.data.offers[0].id,
+        'offerId': pricingResponse.data[0].offers[0].id,
         'guests': [{
           'id': 1,
           'name': {
