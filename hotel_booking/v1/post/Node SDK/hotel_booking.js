@@ -4,14 +4,14 @@ var amadeus = new Amadeus({
   clientSecret: 'YOUR_API_SECRET'
 });
 
-// Book a hotel in LON for 2020-10-10 to 2020-10-12
-amadeus.shopping.hotelOffers.get({
-  cityCode: 'LON'
+// Book a hotel in PAR for 2023-10-10 to 2023-10-12
+amadeus.referenceData.locations.hotels.byCity.get({
+  cityCode: 'PAR'
 }).then(function (hotels) {
-  return amadeus.shopping.hotelOffersByHotel.get({
-    'hotelId': hotels.data[0].hotel.hotelId,
-    'checkInDate': '2020-10-10',
-    'checkOutDate': '2020-10-12'
+  return amadeus.shopping.hotel_offers_search.get({
+    'hotelId': hotels.data[0].hotelId,
+    'checkInDate': '2023-10-10',
+    'checkOutDate': '2023-10-12'
   });
 }).then(function (hotelOffers) {
   return amadeus.shopping.hotelOffer(hotelOffers.data.offers[0].id).get();
