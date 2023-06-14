@@ -1,6 +1,4 @@
 // How to install the library at https://github.com/amadeus4dev/amadeus-java
-package flightsearch;
-
 import com.amadeus.Amadeus;
 import com.amadeus.exceptions.ResponseException;
 import com.amadeus.resources.TransferOffersPost;
