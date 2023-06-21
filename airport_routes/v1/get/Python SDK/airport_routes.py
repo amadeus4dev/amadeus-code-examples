@@ -8,7 +8,7 @@ amadeus = Client(
 
 try:
     '''
-    What are the destinations served by BLR airport?
+    What are the destinations served by MAD airport?
     '''
     response = amadeus.airport.direct_destinations.get(departureAirportCode='MAD')
     print(response.data)
