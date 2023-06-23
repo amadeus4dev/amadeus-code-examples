@@ -1,4 +1,4 @@
-var Amadeus = require('./lib/amadeus');
+var Amadeus = require('amadeus');
 
 var amadeus = new Amadeus({
   clientId: 'YOUR_AMADEUS_API_KEY',
