@@ -17,7 +17,7 @@ amadeus.shopping.flightOffersSearch.get({
         'type': 'flight-offers-pricing',
         'flightOffers': [flightOffersSearchResponse.data[0]]
       }
-    })
+    }), {include: 'credit-card-fees,detailed-fare-rules'} 
   )
 }).then(function (response) {
   console.log(response);
