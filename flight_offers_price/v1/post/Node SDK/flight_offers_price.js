@@ -6,9 +6,9 @@ var amadeus = new Amadeus({
 
 // Confirm availability and price from SYD to BKK in summer 2020
 amadeus.shopping.flightOffersSearch.get({
-  originLocationCode: 'SYD',
-  destinationLocationCode: 'BKK',
-  departureDate: '2022-07-01',
+  originLocationCode: 'MAD',
+  destinationLocationCode: 'ATH',
+  departureDate: '2024-07-01',
   adults: '1'
 }).then(function (flightOffersSearchResponse) {
   return amadeus.shopping.flightOffers.pricing.post(
