@@ -1,0 +1,133 @@
+{
+  "data": {
+      "type": "hotel-order",
+      "id": "OENIMzc5LzIwMjQtMDYtMjQ=",
+      "hotelBookings": [
+          {
+              "type": "hotel-booking",
+              "id": "MS85MDI4MDkxMy85MDI0NjY3MA==",
+              "bookingStatus": "CONFIRMED",
+              "hotelProviderInformation": [
+                  {
+                      "hotelProviderCode": "AL",
+                      "confirmationNumber": "90280913"
+                  }
+              ],
+              "roomAssociations": [
+                  {
+                      "hotelOfferId": "******",
+                      "guestReferences": [
+                          {
+                              "guestReference": "1"
+                          }
+                      ]
+                  }
+              ],
+              "hotelOffer": {
+                  "id": "******",
+                  "type": "hotel-offer",
+                  "category": "TYPE_CONDITIONAL",
+                  "checkInDate": "2024-06-24",
+                  "checkOutDate": "2024-06-25",
+                  "guests": {
+                      "adults": 1
+                  },
+                  "policies": {
+                      "cancellations": [
+                          {
+                              "amount": "11332.89",
+                              "deadline": "2024-06-23T23:59:00+05:30"
+                          }
+                      ],
+                      "paymentType": "GUARANTEE"
+                  },
+                  "price": {
+                      "base": "9604.15",
+                      "currency": "INR",
+                      "sellingTotal": "11332.89",
+                      "taxes": [
+                          {
+                              "amount": "864.37",
+                              "code": "CITY_TAX",
+                              "currency": "INR",
+                              "included": false,
+                              "pricingFrequency": "PER_STAY",
+                              "pricingMode": "PER_PRODUCT"
+                          },
+                          {
+                              "amount": "864.37",
+                              "code": "STATE_TAX",
+                              "currency": "INR",
+                              "included": false,
+                              "pricingFrequency": "PER_STAY",
+                              "pricingMode": "PER_PRODUCT"
+                          }
+                      ],
+                      "total": "11332.89",
+                      "variations": {
+                          "changes": [
+                              {
+                                  "endDate": "2024-06-25",
+                                  "startDate": "2024-06-24",
+                                  "base": "9604.15",
+                                  "currency": "INR"
+                              }
+                          ]
+                      }
+                  },
+                  "rateCode": "S9R",
+                  "room": {
+                      "description": {
+                          "lang": "EN",
+                          "text": "Marriott Senior Discount, includes"
+                      },
+                      "type": "XMI"
+                  },
+                  "roomQuantity": 1
+              },
+              "hotel": {
+                  "hotelId": "ALBLR275",
+                  "chainCode": "AL",
+                  "name": "ALOFT BENGALURU WHITEFIELD",
+                  "self": "https://test.travel.api.amadeus.com/v1/reference-data/locations/by-hotel/ALBLR275"
+              },
+              "payment": {
+                  "method": "CREDIT_CARD",
+                  "paymentCard": {
+                      "paymentCardInfo": {
+                          "vendorCode": "VI",
+                          "cardNumber": "415128XXXXXX1370",
+                          "expiryDate": "0826",
+                          "holderName": "BOB SMITH"
+                      }
+                  }
+              },
+              "travelAgentId": "00000000"
+          }
+      ],
+      "guests": [
+          {
+              "tid": 1,
+              "id": 1,
+              "title": "MR",
+              "firstName": "BOB",
+              "lastName": "SMITH",
+              "phone": "+33679278416",
+              "email": "bob.smith@email.com"
+          }
+      ],
+      "associatedRecords": [
+          {
+              "reference": "8CH378",
+              "originSystemCode": "GDS"
+          }
+      ],
+      "self": "http://test.api.amadeus.com/v2/booking/hotel-orders/OENIMzc5LzIwMjQtMDYtMjQ="
+  },
+  "warnings": [
+      {
+          "code": 538,
+          "title": "INVALID IATA/ARC NUMBER"
+      }
+  ]
+}
