@@ -2,7 +2,7 @@ import com.amadeus.Amadeus;
 import com.amadeus.exceptions.ResponseException;
 import com.amadeus.resources.HotelOrder;
 
-public class FlightSearch {
+public class HotelBooking {
 
   public static void main(String[] args) throws ResponseException {
 
