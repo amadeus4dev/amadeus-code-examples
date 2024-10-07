@@ -1,16 +1,24 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_SECRET",
 });
 
-// What were the busiest months for Madrid in 2017?
-amadeus.travel.analytics.airTraffic.busiestPeriod.get({
-  cityCode: 'MAD',
-  period: '2017',
-  direction: Amadeus.direction.arriving
-}).then(function (response) {
-  console.log(response);
-}).catch(function (response) {
-  console.error(response);
-});
+async function main() {
+  try {
+    // What were the busiest months for Madrid in 2017?
+    const response =
+      await amadeus.travel.analytics.airTraffic.busiestPeriod.get({
+        cityCode: "MAD",
+        period: "2017",
+        direction: Amadeus.direction.arriving,
+      });
+
+    console.log(response);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();

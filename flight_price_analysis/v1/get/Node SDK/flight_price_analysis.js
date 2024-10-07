@@ -1,17 +1,23 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_SECRET",
 });
 
+async function main() {
+  try {
+    // Am I getting a good deal on this flight?
+    const response = await amadeus.analytics.itineraryPriceMetrics.get({
+      originIataCode: "MAD",
+      destinationIataCode: "CDG",
+      departureDate: "2022-01-13",
+    });
 
-// Am I getting a good deal on this flight?
-amadeus.analytics.itineraryPriceMetrics.get({
-  originIataCode: 'MAD',
-  destinationIataCode: 'CDG',
-  departureDate: '2022-01-13',
-}).then(function (response) {
-  console.log(response);
-}).catch(function (response) {
-  console.error(response);
-});
+    console.log(response);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();

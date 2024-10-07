@@ -1,16 +1,22 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_SECRET",
 });
 
-// Recommended locations similar to PAR
-amadeus.referenceData.recommendedLocations.get({
-    cityCodes: 'PAR',
-    travelerCountryCode: 'FR'
-}).then(function(response) {
-    console.log(response.data);
-}).catch((error) => {
-    console.log("Error");
-    done();
-});
+async function main() {
+  try {
+    // Recommended locations similar to PAR
+    const response = await amadeus.referenceData.recommendedLocations.get({
+      cityCodes: "PAR",
+      travelerCountryCode: "FR",
+    });
+
+    console.log(response);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+main();

@@ -1,14 +1,21 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_SECRET",
 });
 
-// Find cheapest destinations from Madrid
-amadeus.shopping.flightDestinations.get({
-  origin: 'MAD'
-}).then(function (response) {
-  console.log(response);
-}).catch(function (response) {
-  console.error(response);
-});
+async function main() {
+  try {
+    // Find cheapest destinations from Madrid
+    const response = await amadeus.shopping.flightDestinations.get({
+      origin: "MAD",
+    });
+
+    console.log(response);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();

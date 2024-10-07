@@ -1,14 +1,20 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_SECRET",
 });
 
-// What's the airline name for the IATA code BA?
-amadeus.referenceData.airlines.get({
-  airlineCodes: 'BA'
-}).then(function (response) {
-  console.log(response);
-}).catch(function (response) {
-  console.error(response);
-});
+async function main() {
+  try {
+    // What's the airline name for the IATA code BA?
+    const response = await amadeus.referenceData.airlines.get({
+      airlineCodes: "BA",
+    });
+    console.log(response);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();

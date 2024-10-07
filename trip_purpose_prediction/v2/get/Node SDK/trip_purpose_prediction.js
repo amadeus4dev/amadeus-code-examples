@@ -1,17 +1,24 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_SECRET",
 });
 
-// The passenger is traveling for leisure or business?
-amadeus.travel.predictions.tripPurpose.get({
-  originLocationCode: 'NYC',
-  destinationLocationCode: 'MAD',
-  departureDate: '2022-08-01',
-  returnDate: '2022-08-12'
-}).then(function (response) {
-  console.log(response);
-}).catch(function (response) {
-  console.error(response);
-});
+async function main() {
+  try {
+    // The passenger is traveling for leisure or business?
+    const response = await amadeus.travel.predictions.tripPurpose.get({
+      originLocationCode: "NYC",
+      destinationLocationCode: "MAD",
+      departureDate: "2022-08-01",
+      returnDate: "2022-08-12",
+    });
+
+    console.log(response);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();
