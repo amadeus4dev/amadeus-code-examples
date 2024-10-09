@@ -1,33 +1,36 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-    clientId: 'YOUR_API_KEY',
-    clientSecret: 'YOUR_API_SECRET'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_SECRET",
 });
 
-body = JSON.stringify({
-    "originDestinations": [
-        {
-            "id": "1",
-            "originLocationCode": "MIA",
-            "destinationLocationCode": "ATL",
-            "departureDateTime": {
-                "date": "2022-11-01"
-            }
-        }
-    ],
-    "travelers": [
-        {
-            "id": "1",
-            "travelerType": "ADULT"
-        }
-    ],
-    "sources": [
-        "GDS"
-    ]
-})
-
-amadeus.shopping.availability.flightAvailabilities.post(body).then(function (response) {
+async function main() {
+  try {
+    const response =
+      await amadeus.shopping.availability.flightAvailabilities.post({
+        originDestinations: [
+          {
+            id: "1",
+            originLocationCode: "MIA",
+            destinationLocationCode: "ATL",
+            departureDateTime: {
+              date: "2022-11-01",
+            },
+          },
+        ],
+        travelers: [
+          {
+            id: "1",
+            travelerType: "ADULT",
+          },
+        ],
+        sources: ["GDS"],
+      });
     console.log(response);
-}).catch(function (response) {
-    console.error(response);
-});
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();

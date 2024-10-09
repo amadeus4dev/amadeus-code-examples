@@ -1,16 +1,23 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_SECRET",
 });
 
-// What's the current status of my flight?
-amadeus.schedule.flights.get({
-  carrierCode: 'AZ',
-  flightNumber: '319',
-  scheduledDepartureDate: '2022-03-13'
-}).then(function (response) {
-  console.log(response);
-}).catch(function (response) {
-  console.error(response);
-});
+async function main() {
+  try {
+    // What's the current status of my flight?
+    const response = await amadeus.schedule.flights.get({
+      carrierCode: "AZ",
+      flightNumber: "319",
+      scheduledDepartureDate: "2022-03-13",
+    });
+
+    console.log(response);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();

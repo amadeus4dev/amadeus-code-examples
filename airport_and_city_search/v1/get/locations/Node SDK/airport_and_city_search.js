@@ -1,13 +1,19 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_KEY'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_KEY",
 });
 
-// Retrieve information about the LHR airport?
-amadeus.referenceData.location('ALHR').get()
-  .then(function (response) {
+async function main() {
+  try {
+    // Retrieve information about the LHR airport?
+    const response = await amadeus.referenceData.location("ALHR").get();
+
     console.log(response);
-  }).catch(function (response) {
-    console.error(response);
-  });
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();

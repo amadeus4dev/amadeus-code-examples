@@ -1,13 +1,22 @@
-const Amadeus = require('amadeus');
+const Amadeus = require("amadeus");
 
-var amadeus = new Amadeus({
-  clientId: 'YOUR_AMADEUS_API_KEY',
-  clientSecret: 'YOUR_AMADEUS_API_SECRET'
+const amadeus = new Amadeus({
+  clientId: "YOUR_AMADEUS_API_KEY",
+  clientSecret: "YOUR_AMADEUS_API_SECRET",
 });
-// Or `var amadeus = new Amadeus()` if the environment variables are set
+// Or `const amadeus = new Amadeus()` if the environment variables are set
 
+async function main() {
+  try {
+    // What are the destinations served by the British Airways (BA)?
+    const response = await amadeus.airline.destinations.get({
+      airlineCode: "BA",
+    });
 
-// What are the destinations served by the British Airways (BA)?
-amadeus.airline.destinations.get({airlineCode: 'BA'})
-  .then(response => console.log(response))
-  .catch(err => console.error(err));
+    console.log(response);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();

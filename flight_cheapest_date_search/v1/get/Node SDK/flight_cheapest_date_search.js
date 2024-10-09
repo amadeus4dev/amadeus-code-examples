@@ -1,15 +1,22 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-  clientId: 'YOUR_API_KEY',
-  clientSecret: 'YOUR_API_SECRET'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_SECRET",
 });
 
-// Find cheapest dates from Madrid to Munich
-amadeus.shopping.flightDates.get({
-  origin: 'MAD',
-  destination: 'MUC'
-}).then(function (response) {
-  console.log(response);
-}).catch(function (response) {
-  console.error(response);
-});
+async function main() {
+  try {
+    // Find cheapest dates from Madrid to Munich
+    const response = await amadeus.shopping.flightDates.get({
+      origin: "MAD",
+      destination: "MUC",
+    });
+
+    console.log(response);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();

@@ -1,12 +1,21 @@
-var Amadeus = require("amadeus");
-var amadeus = new Amadeus({
-    clientId: 'YOUR_API_KEY',
-    clientSecret: 'YOUR_API_SECRET'
+const Amadeus = require("amadeus");
+
+const amadeus = new Amadeus({
+  clientId: "YOUR_API_KEY",
+  clientSecret: "YOUR_API_SECRET",
 });
 
-// Find all destinations served by CDG Airport
-amadeus.airport.directDestinations.get({
-    departureAirportCode: 'MAD',
-}).catch(function (response) {
-    console.error(response);
-});
+async function main() {
+  try {
+    // Find all destinations served by CDG Airport
+    const response = await amadeus.airport.directDestinations.get({
+      departureAirportCode: "MAD",
+    });
+
+    console.log(response);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+main();
